@@ -1,0 +1,21 @@
+<% if (navrel && navrel.child && navrel.child.length) { %>
+
+  <nav class="list">
+    <ul>
+    <%
+      for (let c = 0; c < navrel.child.length; c++) {
+        child = navrel.child[c];
+      %>
+
+      <li><a href="<%- root + child.url%>">
+        <% if (child.thumb) { %><img src="<%= child.thumb %>" alt="<%= child.title %>" /><% } %>
+        <h2><%- child.title %></h2>
+        <% if (child.description) { %><p><%- child.description %></p><% } %>
+        <p class="date"><time datetime="<%- child.date.toISOString() %>"><%- child.dateF %></time></p>
+      </a></li>
+
+    <% } %>
+    </ul>
+  </nav>
+
+<% } %>

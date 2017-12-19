@@ -1,0 +1,60 @@
+// Base styles
+html {
+	touch-action: manipulation;
+}
+
+body {
+  font-family: $font-main;
+  font-size: $font-size-old;
+  font-size: $font-size-rwd;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+table, input, output, textarea, select, option, pre, button {
+  font-family: $font-main;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+pre {
+	font-family: $font-mono;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 400;
+  @include reset;
+  margin-top: 1.5em;
+}
+
+p {
+  margin: 1em 0 0 0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+strong {
+  font-weight: 600;
+}
+
+hr {
+	height: 0px;
+	border: 0 none;
+  border-bottom: 1px solid #999;
+	margin: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  @include reset;
+  user-select: none;
+}

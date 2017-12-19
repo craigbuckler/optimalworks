@@ -1,0 +1,26 @@
+<%
+  let rel = '';
+  if (navrel) {
+
+    // parent
+    if (navrel.parent) {
+      rel += '<li class="link-parent"><a href="' + root + navrel.parent.url + '">' + navrel.parent.title + '</a></li>';
+    }
+
+    // back
+    if (navrel.back) {
+      rel += '<li class="link-back"><a href="' + root + navrel.back.url + '">' + navrel.back.title + '</a></li>';
+    }
+
+    // next
+    if (navrel.next) {
+      rel += '<li class="link-next"><a href="' + root + navrel.next.url + '">' + navrel.next.title + '</a></li>';
+    }
+
+    if (rel) {
+      rel = '<nav class="relative"><ul>' + rel + '</ul></nav>';
+    }
+
+  }
+%>
+<%- rel %>

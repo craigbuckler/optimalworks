@@ -1,0 +1,71 @@
+{
+  "name": "OptimalWorks.net",
+  "version": "1.0.0",
+  "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, research, design, development, training, marketing and consultancy.",
+  "author": "Craig Buckler",
+  "main": "gulp build",
+  "site": {
+    "name": "OptimalWorks.net",
+    "shortname": "OptimalWorks",
+    "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, design and development.",
+    "keywords": "web, online, internet, intranet, it, consultancy, application, analysis, research, design, development, programming, desktop, mobile, responsive, progressive, app, seo, search engine, marketing, database, ecommerce, standards, accessibility, writing, speaking, social, media, devon, uk",
+    "company": "OptimalWorks.net",
+    "twitter": "@craigbuckler",
+    "font": "",
+    "language": "en-GB",
+    "domain": "http://www.optimalworks.net",
+    "ftphost": "www.optimalworks.net",
+    "ftpdest": "/public_html",
+    "root": "/testsite/",
+    "devdomain": "http://localhost:8000",
+    "devroot": "/",
+    "themeColor": "#fff",
+    "PWAcache": "::Works",
+    "offlineURL": "offline/",
+    "offlineList": "cachedpagelist",
+    "analytics": "UA-114126-2"
+  },
+  "scripts": {
+    "start": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craigbuckler/optimalworks.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "7.2.3",
+    "css-mqpacker": "6.0.1",
+    "cssnano": "3.10.0",
+    "del": "3.0.0",
+    "ejs": "2.5.7",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.1",
+    "gulp-deporder": "1.1.0",
+    "gulp-imagemin": "4.0.0",
+    "gulp-lightmin": "0.0.2",
+    "gulp-newer": "1.3.0",
+    "gulp-postcss": "7.0.0",
+    "gulp-preprocess": "2.0.0",
+    "gulp-sass": "3.1.0",
+    "gulp-strip-debug": "1.1.0",
+    "gulp-uglify": "3.0.0",
+    "gulp-util": "3.0.8",
+    "metalsmith": "2.3.0",
+    "metalsmith-beautify": "0.2.0",
+    "metalsmith-headings-identifier": "0.0.11",
+    "metalsmith-html-minifier": "2.4.4",
+    "metalsmith-inline-source": "1.0.6",
+    "metalsmith-layouts": "1.8.1",
+    "metalsmith-mapsite": "1.0.4",
+    "metalsmith-markdown": "0.2.1",
+    "metalsmith-publish": "0.1.5",
+    "metalsmith-word-count": "0.0.4",
+    "postcss-assets": "5.0.0",
+    "vinyl-ftp": "0.6.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.18.13"
+  }
+}

@@ -1,0 +1,44 @@
+{
+	"lang"							: "/* @echo language */",
+	"dir"								: "ltr",
+	"name"							: "/* @echo name */",
+	"short_name"				: "/* @echo shortname */",
+	"description"				: "/* @echo description */",
+	"scope"							: "/",
+	"start_url"					: "/",
+	"display"						: "minimal-ui",
+	"theme_color"				: "/* @echo themeColor */",
+	"background_color"	: "/* @echo themeColor */",
+	"icons": [
+		{
+      "src"           : "/* @echo root */images/icons/site-076.png",
+      "sizes"         : "76x76",
+      "type"          : "image/png"
+    },
+		{
+      "src"           : "/* @echo root */images/icons/site-120.png",
+      "sizes"         : "120x120",
+      "type"          : "image/png"
+    },
+		{
+      "src"           : "/* @echo root */images/icons/site-152.png",
+      "sizes"         : "152x152",
+      "type"          : "image/png"
+    },
+		{
+      "src"           : "/* @echo root */images/icons/site-192.png",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
+    },
+		{
+      "src"           : "/* @echo root */images/icons/site-256.png",
+      "sizes"         : "256x256",
+      "type"          : "image/png"
+    },
+		{
+      "src"           : "/* @echo root */images/icons/site-512.png",
+      "sizes"         : "512x512",
+      "type"          : "image/png"
+    }
+	]
+}

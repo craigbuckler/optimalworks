@@ -1,0 +1,14 @@
+<% if (tag.length) { %>
+  <nav class="tag">
+    <p>tags:</p>
+    <ul>
+
+    <% for (let t = 0; t < tag.length; t++) { %>
+
+      <li><a href="<%- root %><%- tagroot %><%- tagL[t] %>/"><%- tag[t] %></a></li>
+
+    <% } %>
+
+    </ul>
+  </nav>
+<% } %>
