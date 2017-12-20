@@ -17,6 +17,7 @@ Our consultancy services include, but are not limited to:
 * technical research
 * budget determination
 * systems analysis
+* security audits and penetration testing
 * business planning
 * [agile product development]([root]service/development/)
 * corporate adaption and change

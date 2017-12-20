@@ -9,6 +9,7 @@ body {
   font-size: $font-size-rwd;
   font-weight: 300;
   line-height: 1.2;
+  @include reset;
 }
 
 table, input, output, textarea, select, option, pre, button {

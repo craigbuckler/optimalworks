@@ -20,7 +20,7 @@ We specialise in building bespoke, best-practise, standards-based, websites and 
 * best-practise accessibility
 * search engine optimisation
 * social media campaigns and online advertising
-* top-level security
+* top-level robust security
 * cost-effective hosting and deployment
 * legal compliance
 * reduced costs

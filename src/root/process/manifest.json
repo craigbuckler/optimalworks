@@ -11,33 +11,28 @@
 	"background_color"	: "/* @echo themeColor */",
 	"icons": [
 		{
-      "src"           : "/* @echo root */images/icons/site-076.png",
+      "src"           : "/* @echo rootURL */images/icons/optimalworks-076.png",
       "sizes"         : "76x76",
       "type"          : "image/png"
     },
 		{
-      "src"           : "/* @echo root */images/icons/site-120.png",
+      "src"           : "/* @echo rootURL */images/icons/optimalworks-120.png",
       "sizes"         : "120x120",
       "type"          : "image/png"
     },
 		{
-      "src"           : "/* @echo root */images/icons/site-152.png",
+      "src"           : "/* @echo rootURL */images/icons/optimalworks-152.png",
       "sizes"         : "152x152",
       "type"          : "image/png"
     },
 		{
-      "src"           : "/* @echo root */images/icons/site-192.png",
+      "src"           : "/* @echo rootURL */images/icons/optimalworks-192.png",
       "sizes"         : "192x192",
       "type"          : "image/png"
     },
 		{
-      "src"           : "/* @echo root */images/icons/site-256.png",
-      "sizes"         : "256x256",
-      "type"          : "image/png"
-    },
-		{
-      "src"           : "/* @echo root */images/icons/site-512.png",
-      "sizes"         : "512x512",
+      "src"           : "/* @echo rootURL */images/icons/optimalworks-310.png",
+      "sizes"         : "310x310",
       "type"          : "image/png"
     }
 	]

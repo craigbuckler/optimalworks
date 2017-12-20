@@ -1,3 +1,20 @@
 <header>
-  <p><a href="<%- root %>"><%- name %></a></p>
+
+  <% if (hero) { %>
+    <figure data-href="<%- imagecdn %><%- hero %>" data-srcset="<%- imagecdn %>c_scale,w_800/<%- hero %> 800w, <%- imagecdn %><%- hero %> 1200w" class="hero progressive replace" itemprop="primaryImageOfPage">
+      <img src="<%- imagecdn %>c_scale,w_24/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" class="preview" />
+    </figure>
+  <% } %>
+
+  <% if (heroquote) { %>
+  <section class="quote">
+    <q><%- heroquote %></q>
+    <% if (herocite) { %> <cite><%- herocite %></cite><% } %>
+  </section>
+  <% } %>
+
+  <% if (ctalink && ctatext) { %>
+    <section class="cta"><a href="[root]<%- ctalink %>" class="ghost button"><%- ctatext %></a></section>
+  <% } %>
+
 </header>

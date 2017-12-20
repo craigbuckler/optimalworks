@@ -23,6 +23,7 @@
     "PWAcache": "::Works",
     "offlineURL": "offline/",
     "offlineList": "cachedpagelist",
+    "imagecdn": "http://res.cloudinary.com/oworks/image/upload/",
     "analytics": "UA-114126-2"
   },
   "scripts": {
