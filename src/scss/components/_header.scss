@@ -1,5 +1,68 @@
 // header and hero
 header {
-  background-color: $color-logo;
+
+  position: relative;
   min-height: 4em;
+
+  .hero {
+
+    max-height: 100vh;
+
+    &:after {
+      position: absolute;
+      content: ' ';
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba($color-fore, 0);
+      will-change: background-color;
+    }
+
+    &.progressive:not(.replace) {
+
+      &:after {
+        animation: 1s linear 1.2s forwards overlayhero;
+      }
+
+    }
+
+  }
+
+  .quote, .cta {
+    position: absolute;
+    font-size: 2em;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: $color-back;
+  }
+
+  .cta {
+    font-size: 1.5em;
+    top: auto;
+    bottom: 15%;
+
+    a {
+      display: block;
+      width: 6em;
+      padding: 0.1em 0 0.3em;
+      margin: 0 auto;
+      color: $color-back;
+      border: 2px solid $color-back;
+    }
+  }
+
+  q::before, q::after {
+    content: "";
+  }
+
+}
+
+
+// animation
+@keyframes overlayhero {
+	0% { background-color: rgba($color-fore, 0); }
+	100% { background-color: rgba($color-fore, 0.8); }
 }

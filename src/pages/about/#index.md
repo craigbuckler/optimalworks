@@ -2,6 +2,7 @@
 title: About us
 menu: about
 description: Contact us to discuss your next project.
+hero: v1513782351/works/develop.jpg
 priority: 0.7
 ---
 

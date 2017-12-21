@@ -1,7 +1,8 @@
 ---
-title: privacy policy
+title: Privacy policy
 menu: privacy
 description: We don't discuss you or your projects with anyone.
+hero: v1513782351/works/develop.jpg
 priority: 0.68
 ---
 

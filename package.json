@@ -5,7 +5,7 @@
   "author": "Craig Buckler",
   "main": "gulp build",
   "site": {
-    "name": "OptimalWorks.net",
+    "name": "OptimalWorks Ltd",
     "shortname": "OptimalWorks",
     "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, design and development.",
     "keywords": "web, online, internet, intranet, it, consultancy, application, analysis, research, design, development, programming, desktop, mobile, responsive, progressive, app, seo, search engine, marketing, database, ecommerce, standards, accessibility, writing, speaking, social, media, devon, uk",
@@ -17,13 +17,13 @@
     "ftphost": "www.optimalworks.net",
     "ftpdest": "/public_html",
     "root": "/testsite/",
-    "devdomain": "http://localhost:8000",
+    "devdomain": "http://192.168.1.23:8000",
     "devroot": "/",
     "themeColor": "#fff",
     "PWAcache": "::Works",
     "offlineURL": "offline/",
     "offlineList": "cachedpagelist",
-    "imagecdn": "http://res.cloudinary.com/oworks/image/upload/",
+    "imagecdn": "https://res.cloudinary.com/oworks/image/upload/",
     "analytics": "UA-114126-2"
   },
   "scripts": {

@@ -1,5 +1,5 @@
 ---
-title: OptimalWork.net bespoke solutions
+title: OptimalWorks Ltd
 menu: home
 description: OptimalWorks Ltd, Devon UK. Bespoke web application analysis, design and development.
 priority: 1.0

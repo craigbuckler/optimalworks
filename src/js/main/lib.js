@@ -239,11 +239,12 @@ ow.lib = (function() {
     // throttled scroll/resize
     window.addEventListener('scroll', scroller, false);
     window.addEventListener('resize', scroller, false);
+    scroller();
 
   }
 
 
-  var scTimer, scPos = 0, scClass;
+  var pxBorder = 50, scTimer, scPos = 0, scClass, scAt;
   function scroller() {
 
     scTimer = scTimer || setTimeout(function() {
@@ -251,7 +252,9 @@ ow.lib = (function() {
       // page scroll direction
       var
         wY = window.pageYOffset,
-        dir = Math.sign(wY - scPos);
+        dir = Math.sign(wY - scPos),
+        at = (wY > pxBorder ? (wY > (document.body.clientHeight - window.innerHeight - pxBorder) ? 2 : 1) : 0);
+
       scPos = wY;
 
       // dispatch event
@@ -262,6 +265,12 @@ ow.lib = (function() {
           document.body.classList.remove('scroll' + scClass);
           scClass = dir;
           document.body.classList.add('scroll' + scClass);
+        }
+
+        if (scAt !== at) {
+          document.body.classList.remove('at' + scAt);
+          scAt = at;
+          document.body.classList.add('at' + scAt);
         }
 
         window.dispatchEvent(new CustomEvent('scrollresize', { detail: { dir: dir }}));

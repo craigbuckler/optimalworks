@@ -2,7 +2,7 @@
 .optimalworks {
   font-weight: 300;
   text-transform: lowercase;
-  color: $color-logo;
+  color: $color-logo !important;
 
   strong {
     font-weight: 400;

@@ -4,7 +4,7 @@
 $font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 $font-mono: Consolas, Menlo, "DejaVu Mono", monospace;
 $font-size-old: 100%;
-$font-size-rwd: calc(1em + 0.2vw);
+$font-size-rwd: calc(1em + 0.5vw);
 
 // responsive breakpoints
 $breakpoint: (
@@ -14,4 +14,7 @@ $breakpoint: (
 );
 
 // colours
+$color-back: #fff;
+$color-fore: #222;
 $color-logo: #266;
+$color-menu: #ddd;

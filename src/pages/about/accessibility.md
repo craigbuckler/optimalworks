@@ -1,7 +1,8 @@
 ---
-title: accessibility policy
+title: Accessibility policy
 menu: accessibility
 description: Why we believe accessibility and techniques such as progressive enhancement are best for the web and best for you.
+hero: v1513782351/works/develop.jpg
 heroquote: inclusive web technology
 priority: 0.69
 ---

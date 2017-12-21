@@ -2,6 +2,7 @@
 title: Contact
 menu: contact
 description: Contact us to discuss your next project.
+hero: v1513782351/works/develop.jpg
 priority: 0.5
 ---
 

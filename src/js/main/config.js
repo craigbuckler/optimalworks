@@ -7,7 +7,8 @@ var ow = ow || {
 	devBuild:			/* @echo devBuild */,
 	font:					'/* @echo font */',
 	pwa:					true,
-	menuId:				'mainmenu',
+	menuId:				'menu',
+	menuOpener:		'menuopen',
 	emailElement:	'a.email',
 	analytics:		'/* @echo analytics */'
 };

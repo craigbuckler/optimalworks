@@ -2,7 +2,7 @@
 <html lang="<%= language %>">
 <head>
 <meta charset="UTF-8">
-<title><%= title %> | <%= name %></title>
+<title><%= title %><% if (title !== name) { %> | <%= name %><% } %></title>
 
 <!-- styles -->
 <meta name="viewport" content="width=device-width,initial-scale=1">

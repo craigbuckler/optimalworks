@@ -2,6 +2,7 @@
 title: Training and knowledge-sharing
 menu: knowledge
 description: training, knowledge sharing, article writing, video tutorials, conference speaking, and knowledge-sharing.
+hero: v1513782351/works/develop.jpg
 heroquote: assisting the industry
 ctatext: contact
 ctalink: contact/

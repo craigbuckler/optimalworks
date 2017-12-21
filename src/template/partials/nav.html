@@ -4,18 +4,23 @@
 
   <%
     let navHTML = navGenerate(nav);
+    if (navHTML) navHTML = '<p id="menuopen"><a href="#menu">&#9776;</a></p>' + navHTML;
 
     function navGenerate(navSet) {
 
-      let navHTML = '';
+      let navHTML = '', level = 0;
       for (let p = 0; p < navSet.length; p++) {
+
         let
           page = navSet[p],
           open = navlist[page.level] === page.item,
           active = open && !navlist[page.level+1];
 
+        level = page.level;
+
         if (!page.private) navHTML +=
           '<li' + (open ? ' class="open' + (active ? ' active' : '') + '"' : '') + '>' +
+          (page.child.length && !page.nomenu ? '<a href="#open" class="opener">&nbsp;</a>' : '') +
           (active ? '<strong>' : '<a href="' + root + page.url + '">') +
           page.menu +
           (active ? '</strong>' : '</a>') +
@@ -23,7 +28,7 @@
           '</li>';
       }
 
-      return navHTML ? '<ul>' + navHTML + '</ul>' : navHTML;
+      return navHTML ? '<ul' + (level ? '' : ' id="menu"') + '>' + navHTML + '</ul>' : navHTML;
     }
   %>
 

@@ -1,6 +1,7 @@
 // Base styles
 html {
-	touch-action: manipulation;
+  touch-action: manipulation;
+  background-color: $color-logo;
 }
 
 body {
@@ -10,6 +11,8 @@ body {
   font-weight: 300;
   line-height: 1.2;
   @include reset;
+  color: $color-fore;
+  background-color: $color-back;
 }
 
 table, input, output, textarea, select, option, pre, button {
@@ -22,18 +25,26 @@ pre {
 	font-family: $font-mono;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1, h2, h3, strong {
   font-weight: 400;
   @include reset;
-  margin-top: 1.5em;
+  margin: 1em 0 0 0;
 }
 
 p {
   margin: 1em 0 0 0;
 }
 
+h2 + p, h3 + p {
+  margin-top: 0.2em;
+}
+
 ul {
-  list-style-type: disc;
+  list-style-type: square;
+}
+
+li > :first-child, li a > :first-child {
+  margin-top: 0;
 }
 
 strong {

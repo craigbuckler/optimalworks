@@ -1,6 +1,7 @@
 ---
-title: you're offline
+title: You're offline!
 description: You are offline but can access previously-viewed pages.
+hero: v1513782351/works/develop.jpg
 priority: 0.1
 private: true
 nomenu: true

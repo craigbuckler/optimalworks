@@ -35,13 +35,6 @@
         ga('send', 'event', 'contact', type.slice(0, -1));
       }
 
-      // add email subject and body
-      if (type === 'mailto:') {
-        var q = location.search.match(/book=([^&]+)/i);
-        q = (q && q.length && q.length == 2 ? q[1] + '%20' : '');
-        e.target.href += '?subject=' + q + 'booking&body=telephone:%20%0D%0Aoccupants:%20%0D%0Afrom%20date:%20%0D%0Ato%20date:%20%0D%0A';
-      }
-
     }, false);
 
   }, 200);
