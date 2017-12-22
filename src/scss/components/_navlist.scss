@@ -1,0 +1,55 @@
+// in-page navigation list
+
+.list {
+
+  ul, li {
+    list-style-type: none;
+    @include reset;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  li {
+    flex: 1 1 12em;
+    padding-bottom: 0.5em;
+    margin: 1vmin;
+    border: 1px solid $color-fore;
+  }
+
+  a {
+    display: block;
+    height: 100%;
+  }
+
+  a:link, a:visited {
+    color: $color-fore;
+  }
+
+  .img {
+    background-color: $color-fore;
+    border-bottom: 1px solid $color-fore;
+    overflow: hidden;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: auto;
+    transform: scale(1);
+    will-change: transform;
+    transition: transform 3s ease-in-out;
+  }
+
+  a:hover img, a:focus img {
+    transform: scale(1.2);
+  }
+
+  h2, p {
+    margin: 0.3rem 1rem;
+  }
+
+}

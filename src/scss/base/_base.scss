@@ -39,8 +39,18 @@ h2 + p, h3 + p {
   margin-top: 0.2em;
 }
 
+ul, ol {
+  padding: 0;
+  margin: 1.5em 0 1em 3em;
+}
+
 ul {
   list-style-type: square;
+}
+
+li {
+  padding: 0;
+  margin: 0.8em 0 0 0;
 }
 
 li > :first-child, li a > :first-child {
@@ -58,8 +68,13 @@ hr {
 	margin: 0.5rem 0;
 }
 
-a {
+a:link, a:visited {
   text-decoration: none;
+  color: $color-logo;
+}
+
+a:hover, a:active, a:focus {
+  color: lighten($color-logo, 20%);
 }
 
 img {

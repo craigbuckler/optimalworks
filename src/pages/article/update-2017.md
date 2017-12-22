@@ -1,7 +1,8 @@
 ---
 title: 2017 update
 description: Yes, this is the first website update I've done in a decade.
-publish: 2017-12-19
+hero: v1513974725/works/article.jpg
+publish: 2017-12-22
 tag: web
 layout: article.html
 ---

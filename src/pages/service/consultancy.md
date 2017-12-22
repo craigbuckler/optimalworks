@@ -2,7 +2,7 @@
 title: IT consultancy
 menu: consultancy
 description: IT consultancy services including technical research, enterprise business analysis, system design, development, testing, and deployment.
-hero: v1513782351/works/develop.jpg
+hero: v1513974726/works/consult.jpg
 heroquote: building businesses - not just applications
 ctatext: contact
 ctalink: contact/

@@ -2,11 +2,11 @@
 title: OptimalWorks Ltd
 menu: home
 description: OptimalWorks Ltd, Devon UK. Bespoke web application analysis, design and development.
-priority: 1.0
 hero: v1513782351/works/develop.jpg
-heroquote: building the future
+heroquote: helping you build the future
 ctatext: contact
 ctalink: contact/
+priority: 1.0
 ---
 
 ## Shortcodes

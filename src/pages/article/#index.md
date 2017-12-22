@@ -1,7 +1,7 @@
 ---
 title: Articles
 description: Article index
-hero: v1513782351/works/develop.jpg
+hero: v1513974725/works/article.jpg
 priority: 0.6
 menu: articles
 nomenu: true

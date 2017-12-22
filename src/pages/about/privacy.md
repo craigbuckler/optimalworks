@@ -2,11 +2,14 @@
 title: Privacy policy
 menu: privacy
 description: We don't discuss you or your projects with anyone.
-hero: v1513782351/works/develop.jpg
+hero: v1513974726/works/private.jpg
+heroquote: privacy remains yours
+ctatext: contact
+ctalink: contact/
 priority: 0.68
 ---
 
-Your contact details are private, and we are committed to protecting them. We promise to:
+Your contact details are private and we are committed to protecting them. We promise to:
 
 * never pass your information to another party without your consent
 * not disclose any information we have gathered about you or your business

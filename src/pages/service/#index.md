@@ -1,7 +1,9 @@
 ---
 title: Services
 description: Services offered.
-hero: v1513782351/works/develop.jpg
+hero: v1513975289/works/open.jpg
+ctatext: contact
+ctalink: contact/
 priority: 0.9
 ---
 

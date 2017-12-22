@@ -40,9 +40,10 @@ header {
   }
 
   .cta {
+    display: none;
     font-size: 1.5em;
     top: auto;
-    bottom: 15%;
+    bottom: 10%;
 
     a {
       display: block;
@@ -51,7 +52,23 @@ header {
       margin: 0 auto;
       color: $color-back;
       border: 2px solid $color-back;
+      will-change: color, border-color;
+      transition: all 0.3s linear;
+
+      &:hover, &focus {
+        color: $color-logo;
+        border-color: $color-logo;
+      }
+
     }
+  }
+
+  @include respond('small') {
+
+    .cta {
+      display: block;
+    }
+
   }
 
   q::before, q::after {

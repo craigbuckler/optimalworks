@@ -2,7 +2,10 @@
 title: About us
 menu: about
 description: Contact us to discuss your next project.
-hero: v1513782351/works/develop.jpg
+hero: v1513974726/works/consult.jpg
+heroquote: we'd rather talk about you!
+ctatext: contact
+ctalink: contact/
 priority: 0.7
 ---
 
