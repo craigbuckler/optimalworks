@@ -1,0 +1,33 @@
+// relative navigation
+nav.tag, nav.relative {
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    @include reset;
+  }
+
+  li {
+    padding: 0;
+    margin: 2vmin;
+  }
+
+}
+
+// contact
+ul.contact {
+
+  &, li {
+    list-style-type: none;
+  }
+
+  li {
+    text-align: center;
+  }
+
+  .phone {
+    font-size: 1.5em;
+  }
+
+}

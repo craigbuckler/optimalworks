@@ -14,6 +14,27 @@
 }
 
 @include icon('optimalworks');
+@include icon('menu');
 @include icon('email');
 @include icon('phone');
+@include icon('tag');
 @include icon('twitter');
+@include icon('up');
+@include icon('left');
+
+.icon.right {
+
+  &:before {
+    display: none;
+  }
+
+  &:after {
+    display: inline-block;
+    content: ' ';
+    width: 2em;
+    height: 1em;
+    vertical-align: middle;
+    background: inline('images/svg/right.svg') no-repeat 50% 50%;
+  }
+
+}

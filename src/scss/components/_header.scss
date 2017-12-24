@@ -27,6 +27,23 @@ header {
 
     }
 
+    & + .quote {
+      transform: translateY(-99em);
+    }
+
+    &.progressive:not(.replace) {
+
+      &:after {
+        animation: 1s linear 1.2s forwards overlayhero;
+      }
+
+      & + .quote {
+        will-change: filter, transform;
+        animation: 1s ease-out 1.5s forwards quotehero;
+      }
+
+    }
+
   }
 
   .quote, .cta {
@@ -82,4 +99,15 @@ header {
 @keyframes overlayhero {
 	0% { background-color: rgba($color-fore, 0); }
 	100% { background-color: rgba($color-fore, 0.8); }
+}
+
+@keyframes quotehero {
+	0% {
+    filter: blur(30px);
+    transform: translateY(-2em);
+  }
+	100% {
+    filter: blur(0px);
+    transform: translateY(0);
+  }
 }

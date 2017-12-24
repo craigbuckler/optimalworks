@@ -27,3 +27,7 @@ It's my job to ensure you understand the benefits we can bring to your next web 
 
 ## Others
 We call on a range of experts in the technology, mobile, design and development industries to help create the best solution for you.
+
+
+## Company policies
+Further information:

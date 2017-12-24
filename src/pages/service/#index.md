@@ -7,5 +7,5 @@ ctalink: contact/
 priority: 0.9
 ---
 
-The services index page.
+We provide a number of services including:
 

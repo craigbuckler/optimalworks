@@ -23,6 +23,13 @@ nav.active {
     display: block;
   }
 
+  #menuopen {
+    width: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: scale(0.7);
+  }
+
 }
 
 #menu {
@@ -69,7 +76,7 @@ nav.active {
     float: left;
     width: $menupad;
     padding-left: 0;
-    background: inline('images/svg/chevron-right.svg') no-repeat 50% 50%;
+    background: inline('images/svg/right.svg') no-repeat 50% 50%;
     background-size: 30%;
     transform: rotate(0deg);
     will-change: transform;
@@ -126,6 +133,17 @@ nav.active {
 
   #menuopen, nav.active #menuopen {
     display: none;
+  }
+
+}
+
+
+// fix header bar
+@media (min-height: 40em) {
+
+  nav.main {
+    position: fixed;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   }
 
 }

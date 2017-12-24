@@ -9,12 +9,23 @@ ctalink: contact/
 priority: 1.0
 ---
 
-## Shortcodes
-* [**version**]: [version]
-* [**name**]: [name]
-* [**menu**]: [menu]
-* [**dateFormatted**]: [dateFormatted]
-* [**nowYear**]: [nowYear]
-* [**url**]: [url]
-* [**root**]: [root]
-* [**rootURL**]: [rootURL]
+OptimalWorks Ltd is based in the South West of the UK but provides [IT consultancy]([root]service/consultancy/) and [other services]([root]service/) throughout the world.
+
+
+## Typical projects
+Our services include, but are not limited to:
+
+* enterprise systems design
+* business planning
+* web application development
+* mobile progressive web apps
+* online marketing
+* AI and automated bots
+* big data storage, retrieval and analysis
+* cross-platform Virtual and Augmented reality
+* technical tutorials and video training
+* conference speaking
+
+
+## Clients
+Our clients range from sole traders to start-ups to SMEs and to large organisations including the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Sky, NatWest, Credit Suisse, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, O'Reilly and SitePoint.
