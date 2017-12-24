@@ -12,7 +12,7 @@ orderby: 'date'
 reverse: true
 ---
 
-Recent articles published by Craig Buckler on [SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler):
+Recent articles published by [Craig Buckler on SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler):
 
 * [Which Browsers Should Your Website Support?](https://www.sitepoint.com/browsers-website-support/?aref=cbuckler)
 * [The Ultimate Beginner's Guide to Setting Up & Running a WordPress Site](https://www.sitepoint.com/the-ultimate-beginners-guide-to-setting-up-running-a-wordpress-site/?aref=cbuckler)

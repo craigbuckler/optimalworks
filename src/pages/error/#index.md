@@ -10,4 +10,4 @@ private: true
 nomenu: true
 ---
 
-The page you are looking for could not be found. Please choose a page from the menu.
+Sorry, but the page you are looking for could not be found. Please choose an item from the menu.
