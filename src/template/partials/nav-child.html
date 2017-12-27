@@ -8,7 +8,7 @@
       %>
 
       <li><a href="<%- root + child.url %>">
-        <% if (child.thumb) { %><div class="img"><img src="<%- imagecdn %>c_scale,w_400/<%= child.thumb %>" alt="<%= child.title %>" /></div><% } %>
+        <% if (child.thumb) { %><div class="img progressive replace" data-href="<%- imagecdn %>c_scale,w_800/<%- child.thumb %>"><img src="<%- imagecdn %>c_scale,w_24/<%= child.thumb %>" alt="<%= child.title %>" class="preview" /></div><% } %>
         <h2><%- child.title %></h2>
         <% if (child.description) { %><p><%- child.description %></p><% } %>
         <% if (nomenu) { %><p class="date"><time datetime="<%- child.date.toISOString() %>"><%- child.dateF %></time></p><% } %>
