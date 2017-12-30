@@ -3,7 +3,7 @@
 */
 
 // configuration
-`use strict`;
+'use strict';
 
 const
   domain = '/* @echo rootURL */',

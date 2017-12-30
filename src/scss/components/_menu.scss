@@ -1,7 +1,10 @@
 // menu system
+$menuheight: 2.8em;
 $menupad: 1.5em;
 
 nav.main {
+
+  height: $menuheight;
 
   a:link, a:visited {
     color: $color-fore;
@@ -37,7 +40,7 @@ nav.active {
   position: fixed;
   width: auto;
   right: 0;
-  top: 2.8em;
+  top: $menuheight;
   bottom: 0;
   transform: translateX(100%);
   will-change: transform;
@@ -103,7 +106,7 @@ nav.active {
 
     a, strong {
       width: auto;
-      padding: 0.5em 2vw 0.7em;
+      padding: 0.5em 2vw 1em;
     }
 
     a.opener {
@@ -112,6 +115,7 @@ nav.active {
 
     .open ul, ul {
       position: absolute;
+      top: $menuheight;
       display: none;
     }
 

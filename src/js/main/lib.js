@@ -231,7 +231,7 @@ ow.lib = (function() {
       }
     }, false);
   }
-
+*/
 
   // custom events
   if (CustomEvent && window.addEventListener && window.requestAnimationFrame && document.body.classList) {
@@ -279,7 +279,7 @@ ow.lib = (function() {
 
   }
 
-
+/*
   // Ajax handler:
   // obj				- form node or URL string (required)
   // callback		- return function passed err, url, data (optional)
