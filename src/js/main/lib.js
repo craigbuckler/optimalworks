@@ -16,7 +16,7 @@ ow.lib = (function() {
     else for (var p in obj) if (fn(obj[p], p) === false) break;
   }
 
-
+/*
   // returns true if all passed values are similar (ignore case, spacing, etc)
   function similar() {
     var same = true, i = 0, a, match;
@@ -44,14 +44,14 @@ ow.lib = (function() {
   function int(num) {
     return parseInt(num, 10) || 0;
   }
-
+*/
 
   // getElementsById
   function id(idName) {
     return document.getElementById(idName);
   }
 
-
+/*
   // getElementsByTagName
   function tag(tagName, doc) {
     doc = doc || document;
@@ -71,7 +71,7 @@ ow.lib = (function() {
     doc = doc || document;
     return doc.querySelector(sel);
   }
-
+*/
 
   // querySelectorAll
   function queryAll(sel, doc) {
@@ -91,7 +91,7 @@ ow.lib = (function() {
     return pNode;
   }
 
-
+/*
   // remove all child nodes
   function empty(node) {
     while (node.lastChild) node.removeChild(node.lastChild);
@@ -374,31 +374,31 @@ ow.lib = (function() {
     timeoutCheck();
 
   }
-
+*/
 
   // public methods
   return {
     each: each,
-    similar: similar,
-    pad: pad,
-    int: int,
+    //similar: similar,
+    //pad: pad,
+    //int: int,
     id: id,
-    tag: tag,
-    className: className,
-    query: query,
+    //tag: tag,
+    //className: className,
+    //query: query,
     queryAll: queryAll,
-    closest: closest,
-    empty: empty,
-    setSelect: setSelect,
-    appliedStyle: appliedStyle,
-    posTop: posTop,
-    posLeft: posLeft,
-    getFormData: getFormData,
-    updateForm: updateForm,
-    queryStringParse: queryStringParse,
-    eventDebounce: eventDebounce,
-    eventThrottle: eventThrottle,
-    ajax: ajax
+    closest: closest
+    //empty: empty,
+    //setSelect: setSelect,
+    //appliedStyle: appliedStyle,
+    //posTop: posTop,
+    //posLeft: posLeft,
+    //getFormData: getFormData,
+    //updateForm: updateForm,
+    //queryStringParse: queryStringParse,
+    //eventDebounce: eventDebounce,
+    //eventThrottle: eventThrottle,
+    //ajax: ajax
   };
 
 })();

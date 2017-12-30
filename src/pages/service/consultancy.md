@@ -3,7 +3,7 @@ title: IT consultancy
 menu: consultancy
 description: IT consultancy services including technical research, enterprise business analysis, system design, development, testing, and deployment.
 hero: v1513974726/works/consult.jpg
-heroquote: building businesses - not just applications
+heroquote: building businesses - not just apps
 ctatext: contact
 ctalink: contact/
 tag: service
@@ -25,4 +25,4 @@ Our consultancy services include, but are not limited to:
 
 
 ## Clients
-Previous clients include the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, Yahoo, Sky, Credit Suisse and many SMEs.
+Previous clients include the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, Yahoo, Sky, Credit Suisse, Symantec and many SMEs.

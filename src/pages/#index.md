@@ -22,10 +22,11 @@ Our services include, but are not limited to:
 * online marketing
 * AI and automated bots
 * big data storage, retrieval and analysis
+* security audits, hack prevention, penetration testing
 * cross-platform Virtual and Augmented reality
 * technical tutorials and video training
 * conference speaking
 
 
 ## Clients
-Our clients range from sole traders to start-ups to SMEs and large organisations including the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Sky, NatWest, Credit Suisse, Thompson Reuters, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, O'Reilly and SitePoint.
+Our clients range from sole traders to start-ups to SMEs and large organisations including the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Sky, NatWest, Credit Suisse, Thompson Reuters, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, Symantec, O'Reilly and SitePoint.

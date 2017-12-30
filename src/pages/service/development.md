@@ -43,4 +43,4 @@ All client projects details are covered by non-disclosure agreements but recent 
 
 
 ## Clients
-Previous clients include HMRC, Microsoft, MSN, Yahoo, Sky, Hewlett Packard, Thomson Reuters, Santander, NatWest, Credit Suisse, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, several London councils, Plymouth University, Exeter University, Empello, Rokk Media, Landmark, TwoFour, Hemsley Fraser Group and many SMEs.
+Previous clients include HMRC, Microsoft, MSN, Yahoo, Sky, Hewlett Packard, Thomson Reuters, Santander, NatWest, Credit Suisse, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, several London councils, Plymouth University, Exeter University, Symantec, Empello, Rokk Media, Landmark, TwoFour, Hemsley Fraser Group and many SMEs.

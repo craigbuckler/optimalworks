@@ -3,9 +3,11 @@ nav.tag, nav.relative {
 
   ul {
     display: flex;
+    flex-flow: row wrap;
     justify-content: flex-end;
     list-style-type: none;
-    @include reset;
+    padding: 0;
+    margin: 2em 0 0 0;
   }
 
   li {
@@ -20,10 +22,16 @@ ul.contact {
 
   &, li {
     list-style-type: none;
+    @include reset;
   }
 
   li {
     text-align: center;
+    padding: 0.6em 0;
+  }
+
+  a {
+    display: block;
   }
 
   .phone {

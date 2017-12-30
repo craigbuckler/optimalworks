@@ -1,7 +1,7 @@
 ---
 title: Training and knowledge-sharing
 menu: knowledge
-description: Training, knowledge sharing, article writing, video tutorials, conference speaking, and knowledge-sharing.
+description: Training, article writing, video tutorials, conference speaking, and knowledge-sharing throughout the IT industry.
 hero: v1513974726/works/train.jpg
 heroquote: giving back to the industry
 ctatext: contact

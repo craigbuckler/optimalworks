@@ -1,6 +1,6 @@
 {
   "name": "OptimalWorks.net",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, research, design, development, training, marketing and consultancy.",
   "author": "Craig Buckler",
   "main": "gulp build",
@@ -13,10 +13,10 @@
     "twitter": "craigbuckler",
     "font": "",
     "language": "en-GB",
-    "domain": "http://www.optimalworks.net",
-    "ftphost": "www.optimalworks.net",
+    "domain": "https://www.optimalworks.net",
+    "ftphost": "216.172.104.4",
     "ftpdest": "/public_html",
-    "root": "/testsite/",
+    "root": "/",
     "devdomain": "http://192.168.1.23:8000",
     "devroot": "/",
     "themeColor": "#fff",
@@ -56,7 +56,7 @@
     "metalsmith": "2.3.0",
     "metalsmith-beautify": "0.2.0",
     "metalsmith-headings-identifier": "0.0.11",
-    "metalsmith-html-minifier": "2.4.4",
+    "metalsmith-html-minifier": "2.4.5",
     "metalsmith-inline-source": "1.0.6",
     "metalsmith-layouts": "1.8.1",
     "metalsmith-mapsite": "1.0.4",
@@ -67,6 +67,6 @@
     "vinyl-ftp": "0.6.0"
   },
   "devDependencies": {
-    "browser-sync": "2.18.13"
+    "browser-sync": "2.23.0"
   }
 }

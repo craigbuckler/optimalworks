@@ -49,10 +49,11 @@ header {
   .quote, .cta {
     position: absolute;
     font-size: 2em;
-    top: 30%;
-    left: 0;
-    right: 0;
+    top: 50%;
+    left: 3vw;
+    right: 3vw;
     text-align: center;
+    line-height: 1.05;
     color: $color-back;
   }
 
@@ -81,6 +82,10 @@ header {
   }
 
   @include respond('small') {
+
+    .quote {
+      top: 30%;
+    }
 
     .cta {
       display: block;

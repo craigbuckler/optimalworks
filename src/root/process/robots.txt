@@ -1,4 +1,3 @@
 ﻿User-agent: *
-Sitemap: /* @echo domain *//sitemap.xml
-Disallow: /images/preview/
-Disallow: /images/hero/*-pv.jpg$
+Sitemap: /* @echo rootURL */sitemap.xml
+
