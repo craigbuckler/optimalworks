@@ -28,11 +28,10 @@ We specialise in building bespoke, best-practise, standards-based, websites and 
 
 
 ## Recent projects
+All client projects details are covered by non-disclosure agreements but recent technology developments include:
 
 > your contribution added a level of quality we would otherwise have struggled to achieve
 <cite>PS, Hemsley Fraser</cite>
-
-All client projects details are covered by non-disclosure agreements but recent technology developments include:
 
 * automated, artificially-intelligent web bots to detect worldwide fraud in the web and mobile advertising markets
 * big data storage, retrieval, analysis, and altering systems for a client with a global user base

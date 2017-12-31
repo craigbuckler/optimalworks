@@ -6,6 +6,10 @@ nav.main {
 
   height: $menuheight;
 
+  p {
+    line-height: 1.2;
+  }
+
   a:link, a:visited {
     color: $color-fore;
   }
@@ -143,7 +147,7 @@ nav.active {
 
 
 // fix header bar
-@media (min-height: 40em) {
+@media (min-height: 35em) {
 
   nav.main {
     position: fixed;
