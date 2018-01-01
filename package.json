@@ -14,7 +14,7 @@
     "font": "",
     "language": "en-GB",
     "domain": "https://www.optimalworks.net",
-    "ftphost": "216.172.104.4",
+    "ftphost": "ftp.optimalworks.net",
     "ftpdest": "/public_html",
     "root": "/",
     "devdomain": "http://192.168.1.23:8000",
