@@ -21,4 +21,4 @@ Recent articles published by [Craig Buckler on SitePoint.com](https://www.sitepo
 * [How to Track Ecommerce Transactions with Google Analytics](https://www.sitepoint.com/track-ecommerce-transactions-google-analytics-reports/?aref=cbuckler)
 * [The Web's Most Annoying Dark Patterns](https://www.sitepoint.com/annoying-web-dark-patterns/?aref=cbuckler)
 
-Recent articles published on this site:
+Articles published on this site:

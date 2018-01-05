@@ -4,7 +4,7 @@ description: The first OptimalWorks design update in a decade!
 hero: v1514119229/works/fireworks.jpg
 heroquote: we're back!
 publish: 2017-12-29
-tag: web
+tag: web, pwa
 layout: article.html
 ---
 
@@ -19,7 +19,7 @@ Don't let that put you off! Please [contact us]([root]contact/) to discuss your 
 I'm afraid they've gone as have the comments. Some may have been interesting to historians, but I'm not convinced people wanted to read about IE7 issues or apply Windows Vista-like CSS effects. I'm happy to let anyone have the WordPress MySQL database dump, though.
 
 
-## Technology
+## Technology stack
 My old site was WordPress powered. I still love WordPress but it can be overkill for smaller sites.
 
 This new site is built using a Static Site Generator which renders markdown files into HTML templates. It provides the best possible performance and unbreakable (mostly) security. The technology stack includes [Node.js](http://nodejs.org/), [Gulp.js](https://gulpjs.com/) and [Metalsmith](http://www.metalsmith.io/) combined with an assortment of off-the-shelf and custom plugins. Most images were sourced from generous photographers at [Unsplash](https://unsplash.com/).
