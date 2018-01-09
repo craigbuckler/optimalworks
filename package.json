@@ -1,6 +1,6 @@
 {
   "name": "OptimalWorks.net",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, research, design, development, training, marketing and consultancy.",
   "author": "Craig Buckler",
   "main": "gulp build",
@@ -51,6 +51,7 @@
     "gulp-preprocess": "2.0.0",
     "gulp-sass": "3.1.0",
     "gulp-strip-debug": "2.0.0",
+    "gulp-trimlines": "1.0.1",
     "gulp-uglify": "3.0.0",
     "gulp-util": "3.0.8",
     "metalsmith": "2.3.0",
@@ -67,6 +68,6 @@
     "vinyl-ftp": "0.6.0"
   },
   "devDependencies": {
-    "browser-sync": "2.23.2"
+    "browser-sync": "2.23.3"
   }
 }

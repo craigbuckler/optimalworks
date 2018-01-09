@@ -50,6 +50,7 @@
     stripdebug    = require('gulp-strip-debug'),
     uglify        = require('gulp-uglify'),
     lightmin      = require('gulp-lightmin'),
+    trimlines     = require('gulp-trimlines'),
 
     // Metalsmith and plugins
     metalsmith    = require('metalsmith'),
@@ -306,6 +307,7 @@
       .pipe(preprocess({ context: sitemeta }))
       .pipe(devBuild ? gutil.noop() : stripdebug())
       .pipe(devBuild ? gutil.noop() : lightmin())
+      .pipe(devBuild ? gutil.noop() : trimlines())
       .on('error', (err) => { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
       .pipe(gulp.dest(jssingle.build));
 
@@ -328,6 +330,7 @@
       .pipe(concat(jspwa.filename))
       .pipe(devBuild ? gutil.noop() : stripdebug())
       .pipe(devBuild ? gutil.noop() : lightmin())
+      .pipe(devBuild ? gutil.noop() : trimlines())
       .on('error', (err) => { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
       .pipe(gulp.dest(jspwa.build));
 
