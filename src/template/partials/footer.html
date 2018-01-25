@@ -3,12 +3,12 @@
   <ul>
     <li>&copy;<%= nowYear %> <%= company %></li>
     <li><a href="tel:+44-1395-276498" class="icon phone">+44 1395 276 498</a></li>
-    <li><a href="#" class="icon email" data-email="contact {at} optimalworks dot net">email</a></li>
+    <li><a href="#" class="icon email">contact {at} optimalworks dot net</a></li>
     <li><a href="https://twitter.com/[twitter]" class="icon twitter">twitter</a></li>
   </ul>
 
   <p>Registered in England and Wales No. 5922205</p>
 
-  <% if (devBuild) { %><p class="dev"><%= layout || 'page.html' %> layout, v<%= version %></p><% } %>
+  <% if (devBuild) { %><p class="dev"><%= layout || 'page.ejs' %> layout, v<%= version %></p><% } %>
 
 </footer>

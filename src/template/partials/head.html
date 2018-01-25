@@ -30,10 +30,13 @@
 <link rel="shortcut icon" href="<%- rootURL %>favicon.ico">
 
 <!-- page information -->
-<meta name="application-name" content="<%= name %>"/>
+<meta name="application-name" content="<%= name %>">
 <meta name="description" content="<%= description %>">
 <meta name="keywords" content="<%= keywords %>">
+<meta name="page-topic" content="<%= topic %>">
 <meta name="author" content="<%= author %>">
+<meta name="owner" content="<%= author %>">
+<meta name="revisit-after" content="7 days" />
 
 <!-- indexing -->
 <% if (devBuild || private) { %>
@@ -58,20 +61,22 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="<%= language %>">
 
-<% if (hero) { %>
-  <meta property="og:image" content="<%- imagecdn %><%- hero %>">
-<% } %>
-
 <!-- Twitter -->
 <meta property="twitter:card" content="summary">
 
 <% if (twitter) { %>
-  <meta property="twitter:site" content="@<%= twitter %>">
-  <meta property="twitter:creator" content="@<%= twitter %>">
+  <meta property="twitter:site" content="<%= twitter %>">
+  <meta property="twitter:creator" content="<%= twitter %>">
 <% } %>
 
+<meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:title" content="<%= title %>">
 <meta property="twitter:description" content="<%= description %>">
+
+<% if (hero) { %>
+  <meta property="og:image" content="<%- imagecdn %><%- hero %>">
+  <meta property="twitter:image:src" content="<%- imagecdn %><%- hero %>">
+<% } %>
 
 </head>
 <body<%- (menu ? ' id="' + menu + '"' : '') %>>

@@ -5,7 +5,7 @@ hero: v1515501268/works/money-bank.jpg
 heroquote: save time, money, and sanity
 publish: 2018-01-09
 tag: web, cost
-layout: article.html
+layout: article.ejs
 ---
 
 Companies can burn through obscene quantities of cash building IT systems. Consider any government-led project: *how many are successfully delivered on-time and on-budget?*

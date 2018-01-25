@@ -5,7 +5,7 @@ hero: v1515164505/works/mobile-phone.jpg
 heroquote: progressing the web
 publish: 2018-01-05
 tag: web, pwa
-layout: article.html
+layout: article.ejs
 ---
 
 All our websites and apps have been implemented as Progressive Web Apps (PWA) since 2016. The concept is new so clients rarely ask for a PWA, but it seems irresponsible *not* to add the technologies. The benefits are considerable:

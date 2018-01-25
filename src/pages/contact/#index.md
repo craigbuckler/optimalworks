@@ -14,3 +14,65 @@ Please contact us to discuss your next project:
 <li><a href="#" class="icon email">contact {at} optimalworks dot net</a></li>
 <li><a href="https://twitter.com/[twitter]" class="icon twitter">[twitter]</a></li>
 </ul>
+
+
+<form action="https://www.optimalworks.net/ws/enquiry/" method="post" class="validator">
+
+  <p>Alternatively, please enter your details and we will contact you:</p>
+
+  <div class="formgrid">
+
+    <p>your details</p>
+
+    <input type="text" id="name" name="name" value="" required="required" maxlength="50" />
+    <label for="name">name</label>
+
+    <input type="text" id="company" name="company" value="" maxlength="100" />
+    <label for="company">company</label>
+
+    <input type="tel" id="telephone" name="telephone" value="" minlength="6" maxlength="20" />
+    <label for="telephone">telephone</label>
+
+    <input type="email" id="email" name="email" value="" required="required" minlength="6" maxlength="80" />
+    <label for="email">email</label>
+
+    <textarea id="query" name="query" rows="4" cols="20" maxlength="500"></textarea>
+    <label for="query">questions</label>
+
+    <p>services of interest</p>
+
+    <input type="checkbox" id="chkgeneral" name="chkgeneral" value="IT consultancy" />
+    <label for="chkgeneral">general IT consultancy</label>
+
+    <input type="checkbox" id="chksysdesign" name="chksysdesign" value="system design" />
+    <label for="chksysdesign">enterprise system design</label>
+
+    <input type="checkbox" id="chkappdev" name="chkappdev" value="development" />
+    <label for="chkappdev">web/mobile application development</label>
+
+    <input type="checkbox" id="chkperf" name="chkperf" value="performance" />
+    <label for="chkperf">performance and accessibility</label>
+
+    <input type="checkbox" id="chkseo" name="chkseo" value="SEO" />
+    <label for="chkseo">marketing and SEO</label>
+
+    <input type="checkbox" id="chktraining" name="chktraining" value="training" />
+    <label for="chktraining">technical training</label>
+
+    <input type="checkbox" id="chkwriting" name="chkwriting" value="writing" />
+    <label for="chkwriting">writing or documentation</label>
+
+    <input type="checkbox" id="chkconference" name="chkconference" value="conference" />
+    <label for="chkconference">conference or event speaking</label>
+
+    <p class="error"></p>
+
+    <p class="submit">sending...</p>
+
+    <button type="submit" name="submit" value="send">send</button>
+
+  </div>
+
+  <p class="posted">Thank you for your enquiry. We will contact you shortly.</p>
+
+</form>

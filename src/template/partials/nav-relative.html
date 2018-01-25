@@ -2,11 +2,6 @@
   let rel = '';
   if (!private && navrel) {
 
-    // parent
-    if (navrel.parent) {
-      rel += '<li class="link-parent"><a href="' + root + navrel.parent.url + '" class="icon up">' + navrel.parent.title + '</a></li>';
-    }
-
     // back
     if (navrel.back) {
       rel += '<li class="link-back"><a href="' + root + navrel.back.url + '" class="icon left">' + navrel.back.title + '</a></li>';
@@ -15,6 +10,11 @@
     // next
     if (navrel.next) {
       rel += '<li class="link-next"><a href="' + root + navrel.next.url + '" class="icon right">' + navrel.next.title + '</a></li>';
+    }
+
+    // parent
+    if (navrel.parent) {
+      rel += '<li class="link-parent"><a href="' + root + navrel.parent.url + '" class="icon up">' + navrel.parent.title + '</a></li>';
     }
 
     if (rel) {

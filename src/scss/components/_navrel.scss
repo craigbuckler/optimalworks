@@ -4,17 +4,33 @@ nav.tag, nav.relative {
   ul {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
     list-style-type: none;
     padding: 0;
     margin: 2em 0 0 0;
   }
 
   li {
+    text-align: left;
     padding: 0;
     margin: 2vmin;
   }
 
+  li.link-next {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  li.link-parent {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+}
+
+// tags
+nav.tag ul {
+  justify-content: flex-end;
 }
 
 // contact

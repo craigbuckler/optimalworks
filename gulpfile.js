@@ -32,7 +32,7 @@
       author      : pkg.author,
       thisDomain  : devBuild ? site.devdomain : site.domain,
       rootpath    : devBuild ? site.devroot : site.root,
-      layout      : 'page.html',
+      layout      : 'page.ejs',
       now         : now,
       nowYear     : now.getUTCFullYear()
     },
@@ -118,7 +118,6 @@
     },
 
     layouts: {
-      engine    : 'ejs',
       directory : dir.src + 'template/',
       default   : sitemeta.layout
     },

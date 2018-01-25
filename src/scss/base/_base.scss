@@ -1,4 +1,8 @@
 // Base styles
+:root {
+  font-size: $font-size-rwd;
+}
+
 html {
   touch-action: manipulation;
   background-color: $color-logo;
@@ -6,8 +10,7 @@ html {
 
 body {
   font-family: $font-main;
-  font-size: $font-size-old;
-  font-size: $font-size-rwd;
+  font-size: 100%;
   font-weight: 300;
   line-height: 1.2;
   @include reset;
@@ -25,18 +28,27 @@ pre {
 	font-family: $font-mono;
 }
 
-h1, h2, h3, strong {
+h1, h2 {
+  clear: both;
+  font-size: 1.8rem;
   font-weight: 400;
-  @include reset;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  padding: 0;
   margin: 1em 0 0 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2em;
 }
 
 p {
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 1em 0 0 0;
 }
 
-h2 + p, h3 + p {
+h2 + p {
   margin-top: 0.2em;
 }
 

@@ -10,31 +10,40 @@
 
   var
     menuOpener = ow.lib.id(ow.menuOpener),
-    menu = ow.lib.id(ow.menuId);
+    menu = ow.lib.id(ow.menuId),
+    isOpen = false,
+    cfg = {
+      activate: 'active',
+      menuOpen: 'open',
+      bodyOpen: 'menuopen',
+      openHash: '#open'
+    };
 
   if (!menuOpener || !menu || !window.addEventListener || !document.body.classList) return;
 
   // menu is active
-  menu.parentNode.classList.add('active');
+  menu.parentNode.classList.add(cfg.activate);
 
   // hamburger
   menuOpener.addEventListener('click', function(e) {
 
-    menu.classList.toggle('open');
-    document.body.classList.toggle('menuopen');
+    document.body.classList.toggle(cfg.bodyOpen);
+    menu.classList.toggle(cfg.menuOpen);
+    isOpen = menu.classList.contains(cfg.menuOpen);
     e.preventDefault();
     e.stopPropagation();
 
   }, false);
 
 
-  // body
+  // deactivate menu on body click
   document.body.addEventListener('click', function(e) {
 
-    if (menu.classList.contains('open')) {
-      menu.classList.remove('open');
-      document.body.classList.remove('menuopen');
-    }
+    if (!isOpen || ow.lib.closest('ul', e.target) === menu) return;
+
+    document.body.classList.remove(cfg.bodyOpen);
+    menu.classList.remove(cfg.menuOpen);
+    isOpen = false;
 
   });
 
@@ -43,10 +52,10 @@
   menu.addEventListener('click', function(e) {
 
     var t = e.target;
-    if (t.hash === '#open') {
+    if (t.hash === cfg.openHash) {
 
       var li = ow.lib.closest('li', t);
-      if (li) li.classList.toggle('open');
+      if (li) li.classList.toggle(cfg.menuOpen);
       e.preventDefault();
       e.stopPropagation();
 

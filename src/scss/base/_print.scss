@@ -9,15 +9,18 @@
 	html, body {
 		width: 100%;
 		font-size: 100%;
+  }
 
-	}
-
-  header, nav.main, nav.tag, nav.relative, footer a {
+  header, nav.main, nav.tag, nav.relative, footer a.twitter, blockquote:after {
     display: none !important;
   }
 
   footer {
     border-top: 1px solid #ccc;
+  }
+
+  blockquote {
+    border: 1px solid #000;
   }
 
 }

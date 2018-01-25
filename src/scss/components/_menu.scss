@@ -1,6 +1,6 @@
 // menu system
-$menuheight: 2.8em;
-$menupad: 1.5em;
+$menuheight: 3rem;
+$menupad: 1.5rem;
 
 nav.main {
 
@@ -46,9 +46,11 @@ nav.active {
   right: 0;
   top: $menuheight;
   bottom: 0;
+  font-size: 1.2rem;
   transform: translateX(100%);
   will-change: transform;
   transition: transform 0.2s ease-in-out;
+  user-select: none;
 
   &.open {
     transform: translateX(0%);
@@ -70,13 +72,13 @@ nav.active {
   a, strong {
     display: block;
     font-size: 1.2em;
-    width: 10em;
+    width: 9em;
     padding: 0.2em 0 0.4em $menupad;
     margin: 0;
   }
 
   ul a, ul strong {
-    padding-left: $menupad + 1em;
+    padding-left: $menupad + 1rem;
   }
 
   a.opener {
@@ -108,6 +110,8 @@ nav.active {
 
   #menu {
 
+    font-size: 1rem;
+
     a, strong {
       width: auto;
       padding: 0.5em 2vw 1em;
@@ -130,9 +134,10 @@ nav.active {
     li:hover ul, li:focus ul {
       display: block;
       background-color: rgba($color-menu, 0.9);
-      padding-bottom: 0.8em;
+      padding-bottom: 1em;
 
       a, strong {
+        width: 8em;
         padding: 0.2em 2vw;
       }
     }

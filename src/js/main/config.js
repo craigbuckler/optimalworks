@@ -3,6 +3,7 @@
 */
 
 var ow = ow || {
+	name:					'/* @echo shortname */',
 	version:			'/* @echo version */',
 	devBuild:			/* @echo devBuild */,
 	font:					'/* @echo font */',

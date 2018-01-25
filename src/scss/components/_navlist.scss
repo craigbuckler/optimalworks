@@ -51,9 +51,16 @@
     transform: scale(1.2);
   }
 
-  h2, p {
+  h2 {
+    font-size: 1.1em;
     line-height: 1.1;
     margin: 0.3rem 1rem;
+  }
+
+  p {
+    font-size: 0.85em;
+    line-height: 1.2;
+    margin: 0 1rem 0.5rem 1rem;
   }
 
   p.date {

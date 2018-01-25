@@ -64,14 +64,14 @@ ow.lib = (function() {
     doc = doc || document;
     return doc.getElementsByClassName(cn);
   }
-
+*/
 
   // querySelector
   function query(sel, doc) {
     doc = doc || document;
     return doc.querySelector(sel);
   }
-*/
+
 
   // querySelectorAll
   function queryAll(sel, doc) {
@@ -156,7 +156,7 @@ ow.lib = (function() {
 
     return val;
   }
-
+*/
 
   // create object from form data (set forQS true to create a querystring)
   function getFormData(form, forQS) {
@@ -175,6 +175,7 @@ ow.lib = (function() {
   }
 
 
+/*
   // update form values
   function updateForm(form, obj) {
 
@@ -279,7 +280,7 @@ ow.lib = (function() {
 
   }
 
-/*
+
   // Ajax handler:
   // obj				- form node or URL string (required)
   // callback		- return function passed err, url, data (optional)
@@ -367,14 +368,14 @@ ow.lib = (function() {
         // abort request
         complete = true;
         req.abort();
-        callback('TIMEOUT', null);
+        callback('TIMEOUT', retUrl, null);
       }
 
     };
     timeoutCheck();
 
   }
-*/
+
 
   // public methods
   return {
@@ -385,20 +386,20 @@ ow.lib = (function() {
     id: id,
     //tag: tag,
     //className: className,
-    //query: query,
+    query: query,
     queryAll: queryAll,
-    closest: closest
+    closest: closest,
     //empty: empty,
     //setSelect: setSelect,
     //appliedStyle: appliedStyle,
     //posTop: posTop,
     //posLeft: posLeft,
-    //getFormData: getFormData,
+    getFormData: getFormData,
     //updateForm: updateForm,
     //queryStringParse: queryStringParse,
     //eventDebounce: eventDebounce,
     //eventThrottle: eventThrottle,
-    //ajax: ajax
+    ajax: ajax
   };
 
 })();

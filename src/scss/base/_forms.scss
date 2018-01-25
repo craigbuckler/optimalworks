@@ -1,0 +1,185 @@
+// form styling
+
+form {
+  @include reset;
+}
+
+.validator {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.formgrid {
+  display: grid;
+  grid-template-columns: auto 1rem auto;
+  grid-gap: 3px 0.5rem;
+  align-items: start;
+  grid-auto-flow: dense;
+
+  p {
+    grid-column: 1 / 4;
+    clear: both;
+    font-weight: 600;
+    user-select: none;
+  }
+}
+
+input, output, textarea, select, button {
+  grid-column: 2 / 4;
+  clear: both;
+  float: right;
+  width: 70%;
+  font-family: $font-main;
+  font-size: 1rem;
+  padding: 0.2rem 0.4rem;
+  margin: 0 0 3px 0;
+  background-color: $color-menu;
+  border: 0 none;
+	border-radius: 0;
+  outline: 0 none;
+  box-shadow: none;
+}
+
+select {
+  padding-left: 0.2rem;
+  outline: 0 none;
+  cursor: pointer;
+}
+
+textarea {
+  height: auto;
+}
+
+label {
+  grid-column: 1 / 2;
+  float: left;
+  font-size: 1rem;
+  text-align: right;
+  padding: 0.25rem 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"], input[type="radio"] {
+
+  grid-column: 2 / 3;
+  width: auto;
+  float: left;
+  margin: 0.4rem 0.5rem 0 30%;
+
+  & + label {
+    grid-column: 3 / 4;
+    text-align: left;
+    padding: 0;
+  }
+
+}
+
+// grid layout
+@supports (display: grid) {
+
+  input, output, textarea, select, button {
+    width: 100%;
+    margin: 0;
+  }
+
+}
+
+button {
+  width: 10em;
+  font-weight: 600;
+  line-height: 1.6;
+  padding: 0.2rem 0 0.4rem;
+  margin-top: 1rem;
+  color: $color-back;
+  background-color: $color-fore;
+  cursor: pointer;
+
+  &:hover, &:focus {
+    color: #fff;
+    background-color: $color-logo;
+  }
+
+  &::-moz-focus-inner {
+    border:0;
+  }
+
+}
+
+// submit status
+.submit {
+  display: inline-block;
+  margin: 0 auto;
+  color: $color-logo;
+
+  &:before {
+    display: inline-block;
+    content: ' ';
+    width: 1.4em;
+    height: 1.4em;
+    vertical-align: middle;
+    margin-right: 0.3em;
+    border: 3px dashed $color-logo;
+    border-radius: 50%;
+    will-change: transform, filter;
+    animation: spinner 2s linear infinite;
+  }
+}
+
+// submitting actions
+button[type='submit'] {
+  display: block;
+}
+
+.submit {
+  display: none;
+}
+
+form.submitting {
+
+  button[type='submit'] {
+    display: none;
+  }
+
+  .submit {
+    display: inline-block;
+  }
+
+}
+
+// error
+p.error {
+  text-align: center;
+  color: $color-logo;
+}
+
+// successful post
+p.posted {
+  display: none;
+}
+
+form.success {
+
+  div, p {
+    display: none;
+  }
+
+  p.posted {
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+  }
+
+}
+
+
+// animation
+@keyframes spinner {
+  0% { transform: scale(1) rotate(0deg); filter: opacity(1); }
+  50% { transform: scale(0.6) rotate(180deg); filter: opacity(0.5); }
+	100% { transform: scale(1) rotate(720deg); filter: opacity(1); }
+}

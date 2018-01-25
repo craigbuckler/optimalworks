@@ -5,7 +5,7 @@ hero: v1514119229/works/fireworks.jpg
 heroquote: we're back!
 publish: 2017-12-29
 tag: web, pwa
-layout: article.html
+layout: article.ejs
 ---
 
 Successful builders often live in the worst homes. Perhaps successful developers have the worst websites? They're too busy building sites and applications for other people. *That's my excuse*.
