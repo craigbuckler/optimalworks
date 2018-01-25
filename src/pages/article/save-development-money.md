@@ -46,7 +46,7 @@ If you want the best-value fixed-price solution, it's up to you to state that pr
 Of course, no one does this. Every day, developers are bombarded with *"how much?"* requests from people with vague or non-existent specifications. The answer will always be *"it depends?"*. If pushed, I will think of a obscenely high number, double it, add 500% contingency then multiply by Pi because it's impossible to quantify. You certainly won't get the best price.
 
 
-### Forget revenue share options
+## Forget revenue share options
 I certainly would make millions if I had a pound for every approach like this!
 
 > I have a fantastic idea: you develop it and we'll share the millions!
