@@ -17,11 +17,12 @@
   for (var f = form.length - 1; f >= 0; f--) new Validator(
     form[f],
     {
-      methodInit: 'init',
+      methodInit:   'init',
       methodSubmit: 'submit',
-      activeClass: 'active',
-      submitClass: 'submitting',
+      activeClass:  'active',
+      submitClass:  'submitting',
       successClass: 'success',
+      errorClass:   'error',
       errorElement: '.error'
     }
   );
@@ -65,8 +66,9 @@
     // start submit
     if (this.submitting) return;
     this.submitting = true;
-    this.error.textContent = '';
+    this.form.classList.remove(this.cfg.errorClass);
     this.form.classList.add(this.cfg.submitClass);
+    this.error.textContent = '';
 
     // Ajax request
     ow.lib.ajax(this.form, complete.bind(this), append.bind(this));
@@ -104,6 +106,7 @@
 
         // submission failed - show error
         this.error.textContent = data.error || 'Send failed: please try again shortly ' + (err === 'TIMEOUT' ? '[601]' : '[999]') + '.';
+        this.form.classList.add(this.cfg.errorClass);
 
       }
       else {

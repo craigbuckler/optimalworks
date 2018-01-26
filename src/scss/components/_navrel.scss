@@ -1,6 +1,8 @@
 // relative navigation
 nav.tag, nav.relative {
 
+  clear: both;
+
   ul {
     display: flex;
     flex-flow: row wrap;
