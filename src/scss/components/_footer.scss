@@ -23,10 +23,11 @@ footer {
     color: $color-back;
 
     &:before {
-      width: 1em;
+      width: 1.4em;
+      height: 1.4em;
       margin-right: 0.4em;
       background-color: $color-back;
-      border-radius: 50%;
+      border-radius: 20%;
     }
   }
 

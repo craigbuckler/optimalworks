@@ -1,6 +1,6 @@
 {
-  "name": "OptimalWorks.net",
-  "version": "1.0.5",
+  "name": "optimalworks",
+  "version": "1.0.6",
   "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, research, design, development, training, marketing and consultancy.",
   "author": "Craig Buckler",
   "main": "gulp build",

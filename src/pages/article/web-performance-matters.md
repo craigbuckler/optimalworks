@@ -1,8 +1,8 @@
 ---
 title: Why web performance matters
 description: Why the web became bloated and how we can fix it.
-hero: v1515501268/works/money-bank.jpg
-heroquote: fixing the web one page at a time
+hero: v1517000950/works/speed.jpg
+heroquote: striving for a better web
 publish: 2018-01-26
 tag: web, performance
 layout: article.ejs
@@ -19,37 +19,43 @@ Despite this, web performance is more important than ever:
 1. Bandwidth remains limited and expensive. Accessing a single page costs the average UK mobile user £0.10. In Vanuatu, it's 2% of daily income. [(Source: whatdoesmysitecost.com)](https://whatdoesmysitecost.com/).
 1. Google has announced [page speed will become a ranking factor](http://www.thesempost.com/google-mobile-first-index-page-speed-ranking/); *slow sites will fall in search results*.
 
-I love web technologies and work on them every day but, like many, I often find it an annoying, slow user experience.
+I love online technologies and work on the web every day but, like many, I often find it a frustrating user experience.
 
 
 ## It's probably not your server
-If your pages are slow it's tempting to blame the server hardware, operating system, or network capacity. Those factors have an influence but the best road in the world will not make an Austin Allegro (awful 70's UK car) drive like a Ferrari. A slow site will remain slow because you have no control over the user's computing or bandwidth capabilities.
+If your pages are slow it's tempting to blame the server hardware, operating system, or network capacity. Those factors have an influence but the best road in the world will not make an Austin Allegro (awful 70's UK car) drive like a Ferrari.
+
+A slow site will remain slow because you have no control over the user's computing or bandwidth capabilities. Adding more RAM or tweaking settings has a limited effect.
 
 
-## How did pages become so bloated?
-Humans like to accumulate stuff. It's easy to obtain more desirable objects. Throwing obsolete items away is more difficult: *are you sure you'll never need it?*
+## How do web pages become bloated?
+We all accumulate stuff. It's easy to obtain more desirable objects but throwing items away is considerably more difficult. *Are you sure you'll never need it?*
 
-One of the biggest culprits is [WordPress](https://wordpress.com/). WordPress is a fabulous Content Management System which powers one third of the web. WordPress performance can be good, but the way it's used is rarely efficient...
+One of the biggest web bloat culprits is [WordPress](https://wordpress.com/). WordPress is a fabulous Content Management System which powers one third of the web. It's performance can be good, but the way it's used is rarely efficient...
 
-1. The majority of businesses grab an attractive, perhaps free, template. These are crammed full of features to appeal to the widest possible audience, but few sites use more than a small fraction. Unnecessary code is already been added to the download.
+1. The majority of businesses grab an attractive template. These are crammed full of features to appeal to the widest possible audience, yet sites use no more than a small fraction of the facilities. Unused code is present in the download.
+1. The owner then adds further (mostly free) plug-ins. It's a simple one-click installation process but little attention is paid to the increasing download cost.
 
-A website or application can evolve over many years by an ever-changing team of developers. They might start with a framework then add further code as more features are required. Eventually, features are removed, hidden or modified but it's difficult to know whether a chunk of code can be removed. After all, it could affect just one page in a huge site. Or perhaps removal could have unforeseen consequences on other, seemingly unrelated parts of an application.
+Other websites and applications can evolve over many years by an ever-changing team of developers. They might start with a framework which, in itself, may contain unused features. Further code is then added as more features are required. Eventually, those are removed, hidden or modified but it's difficult to know whether a chunk of code is obsolete. It could affect just one page in a huge site. Or perhaps removal could have unforeseen consequences on other, seemingly unrelated parts of the application.
 
-There are tools to help code removal but there's a far easier option: *keep everything*.
-
-
+There are tools to help code deletion but there's an easier option: *keep everything*. Before long, page weight can spiral out of control.
 
 
 ## AMP is not the answer
-Several companies have provided slow web *solutions*:
+Several companies have provided web performance *solutions*:
 
 * Google has the [AMP project - Accelerated Mobile Pages](https://www.ampproject.org/)
 * Facebook has [Instant Articles](https://instantarticles.fb.com/)
 
-These systems require you to provide your existing content in a different way on a new URL. You're recreating everything again using technologies and techniques dictated by those companies. No matter how 'open' they claim to be, AMP and IA are closed alternatives to the open web. Even then, AMP/IA pages can still exceed several MB.
+These systems require you to convert your existing content into a different 'site' on a new URL. You're recreating everything again using technologies and techniques dictated by those companies. No matter how 'open' they claim to be, AMP and IA are closed alternatives to the open web. Even then, AMP/IA pages can still exceed several MB.
 
 
+## Performance is not a quick fix
 > perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away
 <cite>Antoine de Saint-Exupery, novelist</cite>
 
-consider performance from the start
+Unfortunately, there are no shortcuts. Like Search Engine Optimisation, performance is not a secret magical sauce sprinkled on a site to make it operate faster. It it likely to require dozens of changes before improvements become noticeable.
+
+Ideally, performance should be considered from the start. Developers used to do that in the early days of the web because dial-up connection speeds were woeful. Pages were considered excessive - *or even unusable* - if they exceeded 100Kb. Those days are over but performance skills should never have been forgotten.
+
+Google will punish slow sites and applications. Make sure yours isn't one of them - [contact us today]([root]contact/).

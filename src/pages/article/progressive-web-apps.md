@@ -4,7 +4,7 @@ description: Why all our web sites and applications adopt PWA technologies.
 hero: v1515164505/works/mobile-phone.jpg
 heroquote: progressing the web
 publish: 2018-01-05
-tag: web, pwa
+tag: web, pwa, performance
 layout: article.ejs
 ---
 
