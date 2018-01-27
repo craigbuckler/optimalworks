@@ -48,13 +48,13 @@ p {
   margin: 1em 0 0 0;
 }
 
-h2 + p {
+h2 + p, h2 + blockquote + p {
   margin-top: 0.2em;
 }
 
 ul, ol {
   padding: 0;
-  margin: 1.5em 3em 1em 3em;
+  margin: 1.5em 3em;
 }
 
 ul {
@@ -62,6 +62,7 @@ ul {
 }
 
 li {
+  line-height: 1.5;
   padding: 0;
   margin: 0.8em 0 0 0;
 }
@@ -89,15 +90,17 @@ blockquote {
     font-style: italic;
     line-height: 1.1;
     text-align: center;
+    text-indent: 0.5em;
     margin: 0;
 
     &:before {
-      float: left;
+      position: absolute;
       font-family: serif;
       content: '\201c';
       font-style: normal;
       font-size: 3em;
-      margin-top: -0.3em;
+      margin: -0.3em 0 0 -0.65em;
+      color: darken($color-menu, 50%);
     }
   }
 

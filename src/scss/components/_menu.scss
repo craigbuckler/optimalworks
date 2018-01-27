@@ -57,6 +57,7 @@ nav.active {
   }
 
   &, ul, li {
+    line-height: 1.25;
     list-style-type: none;
     @include reset;
   }
