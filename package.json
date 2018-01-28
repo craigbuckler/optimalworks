@@ -1,6 +1,6 @@
 {
   "name": "optimalworks",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, research, design, development, training, marketing and consultancy.",
   "author": "Craig Buckler",
   "main": "gulp build",
@@ -47,13 +47,13 @@
     "gulp-imagemin": "4.1.0",
     "gulp-lightmin": "0.0.2",
     "gulp-newer": "1.4.0",
+    "gulp-noop": "1.0.0",
     "gulp-postcss": "7.0.1",
     "gulp-preprocess": "2.0.0",
     "gulp-sass": "3.1.0",
     "gulp-strip-debug": "2.0.0",
     "gulp-trimlines": "1.0.1",
     "gulp-uglify": "3.0.0",
-    "gulp-util": "3.0.8",
     "jstransformer-ejs": "0.2.0",
     "metalsmith": "2.3.0",
     "metalsmith-beautify": "0.2.0",
@@ -66,7 +66,7 @@
     "metalsmith-publish": "0.1.5",
     "metalsmith-word-count": "0.0.4",
     "postcss-assets": "5.0.0",
-    "vinyl-ftp": "0.6.0"
+    "vinyl-ftp": "0.6.1"
   },
   "devDependencies": {
     "browser-sync": "2.23.6"
