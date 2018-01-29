@@ -14,6 +14,10 @@ Craig Buckler, OptimalWorks Ltd director, is an active participant in the web de
 
 
 ## Articles and tutorials
+
+> Amazing tutorials! I highly recommend these for any JavaScript developer
+<cite>PS</cite>
+
 Craig has written more than 1,100 articles and technical tutorials for [SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler) since 2009. He has also collaborated on several SitePoint books including:
 
 * [Jump Start Responsive Web Design](https://www.sitepoint.com/premium/books/jump-start-responsive-web-design-2nd-edition?aref=cbuckler)
@@ -23,6 +27,10 @@ Craig has written more than 1,100 articles and technical tutorials for [SitePoin
 
 
 ## Video tutorials
+
+> I wanted to let you know how good your videos are compared to other series. I wonder if other tutors fully understood the language
+<cite>RJ</cite>
+
 Craig has produced a number of technical tutorial videos for [O'Reilly](http://www.oreilly.com/pub/au/6665) including:
 
 * [Learning JavaScript Programming](http://shop.oreilly.com/product/110000242.do)
@@ -34,6 +42,10 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 
 
 ## Conference speaking
+
+> these are by far the best JavaScript video tutorials I have found
+<cite>PA</cite>
+
 Craig regularly attends and speaks at technical conferences. Previous presentations include:
 
 * Raise Your VR A-Game with A-Frame - [TechExeter 2017](http://conference.techexeter.uk)
