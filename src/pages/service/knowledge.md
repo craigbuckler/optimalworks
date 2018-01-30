@@ -28,7 +28,7 @@ Craig has written more than 1,100 articles and technical tutorials for [SitePoin
 
 ## Video tutorials
 
-> I wanted to let you know how good your videos are compared to other series. I wonder if other tutors fully understood the language
+> I wanted to let you know how good your videos are compared to others. I wonder if other tutors fully understood the language?
 <cite>RJ</cite>
 
 Craig has produced a number of technical tutorial videos for [O'Reilly](http://www.oreilly.com/pub/au/6665) including:

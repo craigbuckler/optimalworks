@@ -25,7 +25,15 @@
     "offlineURL": "offline/",
     "offlineList": "cachedpagelist",
     "imagecdn": "https://res.cloudinary.com/oworks/image/upload/",
-    "analytics": "UA-114126-2"
+    "analytics": "UA-114126-2",
+    "cors": {
+      "default-src":  "",
+      "style-src":    "",
+      "script-src":   "*.google-analytics.com *.googletagmanager.com *.cloudflare.com data:",
+      "connect-src":  "*.google-analytics.com *.optimalworks.net data:",
+      "img-src":      "* data:",
+      "font-src":     "data:"
+    }
   },
   "scripts": {
     "start": "gulp build",

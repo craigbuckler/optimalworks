@@ -82,6 +82,13 @@
   // full root URL
   sitemeta.rootURL = sitemeta.thisDomain + (sitemeta.rootpath || '');
 
+  // CORS string
+  let cors = '';
+  for (let c in sitemeta.cors) {
+    cors += `${c} 'self' ${sitemeta.cors[c]}`.trim() + '; ';
+  }
+  sitemeta.cors = cors.trim();
+
   // Browser-sync
   var browsersync	= false;
 

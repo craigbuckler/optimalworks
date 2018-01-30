@@ -10,6 +10,9 @@ tag: service
 priority: 0.89
 ---
 
+> it's the best system specification we have ever seen
+<cite>US consultancy</cite>
+
 We work with start-ups and established organisations to provide pragmatic, cost-effective IT and web based solutions to streamline operations, maximize productivity, and encourage rapid growth in competitive markets.
 
 Our consultancy services include, but are not limited to:
