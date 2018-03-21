@@ -10,7 +10,7 @@ tag: service
 priority: 0.88
 ---
 
-We specialise in building bespoke, best-practise, standards-based, websites and applications using modern web technologies.
+We specialise in building bespoke, best-practise, standards-based, websites and applications using the latest web technologies and techniques.
 
 * rapid, agile development
 * effective content strategies
@@ -35,11 +35,11 @@ All client projects details are covered by non-disclosure agreements but recent 
 
 * automated, artificially-intelligent web bots to detect worldwide fraud in the web and mobile advertising markets
 * big data storage, retrieval, analysis, and altering systems for a client with a global user base
-* HTML reporting system which permits offline use and responsive viewing on any device
-* virtual reality data visualisation
+* HTML reporting systems which permits offline use and responsive viewing on any device
+* virtual reality data visualisations
 * Progressive Web App implementations
-* a new, award-winning website
+* an award-winning website
 
 
 ## Clients
-Previous clients include HMRC, Microsoft, MSN, Yahoo, Sky, Hewlett Packard, Thomson Reuters, Santander, NatWest, Credit Suisse, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, several London councils, Plymouth University, Exeter University, Symantec, Empello, Rokk Media, Landmark, TwoFour, Hemsley Fraser Group and many SMEs.
+Previous clients include HMRC, Microsoft, MSN, Yahoo, Sky, Vodafone, Hewlett Packard, Thomson Reuters, Santander, NatWest, Credit Suisse, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, several London councils, Plymouth University, Exeter University, Symantec, Empello, Rokk Media, Landmark, TwoFour, Hemsley Fraser Group and many SMEs.

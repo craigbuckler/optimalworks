@@ -15,7 +15,6 @@ reverse: true
 Recent articles published by [Craig Buckler on SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler):
 
 * [Which Browsers Should Your Website Support?](https://www.sitepoint.com/browsers-website-support/?aref=cbuckler)
-* [The Ultimate Beginner's Guide to Setting Up & Running a WordPress Site](https://www.sitepoint.com/the-ultimate-beginners-guide-to-setting-up-running-a-wordpress-site/?aref=cbuckler)
 * [How to Get Started with Your Website Content Security Policy](https://www.sitepoint.com/content-security-policy-getting-started/?aref=cbuckler)
 * [How to Track JavaScript and Ajax Events with Google Analytics](https://www.sitepoint.com/google-analytics-track-javascript-ajax-events/?aref=cbuckler)
 * [How to Track Ecommerce Transactions with Google Analytics](https://www.sitepoint.com/track-ecommerce-transactions-google-analytics-reports/?aref=cbuckler)

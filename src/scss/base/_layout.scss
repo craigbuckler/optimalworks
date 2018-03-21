@@ -14,7 +14,7 @@ nav.main, #menu {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: rgba($color-menu, 0.9);
+  background-color: rgba($color-menu, 0.97);
 }
 
 .menuopen nav.main {
@@ -22,13 +22,12 @@ nav.main, #menu {
 }
 
 #logo, #menuopen {
-  float: left;
-  font-size: 1.5em;
-  margin: 0.2em 2vw 0.4em;
-}
+  font-size: 1.6em;
+  margin: 0.1em 2vw;
 
-#menuopen {
-  float: right;
+  a {
+    display: block;
+  }
 }
 
 // grid layout
