@@ -1,6 +1,6 @@
 {
   "name": "optimalworks",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, research, design, development, training, marketing and consultancy.",
   "author": "Craig Buckler",
   "main": "gulp build",
@@ -27,12 +27,12 @@
     "imagecdn": "https://res.cloudinary.com/oworks/image/upload/",
     "analytics": "UA-114126-2",
     "cors": {
-      "default-src":  "",
-      "style-src":    "",
-      "script-src":   "*.google-analytics.com *.googletagmanager.com *.cloudflare.com data:",
-      "connect-src":  "*.google-analytics.com *.optimalworks.net data:",
-      "img-src":      "* data:",
-      "font-src":     "data:"
+      "default-src": "",
+      "style-src": "",
+      "script-src": "*.google-analytics.com *.googletagmanager.com *.cloudflare.com data:",
+      "connect-src": "*.google-analytics.com *.optimalworks.net data:",
+      "img-src": "* data:",
+      "font-src": "data:"
     }
   },
   "scripts": {
@@ -45,7 +45,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "7.2.5",
+    "autoprefixer": "8.1.0",
     "css-mqpacker": "6.0.2",
     "cssnano": "3.10.0",
     "del": "3.0.0",
@@ -59,7 +59,7 @@
     "gulp-postcss": "7.0.1",
     "gulp-preprocess": "2.0.0",
     "gulp-sass": "3.1.0",
-    "gulp-strip-debug": "2.0.0",
+    "gulp-strip-debug": "3.0.0",
     "gulp-trimlines": "1.0.1",
     "gulp-uglify": "3.0.0",
     "jstransformer-ejs": "0.2.0",

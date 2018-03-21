@@ -1,14 +1,13 @@
 // menu system
 $menuheight: 3rem;
-$menupad: 1.5rem;
+$menupad: 1.8rem;
 
 nav.main {
 
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
   height: $menuheight;
-
-  p {
-    line-height: 1.2;
-  }
 
   a:link, a:visited {
     color: $color-fore;
@@ -104,7 +103,6 @@ nav.active {
   #menu, nav.active #menu {
     position: static;
     display: flex;
-    float: right;
     background-color: transparent;
     transform: translateX(0%);
   }
