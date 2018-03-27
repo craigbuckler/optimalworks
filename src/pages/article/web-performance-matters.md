@@ -4,7 +4,7 @@ description: Why the web became bloated and how we can fix it.
 hero: v1517000950/works/speed.jpg
 heroquote: striving for a better web
 publish: 2018-01-27
-tag: web, performance
+tag: web, performance, seo
 layout: article.ejs
 ---
 

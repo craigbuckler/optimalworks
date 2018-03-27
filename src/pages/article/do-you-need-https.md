@@ -4,7 +4,7 @@ description: Is your website or application using secure transmission protocols?
 hero: v1521642749/works/secure.jpg
 heroquote: securing your systems
 publish: 2018-03-21
-tag: web, security
+tag: web, security, seo
 layout: article.ejs
 ---
 
