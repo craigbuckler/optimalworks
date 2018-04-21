@@ -42,7 +42,7 @@
       function(err, url, data) {
 
         // invalid request?
-        if (err || !data) return;
+        if (err || !data || typeof data !== 'object') return;
 
         // initialise form
         this.postback = data;

@@ -63,6 +63,18 @@ function offlineAsset(url) {
     );
 
   }
+  else if (url.startsWith('https://www.optimalworks.net/ws/')) {
+
+    // return nothing for Ajax request
+    return new Response(
+      '',
+      { headers: {
+        'Content-Type': 'text/html',
+        'Cache-Control': 'no-store'
+      }}
+    );
+
+  }
   else {
 
     // return page
