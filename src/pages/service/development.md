@@ -12,6 +12,8 @@ priority: 0.88
 
 We specialise in building bespoke, best-practise, standards-based, websites and applications using the latest web technologies and techniques.
 
+> we provide the most cost-effective solution in the quickest possible time
+
 * rapid, agile development
 * effective content strategies
 * practical organisation and navigation
@@ -19,12 +21,35 @@ We specialise in building bespoke, best-practise, standards-based, websites and 
 * modern but backward-compatible applications using progressive enhancement
 * responsive web design and progressive web apps
 * best-practise accessibility
-* search engine optimisation
-* social media campaigns and online advertising
+* search engine optimisation, social media campaigns and online advertising
 * top-level robust security
 * cost-effective hosting and deployment
 * legal compliance
-* reduced costs
+
+Ultimately, we aim to understand your requirements to provide the most cost-effective solution in the quickest possible time.
+
+
+## Technology expertise
+Our skills include:
+
+* HTML5, CSS3, JavaScript, browser APIs, frameworks
+* Node.js, PHP, .NET, Ruby and more
+* MySQL, SQL Server, PostgreSQL, SQLite, MongoDB
+* business analysis, system and database design
+* web standards, progressive enhancement, accessibility, RWD
+* cross-device mobile, desktop, and offline Progressive Web Apps
+* virtual reality and augmented reality
+* Apache, NGINX, IIS, DNS, HTTPS, AWS, hosting and security
+* modern build tools, Gulp.js, Grunt.js, Webpack
+* Docker, virtualisation and container systems
+* graphic design, image optimisation
+* CMSes, static sites, WordPress, theme and plug-in development
+* Search Engine Optimisation (SEO), Search Engine Marketing (SEM)
+* big data, storage, analysis and visualisation
+* security, CSP, CORS, penetration testing, and associated technologies
+* browser automation, PhantomJS, Chrome headless
+* Agile methodologies, TDD, BDD, continuous integration
+* all main browsers, tools, issues and workarounds
 
 
 ## Recent projects
