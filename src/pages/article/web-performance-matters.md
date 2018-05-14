@@ -1,6 +1,6 @@
 ---
 title: Why web performance matters
-description: Why the web became bloated and how we can fix it.
+description: How the web became bloated, the impact it has on your website, and how it can be fixed.
 hero: v1517000950/works/speed.jpg
 heroquote: striving for a better web
 publish: 2018-01-27

@@ -1,7 +1,7 @@
 ---
 title: Contact
 menu: contact
-description: Contact us to discuss your next project.
+description: How to contact us to discuss your next web site or web app project.
 hero: v1513974724/works/contact.jpg
 heroquote: we'd love to hear from you
 priority: 0.5

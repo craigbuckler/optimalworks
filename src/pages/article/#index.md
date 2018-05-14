@@ -1,6 +1,6 @@
 ---
 title: Articles
-description: A list of articles published by Craig Buckler.
+description: A list of web industry articles published by Craig Buckler on the OptimalWorks website.
 hero: v1513974725/works/article.jpg
 heroquote: technology news, opinions and techniques
 ctatext: contact

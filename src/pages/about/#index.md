@@ -1,7 +1,7 @@
 ---
 title: About us
 menu: about
-description: Contact us to discuss your next project.
+description: OptimalWorks Ltd, its ambitions, and its directors, Craig Buckler and Claire Buckler.
 hero: v1513974726/works/consult.jpg
 heroquote: we'd rather talk about you!
 ctatext: contact
