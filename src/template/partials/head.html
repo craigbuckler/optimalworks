@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="<%= language %>">
+<html lang="<%= language %>" itemscope itemtype="http://schema.org/WebPage">
 <head>
 <meta charset="UTF-8">
 <title><%= title %><% if (title !== name) { %> | <%= name %><% } %></title>
@@ -32,9 +32,9 @@
 <!-- page information -->
 <meta name="application-name" content="<%= name %>">
 <meta name="description" content="<%= description %>">
-<meta name="keywords" content="<%= keywords %>">
-<meta name="page-topic" content="<%= topic %>">
-<meta name="author" content="<%= author %>">
+<meta name="keywords" itemprop="keywords" content="<%= keywords %>">
+<meta name="page-topic" itemprop="about" content="<%= topic %>">
+<meta name="author" itemprop="author" content="<%= author %>">
 <meta name="owner" content="<%= author %>">
 <meta name="revisit-after" content="7 days" />
 
@@ -49,15 +49,11 @@
 <link rel="alternate" type="application/rss+xml" title="RSS | <%= name %>" href="<%- rootURL %>feed.xml">
 <link rel="alternate" type="application/atom+xml" title="Atom | <%= name %>" href="<%- rootURL %>feed.xml">
 
-<!-- Schema.org -->
-<meta itemprop="name" content="<%= title %>">
-<meta itemprop="description" content="<%= description %>">
-
-<!-- Open Graph -->
-<meta property="og:site_name" content="<%= name %>">
-<meta property="og:url" content="<%- rootURL %><%= url %>">
-<meta property="og:title" content="<%= title %>">
-<meta property="og:description" content="<%= description %>">
+<!-- Schema.org and Open Graph -->
+<meta property="og:site_name" itemprop="publisher" content="<%= name %>">
+<meta property="og:url" itemprop="url" content="<%- rootURL %><%= url %>">
+<meta property="og:title" itemprop="name" content="<%= title %>">
+<meta property="og:description" itemprop="description" content="<%= description %>">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="<%= language %>">
 
@@ -74,8 +70,8 @@
 <meta property="twitter:description" content="<%= description %>">
 
 <% if (hero) { %>
-  <meta property="og:image" content="<%- imagecdn %><%- hero %>">
-  <meta property="twitter:image:src" content="<%- imagecdn %><%- hero %>">
+  <meta property="og:image" itemprop="primaryImageOfPage" content="<%- imagecdn %><%- hero %>">
+  <meta property="twitter:image" content="<%- imagecdn %><%- hero %>">
 <% } %>
 
 </head>
