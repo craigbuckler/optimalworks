@@ -1,6 +1,6 @@
 ---
 title: 2018 update
-description: The first OptimalWorks design update in a decade!
+description: The OptimalWorks website design has been updated for the first time in more than a decade!
 hero: v1514119229/works/fireworks.jpg
 heroquote: we're back!
 publish: 2017-12-29

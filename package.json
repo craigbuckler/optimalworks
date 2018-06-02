@@ -1,6 +1,6 @@
 {
   "name": "optimalworks",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, research, design, development, training, marketing and consultancy.",
   "author": "Craig Buckler",
   "main": "gulp build",
@@ -11,7 +11,7 @@
     "keywords": "web, online, internet, intranet, it, consultancy, application, analysis, research, design, development, programming, desktop, mobile, responsive, progressive, app, seo, search engine optimisation, marketing, database, ecommerce, standards, accessibility, writing, speaking, social, media, devon, uk",
     "topic": "IT consultancy and development",
     "company": "OptimalWorks.net",
-    "twitter": "craigbuckler",
+    "twitter": "@craigbuckler",
     "font": "",
     "language": "en-GB",
     "domain": "https://www.optimalworks.net",
@@ -45,7 +45,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "8.5.0",
+    "autoprefixer": "8.6.0",
     "css-mqpacker": "6.0.2",
     "cssnano": "3.10.0",
     "del": "3.0.0",

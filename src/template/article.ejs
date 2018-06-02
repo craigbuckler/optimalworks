@@ -1,11 +1,11 @@
 <%- include('partials/head.html'); %>
 <%- include('partials/header.html'); %>
 
-<main>
+<main itemprop="mainContentOfPage">
 
   <h1><%- title %></h1>
 
-  <p class="articleinfo"><strong><%= dateFormatted %></strong>: <%- Math.ceil(wordCount / 10) * 10 %> words, <%- readingTime %>-minute read</p>
+  <p class="articleinfo"><strong itemprop="datePublished" content="<%= date %>"><%= dateFormatted %></strong>: <%- Math.ceil(wordCount / 10) * 10 %> words, <%- readingTime %>-minute read</p>
 
   <%- contents %>
 
