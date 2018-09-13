@@ -43,11 +43,13 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 
 ## Conference speaking
 
-> these are by far the best JavaScript video tutorials I have found
-<cite>PA</cite>
+<figure data-href="[imagecdn]v1536852175/works/content/craig-presentation.jpg" class="progressive replace inline">
+  <img src="[imagecdn]c_scale,w_50/v1536852175/works/content/craig-presentation.jpg" alt="Craig Buckler, TechExeter presentation" class="preview" />
+</figure>
 
 Craig regularly attends and speaks at technical conferences. Previous presentations include:
 
+* Is PDF your Best Option? - [TechExeter 2018](http://conference.techexeter.uk)
 * Raise Your VR A-Game with A-Frame - [TechExeter 2017](http://conference.techexeter.uk)
 * The Future of Mobile: Native vs Progressive Web Apps - [TechExeter 2016](http://conference.techexeter.uk)
 * Passwordless Authentication - [TechExeter 2015](https://techexeter.uk/)
@@ -55,4 +57,8 @@ Craig regularly attends and speaks at technical conferences. Previous presentati
 
 
 ## One-to-one training
+
+> these are by far the best JavaScript video tutorials I have found
+<cite>PA</cite>
+
 Craig has trained personnel in modern web development techniques in companies including The Wall Street Journal and The Institute of Chartered Accountants in England and Wales.

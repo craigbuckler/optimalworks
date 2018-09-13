@@ -154,7 +154,6 @@ button {
     margin-right: 0.3em;
     border: 3px dashed $field-hint;
     border-radius: 50%;
-    will-change: transform, filter;
     animation: spinner 2s linear infinite;
   }
 }

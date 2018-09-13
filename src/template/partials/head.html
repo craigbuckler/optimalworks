@@ -20,7 +20,7 @@
 <link rel="icon" sizes="192x192" href="<%- rootURL %>images/icons/optimalworks-192.png">
 <link rel="icon" sizes="152x152" href="<%- rootURL %>images/icons/optimalworks-152.png">
 <link rel="icon" sizes="120x120" href="<%- rootURL %>images/icons/optimalworks-120.png">
-<link rel="icon" sizes="076x076" href="<%- rootURL %>images/icons/optimalworks-076.png">
+<link rel="icon" sizes="76x76" href="<%- rootURL %>images/icons/optimalworks-076.png">
 
 <meta name="msapplication-TileColor" content="<%= themeColor %>">
 <meta name="msapplication-TileImage" content="<%- rootURL %>images/icons/optimalworks-310.png">
@@ -32,9 +32,9 @@
 <!-- page information -->
 <meta name="application-name" content="<%= name %>">
 <meta name="description" content="<%= description %>">
-<meta name="keywords" itemprop="keywords" content="<%= keywords %>">
-<meta name="page-topic" itemprop="about" content="<%= topic %>">
-<meta name="author" itemprop="author" content="<%= author %>">
+<meta name="keywords" content="<%= keywords %>">
+<meta name="page-topic" content="<%= topic %>">
+<meta name="author" content="<%= author %>">
 <meta name="owner" content="<%= author %>">
 <meta name="revisit-after" content="7 days" />
 
@@ -49,11 +49,18 @@
 <link rel="alternate" type="application/rss+xml" title="RSS | <%= name %>" href="<%- rootURL %>feed.xml">
 <link rel="alternate" type="application/atom+xml" title="Atom | <%= name %>" href="<%- rootURL %>feed.xml">
 
-<!-- Schema.org and Open Graph -->
-<meta property="og:site_name" itemprop="publisher" content="<%= name %>">
-<meta property="og:url" itemprop="url" content="<%- rootURL %><%= url %>">
-<meta property="og:title" itemprop="name" content="<%= title %>">
-<meta property="og:description" itemprop="description" content="<%= description %>">
+<!-- Schema.org -->
+<meta itemprop="name" content="<%= title %>">
+<meta itemprop="description" content="<%= description %>">
+<meta itemprop="keywords" content="<%= keywords %>">
+<meta itemprop="about" content="<%= topic %>">
+<meta itemprop="author" content="<%= author %>">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="<%= name %>">
+<meta property="og:url" content="<%- rootURL %><%= url %>">
+<meta property="og:title" content="<%= title %>">
+<meta property="og:description" content="<%= description %>">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="<%= language %>">
 
@@ -70,7 +77,8 @@
 <meta property="twitter:description" content="<%= description %>">
 
 <% if (hero) { %>
-  <meta property="og:image" itemprop="primaryImageOfPage" content="<%- imagecdn %><%- hero %>">
+  <meta itemprop="primaryImageOfPage" content="<%- imagecdn %><%- hero %>">
+  <meta property="og:image" content="<%- imagecdn %><%- hero %>">
   <meta property="twitter:image" content="<%- imagecdn %><%- hero %>">
 <% } %>
 
