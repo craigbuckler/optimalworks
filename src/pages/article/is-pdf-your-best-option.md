@@ -2,7 +2,7 @@
 title: Is PDF your best option?
 description: Exporting PDF reports from browser-based systems may not be the simplest or most effective solution.
 hero: v1536853566/works/papers.jpg
-heroquote: export documents with all the benefits of HTML and PDF
+heroquote: the benefits of both HTML and PDF
 publish: 2018-09-13
 tag: web
 layout: article.ejs
