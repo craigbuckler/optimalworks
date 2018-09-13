@@ -16,6 +16,7 @@ body {
   @include reset;
   color: $color-fore;
   background-color: $color-back;
+  overscroll-behavior: none;
 }
 
 table, input, output, textarea, select, option, pre, button {
@@ -73,6 +74,14 @@ li > :first-child, li a > :first-child {
 
 strong {
   font-weight: 600;
+}
+
+figure {
+  margin: 1em 0 0 0;
+}
+
+figure.inline {
+  box-shadow: 0 2px 5px $color-fore;
 }
 
 blockquote {
@@ -162,6 +171,14 @@ img {
   user-select: none;
 }
 
+code {
+  font-family: monospace;
+  font-size: 0.9em;
+  padding: 0.05em 0.3em;
+  background-color: lighten($color-menu, 6%);
+  border-radius: 0.2em;
+}
+
 .articleinfo {
   font-size: 0.85em;
   padding-bottom: 0.3em;
@@ -172,6 +189,17 @@ img {
 
   .articleinfo {
     text-align: right;
+  }
+
+  figure.inline {
+    width: 50%;
+    float: right;
+    margin: 1em 0 1em 2em;
+  }
+
+  figure.inline.alt {
+    float: left;
+    margin: 1em 2em 1em 1em;
   }
 
 }

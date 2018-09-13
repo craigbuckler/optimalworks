@@ -7,14 +7,14 @@
   <% } %>
 
   <% if (heroquote) { %>
-  <section class="quote">
+  <div class="quote">
     <q><%- heroquote %></q>
     <% if (herocite) { %> <cite><%- herocite %></cite><% } %>
-  </section>
+  </div>
   <% } %>
 
   <% if (ctalink && ctatext) { %>
-    <section class="cta"><a href="[root]<%- ctalink %>" class="ghost button"><%- ctatext %></a></section>
+    <div class="cta"><a href="[root]<%- ctalink %>" class="ghost button"><%- ctatext %></a></div>
   <% } %>
 
 </header>

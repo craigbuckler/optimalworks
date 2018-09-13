@@ -17,6 +17,7 @@
 @include icon('menu');
 @include icon('email');
 @include icon('phone');
+@include icon('add');
 @include icon('tag');
 @include icon('twitter');
 @include icon('up');
@@ -37,4 +38,8 @@
     background: inline('images/svg/right.svg') no-repeat 50% 50%;
   }
 
+}
+
+#install {
+  display: none;
 }

@@ -16,7 +16,6 @@ header {
       left: 0;
       right: 0;
       background-color: rgba($color-fore, 0);
-      will-change: background-color;
     }
 
     &.progressive:not(.replace) {
@@ -38,7 +37,6 @@ header {
       }
 
       & + .quote {
-        will-change: filter, transform;
         animation: 1s ease-out 1.5s forwards quotehero;
       }
 
@@ -70,7 +68,6 @@ header {
       margin: 0 auto;
       color: $color-back;
       border: 2px solid $color-back;
-      will-change: color, border-color;
       transition: all 0.3s linear;
 
       &:hover, &focus {
