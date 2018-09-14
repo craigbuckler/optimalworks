@@ -42,16 +42,16 @@ Please contact us to discuss your next project:
     <p>services of interest</p>
 
     <input type="checkbox" id="chkgeneral" name="chkgeneral" value="IT consultancy" />
-    <label for="chkgeneral">general IT consultancy</label>
+    <label for="chkgeneral">IT consultancy</label>
 
     <input type="checkbox" id="chksysdesign" name="chksysdesign" value="system design" />
-    <label for="chksysdesign">enterprise system design</label>
+    <label for="chksysdesign">system design</label>
 
     <input type="checkbox" id="chkappdev" name="chkappdev" value="development" />
-    <label for="chkappdev">web/mobile application development</label>
+    <label for="chkappdev">application development</label>
 
     <input type="checkbox" id="chkperf" name="chkperf" value="performance" />
-    <label for="chkperf">performance and accessibility</label>
+    <label for="chkperf">performance, accessibility</label>
 
     <input type="checkbox" id="chkseo" name="chkseo" value="SEO" />
     <label for="chkseo">marketing and SEO</label>
@@ -60,10 +60,10 @@ Please contact us to discuss your next project:
     <label for="chktraining">technical training</label>
 
     <input type="checkbox" id="chkwriting" name="chkwriting" value="writing" />
-    <label for="chkwriting">writing or documentation</label>
+    <label for="chkwriting">writing, documentation</label>
 
     <input type="checkbox" id="chkconference" name="chkconference" value="conference" />
-    <label for="chkconference">conference or event speaking</label>
+    <label for="chkconference">event speaking</label>
 
     <p class="error"></p>
 
