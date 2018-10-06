@@ -154,7 +154,7 @@ a:link, a:visited {
   color: $color-logo;
 
   main & {
-    border-bottom: 1px dotted $color-logo;
+    text-decoration: underline dotted $color-logo;
   }
 }
 

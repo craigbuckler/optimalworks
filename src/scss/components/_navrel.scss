@@ -28,9 +28,17 @@ nav.tag, nav.relative {
     text-align: center;
   }
 
+  a {
+    text-decoration: none;
+  }
+
 }
 
 // tags
+p.tag {
+  text-align: right;
+}
+
 nav.tag ul {
   justify-content: flex-end;
 }
