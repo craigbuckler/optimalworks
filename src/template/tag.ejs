@@ -4,11 +4,21 @@
 <%- include('partials/header.html'); %>
 
 <main itemprop="mainContentOfPage">
+    <% if (title === 'Tags') { %>
 
-  <h1>Pages tagged <em>&ldquo;<%= title %>&rdquo;</em>:</h1>
+      <h1><%= title %></h1>
+      <p><%- description %>:</p>
 
-  <%- include('partials/nav-child.html'); %>
+      <%- include('partials/tags.html'); %>
 
+  <% } else { %>
+
+    <h1>Pages tagged <em>&ldquo;<%= title %>&rdquo;</em>:</h1>
+
+    <%- include('partials/nav-child.html'); %>
+
+    <p class="tag"><a href="<%- root %><%- tagroot %>">other tags&hellip;</a></p>
+  <% } %>
 </main>
 
 <%- include('partials/footer.html'); %>
