@@ -20,10 +20,13 @@ Craig Buckler, OptimalWorks Ltd director, is an active participant in the web de
 
 Craig has written more than 1,100 articles and technical tutorials for [SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler) since 2009. He has also collaborated on several SitePoint books including:
 
-* [Jump Start Responsive Web Design](https://www.sitepoint.com/premium/books/jump-start-responsive-web-design-2nd-edition?aref=cbuckler)
-* [JavaScript Novice to Ninja](https://www.sitepoint.com/premium/books/javascript-novice-to-ninja?aref=cbuckler)
-* [Modern JavaScript](http://shop.oreilly.com/product/9780995382756.do)
-* [Jump Start Git](https://www.sitepoint.com/premium/books/jump-start-git?aref=cbuckler)
+* [The Modern JavaScript Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07DHYM4ZW/craigbucklerc-21)
+* [JavaScript Novice to Ninja](https://www.amazon.co.uk/exec/obidos/ASIN/B00TJ6UYSE/craigbucklerc-21)
+* [Modern JavaScript](https://www.amazon.co.uk/exec/obidos/ASIN/B074WF1FTR/craigbucklerc-21)
+* [The Advanced CSS Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07K1LJRZZ/craigbucklerc-21)
+* [Jump Start Responsive Web Design](https://www.amazon.co.uk/exec/obidos/ASIN/B072HM7KJ7/craigbucklerc-21)
+* [The Web Performance Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07H52FX5D/craigbucklerc-21)
+* [Jump Start Git](https://www.amazon.co.uk/exec/obidos/ASIN/B014RYW2QO/craigbucklerc-21)
 
 
 ## Video tutorials
@@ -49,11 +52,11 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 
 Craig regularly attends and speaks at technical conferences. Previous presentations include:
 
-* Is PDF your Best Option? - [TechExeter 2018](http://conference.techexeter.uk)
-* Raise Your VR A-Game with A-Frame - [TechExeter 2017](http://conference.techexeter.uk)
-* The Future of Mobile: Native vs Progressive Web Apps - [TechExeter 2016](http://conference.techexeter.uk)
-* Passwordless Authentication - [TechExeter 2015](https://techexeter.uk/)
-* Do You Really Need jQuery? - [Digpen 2014](https://www.plymouth.ac.uk/whats-on/digpen-7)
+* Is PDF your Best Option? -- [TechExeter 2018](http://conference.techexeter.uk)
+* Raise Your VR A-Game with A-Frame -- [TechExeter 2017](http://conference.techexeter.uk)
+* The Future of Mobile: Native vs Progressive Web Apps -- [TechExeter 2016](http://conference.techexeter.uk)
+* Passwordless Authentication -- [TechExeter 2015](https://techexeter.uk/)
+* Do You Really Need jQuery? -- Digpen 2014
 
 
 ## One-to-one training

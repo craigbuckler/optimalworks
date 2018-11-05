@@ -8,7 +8,7 @@ tag: web, seo, pwa
 layout: article.ejs
 ---
 
-*"Mobile-first"* is a web design concept but the term has the capacity to confuse. To dispel some myths, mobile-first does **NOT** mean:
+*Mobile-first* is a web design concept but the term has the capacity to confuse. To dispel some myths, mobile-first does **NOT** mean:
 
 1. separate mobile and desktop web sites/apps are developed
 1. the mobile layout takes a higher precedence, or
@@ -18,6 +18,7 @@ Mobile-first is a progressive enhancement technique. It allows a modern site to 
 
 
 ## What mobile-first achieves
+
 When smartphones first became popular, most sites were designed for larger desktop PC screens. Making a site to work well on smaller devices often meant creating a separate set of mobile-optimised pages with identical content.
 
 By 2009, Responsive Web Design (RWD) techniques had been introduced in HTML5 and CSS3. These allowed a layout to respond to screen dimensions - only one site needed to be developed. In the early days, developers would take an existing desktop design then add code to detect smaller screens and change the layout accordingly. Unfortunately, older devices (including phones) did not support RWD technologies: they received the desktop view regardless.
@@ -58,4 +59,4 @@ Google offers several tools to assess the mobile-friendliness of your site:
 
 Try your address and a perhaps few competitors.
 
-Our web sites and applications use mobile-first as well as other best-practise and progressive enhancement techniques to benefit users. As a result, Google, Bing and other search engines love them too! *[Contact us to discuss your requirements&hellip;]([root]contact/)*
+Our web sites and applications use mobile-first as well as other best-practise and progressive enhancement techniques to benefit users. As a result, Google, Bing and other search engines love them too! [*Contact us to discuss your requirements&hellip;*]([root]contact/)
