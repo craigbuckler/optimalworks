@@ -34,6 +34,7 @@ That was the subject of my presentation at the [TechExeter conference in Septemb
 
 
 ## HTML proof of concept
+
 My objective was to create a report preview page which could download a static representation of itself as a single HTML file. It would look like a PDF document, have numbered pages/slides, would print well, be viewable offline, and could be distributed to anyone via email or other communication methods.
 
 The resulting code can be found at [github.com/craigbuckler/html5-export](https://github.com/craigbuckler/html5-export) or you can **[view the demonstration](https://cdn.rawgit.com/craigbuckler/html5-export/ed653078/preview3.html)**.
@@ -52,4 +53,5 @@ The link sets the `download` attribute to force a file download. While this proc
 
 
 ## HTML export for your application
-The code is a demonstration but you are free to use and adapt it for your own web-based systems. Alternatively, we can help you with the implementation process - *[please contact us to discuss your requirements&hellip;]([root]contact/)*
+
+The code is a demonstration but you are free to use and adapt it for your own web-based systems. Alternatively, we can help you with the implementation process - [*please contact us to discuss your requirements&hellip;*]([root]contact/)

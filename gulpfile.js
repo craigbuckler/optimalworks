@@ -119,7 +119,7 @@
     markdown: {
       gfm: true,
       tables: true,
-      smartypants: false,
+      smartypants: true,
       xhtml: true
     },
 

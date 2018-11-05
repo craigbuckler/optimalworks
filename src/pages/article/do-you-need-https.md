@@ -56,6 +56,6 @@ However, the SSL certificate itself will be a small part of your overall costs:
 
 
 ## HTTPS is just the start
-HTTPS encrypts communications but that does not necessarily make a website or application secure. An application which issues the default password of *"password"* to every user is no more secure than it was before. HTTPS is an essential part of security but a small part of creating a secure application.
+HTTPS encrypts communications but that does not necessarily make a website or application secure. An application which issues the default password of "password" to every user is no more secure than it was before. HTTPS is an essential part of security but a small part of creating a secure application.
 
-We've helped large international organisations secure their systems and all our client sites and applications implement top-level security practises. *[Contact us to discuss your requirements&hellip;]([root]contact/)*
+We've helped large international organisations secure their systems and all our client sites and applications implement top-level security practises. [*Contact us to discuss your requirements&hellip;*]([root]contact/)

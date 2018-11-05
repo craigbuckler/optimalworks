@@ -32,6 +32,7 @@ A slow site will remain slow because you have no control over the user's computi
 
 
 ## How do web pages become bloated?
+
 We all accumulate stuff. It's easy to obtain more desirable objects but throwing items away is considerably more difficult. *Are you sure you'll never need it?*
 
 One of the biggest web bloat culprits is [WordPress](https://wordpress.com/). WordPress is a fabulous Content Management System which powers one third of the web. It's performance can be good, but the way it's used is rarely efficient...
@@ -57,6 +58,7 @@ These systems require you to convert your existing content into a different 'sit
 
 
 ## Performance is not a quick fix
+
 > perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away
 <cite>Antoine de Saint-Exupery, novelist</cite>
 
@@ -68,4 +70,4 @@ Ideally, performance should be considered from the start. Developers used to do 
 
 Developers and site owners could consider a performance budget, e.g. the total weight of any page will not exceed 500Kb. It becomes necessary to remove items or optimise further as you move toward that limit. Strive for simplicity; record user choices and perhaps remove a feature for every new one you add.
 
-Google will punish businesses with slow sites and applications. Make sure yours isn't one of them - *[contact us today]([root]contact/)*.
+Google will punish businesses with slow sites and applications. Make sure yours isn't one of them - [*contact us today*]([root]contact/).

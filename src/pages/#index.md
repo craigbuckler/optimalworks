@@ -9,14 +9,17 @@ ctalink: contact/
 priority: 1.0
 ---
 
-OptimalWorks Ltd is based Devon in the South West of the UK. The company is run by [Craig and Claire Buckler]([root]about/) to provide [IT consultancy]([root]service/consultancy/) and [technology services]([root]service/) throughout the world.
+OptimalWorks Ltd is run by [Craig Buckler]([root]about/) and provides [IT consultancy]([root]service/consultancy/), [web technology development]([root]service/development/) and [technical training]([root]service/knowledge/) services.
+
+We are based Devon in the South West of the UK but operate nationally and throughout the rest of the world.
 
 
 ## Typical projects
-Our services include, but are not limited to:
+
+Our services include:
 
 * enterprise systems design
-* business planning
+* IT business strategy planning
 * web application development
 * mobile progressive web apps
 * online marketing
@@ -29,4 +32,5 @@ Our services include, but are not limited to:
 
 
 ## Clients
+
 Our clients range from sole traders to start-ups to SMEs and large organisations including the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Vodafone, Sky, Santander, NatWest, Credit Suisse, Thompson Reuters, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, Symantec, O'Reilly and SitePoint.

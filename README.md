@@ -21,7 +21,7 @@ or `gulp build` to just build development files.
 Build files for production deployment:
 
 ```bash
-NODE_ENV=production gulp build
+gulp clean && NODE_ENV=production gulp build
 ```
 
 
