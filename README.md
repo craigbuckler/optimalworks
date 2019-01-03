@@ -18,12 +18,19 @@ or `gulp build` to just build development files.
 
 ## Production
 
-Build files for production deployment:
+Build files for production deployment in Linux:
 
 ```bash
 gulp clean && NODE_ENV=production gulp build
 ```
 
+or Windows Powershell:
+
+```ps
+gulp clean
+$env:NODE_ENV="production"
+gulp build
+```
 
 ## Deployment
 

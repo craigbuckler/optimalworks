@@ -2,7 +2,7 @@
 title: Privacy policy
 menu: privacy
 description: We don't discuss you or your projects with anyone (privacy policy and GDPR).
-hero: v1513974726/works/private.jpg
+hero: v1513974726/works/private
 heroquote: privacy remains yours
 ctatext: contact
 ctalink: contact/

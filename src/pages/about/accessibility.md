@@ -2,7 +2,7 @@
 title: Accessibility policy
 menu: accessibility
 description: Why we believe accessibility and techniques such as progressive enhancement are best for the web and best for you.
-hero: v1513974725/works/access.jpg
+hero: v1513974725/works/access
 heroquote: inclusive web technology
 ctatext: contact
 ctalink: contact/

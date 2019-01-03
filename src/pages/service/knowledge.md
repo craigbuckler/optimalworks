@@ -2,7 +2,7 @@
 title: Training and knowledge-sharing
 menu: knowledge
 description: Training, article writing, video tutorials, conference speaking, and knowledge-sharing throughout the IT industry.
-hero: v1513974726/works/train.jpg
+hero: v1513974726/works/train
 heroquote: giving back to the industry
 ctatext: contact
 ctalink: contact/
@@ -46,8 +46,8 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 
 ## Conference speaking
 
-<figure data-href="[imagecdn]v1536852175/works/content/craig-presentation.jpg" class="progressive replace inline">
-  <img src="[imagecdn]c_scale,w_50/v1536852175/works/content/craig-presentation.jpg" alt="Craig Buckler, TechExeter presentation" class="preview" />
+<figure data-href="[imagecdn]f_auto/v1536852175/works/content/craig-presentation" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1536852175/works/content/craig-presentation" alt="Craig Buckler, TechExeter presentation" class="preview" />
 </figure>
 
 Craig regularly attends and speaks at technical conferences. Previous presentations include:

@@ -43,7 +43,7 @@ function clearOldCaches() {
 let iExt = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'bmp'].map(f => '.' + f);
 function isImage(url) {
 
-  return iExt.reduce((ret, ext) => ret || url.endsWith(ext), false);
+  return url.startsWith(domaincdn) || iExt.reduce((ret, ext) => ret || url.endsWith(ext), false);
 
 }
 
