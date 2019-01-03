@@ -19,7 +19,7 @@ const
     '/* @echo rootpath */js/offlinepage.js'
   ].concat(offlineURL),
   installFilesDesirable = [
-    'https://res.cloudinary.com/oworks/image/upload/v1513974725/works/offline.jpg',
-    'https://res.cloudinary.com/oworks/image/upload/c_scale,w_800/v1513974725/works/offline.jpg',
-    'https://res.cloudinary.com/oworks/image/upload/c_scale,w_24/v1513974725/works/offline.jpg'
+    '/* @echo imagecdn */f_auto/v1513974725/works/offline',
+    '/* @echo imagecdn */f_auto,c_scale,w_800/v1513974725/works/offline',
+    '/* @echo imagecdn */f_auto,c_scale,w_24/v1513974725/works/offline'
   ];

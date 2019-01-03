@@ -3,12 +3,12 @@
 (() => {
   'use strict';
 
-  // development or production
-  var devBuild  = ((process.env.NODE_ENV || 'development').trim().toLowerCase() === 'development');
-
   const
 
-  // show debug output
+    // development or production
+    devBuild  = ((process.env.NODE_ENV || 'development').trim().toLowerCase() === 'development'),
+
+    // show debug output
     debug         = false,
 
     pkg           = require('./package.json'),
@@ -90,28 +90,29 @@
   sitemeta.cors = cors.trim();
 
   // Browser-sync
-  var browsersync	= false;
+  let browsersync	= false;
 
   // show build type
   console.log(pkg.name + ' ' + pkg.version + ', ' + (devBuild ? 'development' : 'production') + ' build');
 
 
   // clean build folder
-  gulp.task('clean', (done) => {
-    del([
-      dir.build,
+  function clean() {
+
+    return del([
+      dir.build
     ],
     {
       force: true,
-    // dryRun: true
-    })
-      .then(paths => { console.log('deleted:\n', paths.join('\n')); });
-    done();
-  });
+      // dryRun: true
+    });
+
+  }
+  exports.clean = clean;
 
 
   // HTML settings
-  const html = {
+  const htmlCfg = {
     src         : dir.src + 'pages/',
     watch       : [dir.src + 'pages/**/*', dir.src + 'template/**/*'],
     build       : dir.build,
@@ -154,55 +155,58 @@
   };
 
   // build HTML pages
-  gulp.task('html', ['images'], (done) => {
+  function html(done) {
 
     metalsmith(dir.base)
-      .source(html.src)
-      .destination(html.build)
+      .source(htmlCfg.src)
+      .destination(htmlCfg.build)
       .metadata(sitemeta)
       .clean(false)
       .use(publish())
       .use(msutil.rename)
-      .use(markdown(html.markdown))
-      .use(addmeta(html.metadata))
+      .use(markdown(htmlCfg.markdown))
+      .use(addmeta(htmlCfg.metadata))
       .use(tags())
       .use(wordcount({ raw: true }))
-      .use(layouts(html.layouts))
+      .use(layouts(htmlCfg.layouts))
       .use(msutil.shortcodes)
-      .use(inline(html.inline))
+      .use(inline(htmlCfg.inline))
       .use(devBuild ? beautify() : minify())
       .use(debug ? msutil.debug : msutil.noop)
-      .use(sitemap(html.sitemap))
-      .use(rssfeed(html.rssfeed))
+      .use(devBuild ? ()=>{} : sitemap(htmlCfg.sitemap))
+      .use(rssfeed(htmlCfg.rssfeed))
       .build((err) => {
         if (err) throw err;
       });
 
+    if (browsersync) browsersync.reload();
+
     done();
 
-  });
+  }
+  exports.html = gulp.series(images, html);
 
 
   // root settings
   const
-    root = {
+    rootCfg = {
+      src         : [dir.src + 'root/process/*.*', dir.src + 'root/process/.*'],
       build       : dir.build
-    },
-    rootprocess = {
-      src         : [dir.src + 'root/process/*.*', dir.src + 'root/process/.*']
     };
 
   // root file processing
-  gulp.task('rootprocess', () => {
-    return gulp.src(rootprocess.src)
-      .pipe(newer(root.build))
+  function rootprocess() {
+
+    return gulp.src(rootCfg.src)
+      .pipe(newer(rootCfg.build))
       .pipe(preprocess({ extension: 'js', context: sitemeta }))
-      .pipe(gulp.dest(root.build));
-  });
+      .pipe(gulp.dest(rootCfg.build));
+
+  }
 
 
   // root image settings
-  const rootimages = {
+  const rootimagesCfg = {
     src         : dir.src + 'root/images/*.*',
     minOpts: {
       optimizationLevel: 5
@@ -210,19 +214,21 @@
   };
 
   // root file processing
-  gulp.task('rootimages', () => {
-    return gulp.src(rootimages.src)
-      .pipe(newer(root.build))
-      .pipe(gulp.dest(root.build));
-  });
+  function rootimages() {
+
+    return gulp.src(rootimagesCfg.src)
+      .pipe(newer(rootCfg.build))
+      .pipe(gulp.dest(rootCfg.build));
+
+  }
 
 
   // root file processing
-  gulp.task('root', ['rootprocess', 'rootimages']);
+  exports.root = gulp.parallel(rootprocess, rootimages);
 
 
   // image settings
-  const images = {
+  const imagesCfg = {
     src         : dir.src + 'images/**/*',
     build       : dir.build + 'images/',
 
@@ -232,16 +238,19 @@
   };
 
   // image processing
-  gulp.task('images', () => {
-    return gulp.src(images.src)
-      .pipe(newer(images.build))
-      .pipe(imagemin(images.minOpts))
-      .pipe(gulp.dest(images.build));
-  });
+  function images() {
+
+    return gulp.src(imagesCfg.src)
+      .pipe(newer(imagesCfg.build))
+      .pipe(imagemin(imagesCfg.minOpts))
+      .pipe(gulp.dest(imagesCfg.build));
+
+  }
+  exports.images = images;
 
 
   // CSS settings
-  var css = {
+  const cssCfg = {
     src         : dir.src + 'scss/main.scss',
     watch       : dir.src + 'scss/**/*',
     build       : dir.build + 'css/',
@@ -259,93 +268,94 @@
       require('autoprefixer')({
         browsers: ['> 2%']
       }),
-      require('css-mqpacker')
+      require('css-mqpacker'),
+      require('cssnano')
     ]
   };
 
-  // production CSS
-  if (!devBuild) {
-    css.processors.push(require('cssnano'));
-  }
-
   // Sass/CSS processing
-  gulp.task('css', ['images'], () => {
-    return gulp.src(css.src)
+  function css() {
+
+    return gulp.src(cssCfg.src)
       .pipe(sourcemaps ? sourcemaps.init() : noop())
-      .pipe(sass(css.sassOpts).on('error', sass.logError))
+      .pipe(sass(cssCfg.sassOpts).on('error', sass.logError))
       .pipe(preprocess({ extension: 'js', context: sitemeta }))
-      .pipe(postcss(css.processors))
+      .pipe(postcss(cssCfg.processors))
       .pipe(sourcemaps ? sourcemaps.write() : noop())
-      .pipe(gulp.dest(css.build))
+      .pipe(gulp.dest(cssCfg.build))
       .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
-  });
+
+  }
+  exports.css = gulp.series(images, css);
 
 
   // JavaScript settings
-  const js = {
+  const jsCfg = {
     src         : dir.src + 'js/main/**/*',
     build       : dir.build + 'js/',
     filename    : 'main.js'
   };
 
   // JavaScript processing
-  gulp.task('js', () => {
+  function js() {
 
-    return gulp.src(js.src)
+    return gulp.src(jsCfg.src)
       .pipe(preprocess({ context: sitemeta }))
       .pipe(deporder())
-      .pipe(concat(js.filename))
+      .pipe(concat(jsCfg.filename))
       .pipe(devBuild ? noop() : stripdebug())
       .pipe(devBuild ? noop() : uglify())
       .on('error', (err) => { console.log(err.toString()); })
-      .pipe(gulp.dest(js.build))
+      .pipe(gulp.dest(jsCfg.build))
       .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
 
-  });
+  }
+  exports.js = js;
 
 
   // single JavaScript files (not concatenated)
-  const jssingle = {
+  const jssingleCfg = {
     src         : dir.src + 'js/single/*.js',
     build       : dir.build + 'js/'
   };
 
   // JavaScript single file processing
-  gulp.task('jssingle', () => {
+  function jssingle() {
 
-    return gulp.src(jssingle.src)
+    return gulp.src(jssingleCfg.src)
       .pipe(preprocess({ context: sitemeta }))
       .pipe(devBuild ? noop() : stripdebug())
       .pipe(devBuild ? noop() : lightmin())
       .pipe(devBuild ? noop() : trimlines())
       .on('error', (err) => { console.log(err.toString()); })
-      .pipe(gulp.dest(jssingle.build));
+      .pipe(gulp.dest(jssingleCfg.build));
 
-  });
+  }
+  exports.jssingle = jssingle;
 
 
   // root JavaScript PWA service worker
-  const jspwa = {
+  const jspwaCfg = {
     src         : dir.src + 'js/pwa/**/*',
     build       : dir.build,
     filename    : 'sw.js'
   };
 
   // root JavaScript processing
-  gulp.task('jspwa', () => {
+  function jspwa() {
 
-    return gulp.src(jspwa.src)
+    return gulp.src(jspwaCfg.src)
       .pipe(preprocess({ context: sitemeta }))
       .pipe(deporder())
-      .pipe(concat(jspwa.filename))
+      .pipe(concat(jspwaCfg.filename))
       .pipe(devBuild ? noop() : stripdebug())
       .pipe(devBuild ? noop() : lightmin())
       .pipe(devBuild ? noop() : trimlines())
       .on('error', (err) => { console.log(err.toString()); })
-      .pipe(gulp.dest(jspwa.build));
+      .pipe(gulp.dest(jspwaCfg.build));
 
-  });
-
+  }
+  exports.jspwa = jspwa;
 
 
   // browser-sync options
@@ -365,51 +375,61 @@
   };
 
   // browser-sync
-  gulp.task('browsersync', () => {
+  function server(done) {
+
     if (browsersync === false) {
       browsersync	= devBuild ? require('browser-sync').create() : null;
     }
     if (browsersync) browsersync.init(syncOpts);
-  });
+
+    done();
+
+  }
 
 
   // watch for file changes
-  gulp.task('watch', ['browsersync'], () => {
+  function watch(done) {
 
     // page changes
-    gulp.watch(html.watch, ['html'], browsersync ? browsersync.reload : {});
+    gulp.watch(htmlCfg.watch, html);
 
     // image changes
-    gulp.watch(images.src, ['images']);
+    gulp.watch(imagesCfg.src, images);
 
     // root changes
-    gulp.watch(root.src, ['root']);
+    gulp.watch(rootCfg.src, rootprocess);
+
+    // root image changes
+    gulp.watch(rootimagesCfg.src, rootimages);
 
     // CSS changes
-    gulp.watch(css.watch, ['css']);
+    gulp.watch(cssCfg.watch, css);
 
     // JavaScript main changes
-    gulp.watch(js.src, ['js']);
+    gulp.watch(jsCfg.src, js);
 
     // JavaScript single file changes
-    gulp.watch(js.src, ['jssingle']);
+    gulp.watch(jsCfg.src, jssingle);
 
     // JavaScript worker changes
-    gulp.watch(jspwa.src, ['jspwa']);
+    gulp.watch(jspwaCfg.src, jspwa);
 
-  });
+    done();
+
+  }
+  exports.watch = gulp.series(watch, server);
 
 
   // run all tasks immediately
-  gulp.task('build', ['root', 'html', 'css', 'js', 'jssingle', 'jspwa']);
+  exports.build = gulp.series(images, gulp.parallel(rootprocess, rootimages, html, css, js, jssingle, jspwa));
 
 
   // default task
-  gulp.task('default', ['build', 'watch']);
+  exports.default = gulp.series(exports.build, exports.watch);
 
 
   // deploy via FTP task - pass -u <id> -p <pw>
-  gulp.task('deploy', () => {
+  function deploy() {
 
     let
       ftp = require('vinyl-ftp'),
@@ -434,6 +454,7 @@
       .pipe(conn.differentSize(remotePath))
       .pipe(conn.dest(remotePath));
 
-  });
+  }
+  exports.deploy = deploy;
 
 })();

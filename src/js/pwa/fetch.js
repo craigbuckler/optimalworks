@@ -33,7 +33,10 @@ self.addEventListener('fetch', event => {
               .then(newreq => {
 
                 console.log('network fetch: ', url);
-                if (newreq.ok && !url.startsWith(domain + 'ws/') && (url.startsWith(domain) || url.startsWith(domaincdn) || url.startsWith('https://fonts.'))) cache.put(event.request, newreq.clone());
+                if (newreq && newreq.ok && !url.startsWith(domain + 'ws/') && (url.startsWith(domain) || url.startsWith(domaincdn) || url.startsWith('https://fonts.'))) {
+                  cache.put(event.request, newreq.clone());
+                }
+
                 return newreq;
 
               })

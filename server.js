@@ -5,7 +5,7 @@ server.js: launches a static file web server for the build folder
 
 make executable with `chmod +x ./server.js`
 run with `./server.js [port]`
-where `[port]` is an optional HTTP port (8888 by default)
+where `[port]` is an optional HTTP port (8000 by default)
 
 Serves the correct MIME type and defaults to index.html
 */
@@ -46,7 +46,7 @@ Serves the correct MIME type and defaults to index.html
     // file available?
     fs.access(filename, fs.constants.R_OK, (err) => {
 
-    // not found
+      // not found
       if (err) {
         serve(404, '404 Not Found\n');
         return;

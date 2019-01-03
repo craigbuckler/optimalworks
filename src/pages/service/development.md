@@ -2,7 +2,7 @@
 title: Design and development
 menu: development
 description: Bespoke web application analysis, design and development for desktop and mobile devices.
-hero: v1513974725/works/idea.jpg
+hero: v1513974725/works/idea
 heroquote: translating ideas into reality
 ctatext: contact
 ctalink: contact/

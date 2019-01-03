@@ -68,11 +68,10 @@ header {
       margin: 0 auto;
       color: $color-back;
       border: 2px solid $color-back;
-      transition: all 0.3s linear;
+      transition: background-color 0.3s linear;
 
-      &:hover, &focus {
-        color: $color-logo;
-        border-color: $color-logo;
+      &:hover, &:focus {
+        background-color: rgba($color-logo, 0.7);
       }
 
     }

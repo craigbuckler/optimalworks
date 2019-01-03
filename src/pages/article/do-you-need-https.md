@@ -1,7 +1,7 @@
 ---
 title: Do you need HTTPS?
 description: Is your website or application using secure transmission protocols? Should it?
-hero: v1521642749/works/secure.jpg
+hero: v1521642749/works/secure
 heroquote: securing your systems
 publish: 2018-03-21
 tag: web, security, seo

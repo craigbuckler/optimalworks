@@ -1,7 +1,7 @@
 ---
 title: You're offline!
 description: You are offline but can access previously-viewed pages.
-hero: v1513974725/works/offline.jpg
+hero: v1513974725/works/offline
 heroquote: the cloud is out of reach!
 priority: 0.1
 private: true
