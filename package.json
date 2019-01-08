@@ -1,6 +1,6 @@
 {
   "name": "optimalworks",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "OptimalWorks Ltd, Devon UK. Bespoke web application analysis, research, design, development, training, marketing and consultancy.",
   "author": "Craig Buckler",
   "main": "gulp build",
@@ -18,7 +18,7 @@
     "ftphost": "ftp.optimalworks.net",
     "ftpdest": "/public_html",
     "root": "/",
-    "devdomain": "http://localhost:8000",
+    "devdomain": "http://192.168.1.23:8000",
     "devroot": "/",
     "themeColor": "#fff",
     "PWAcache": "::Works",
