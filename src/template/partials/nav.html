@@ -20,7 +20,7 @@
 
         if (!page.private) navHTML +=
           '<li' + (open ? ' class="open' + (active ? ' active' : '') + '"' : '') + '>' +
-          (page.child.length && !page.nomenu ? '<a href="#open" class="opener">&nbsp;</a>' : '') +
+          (page.child.length && !page.nomenu ? '<a href="#open" class="opener">sub-menu</a>' : '') +
           (active ? '<strong>' : '<a href="' + root + page.url + '">') +
           page.menu +
           (active ? '</strong>' : '</a>') +
