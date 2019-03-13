@@ -28,6 +28,7 @@
     sitemeta = {
       devBuild    : devBuild,
       version     : pkg.version,
+      versionFile : pkg.version.replace(/\./g, '-'),
       sitedesc    : site.description,
       author      : pkg.author,
       thisDomain  : devBuild ? site.devdomain : site.domain,
@@ -49,9 +50,7 @@
     deporder      = require('gulp-deporder'),
     concat        = require('gulp-concat'),
     stripdebug    = require('gulp-strip-debug'),
-    uglify        = require('gulp-uglify'),
-    lightmin      = require('gulp-lightmin'),
-    trimlines     = require('gulp-trimlines'),
+    terser        = require('gulp-terser'),
 
     // Metalsmith and plugins
     metalsmith    = require('metalsmith'),
@@ -254,6 +253,7 @@
     src         : dir.src + 'scss/main.scss',
     watch       : dir.src + 'scss/**/*',
     build       : dir.build + 'css/',
+    filename    : `main-${sitemeta.versionFile}.css`,
     sassOpts: {
       outputStyle     : 'nested',
       imagePath       : '/images/',
@@ -281,7 +281,9 @@
       .pipe(sass(cssCfg.sassOpts).on('error', sass.logError))
       .pipe(preprocess({ extension: 'js', context: sitemeta }))
       .pipe(postcss(cssCfg.processors))
+      .pipe(concat(cssCfg.filename))
       .pipe(sourcemaps ? sourcemaps.write() : noop())
+      //.pipe(cssCfg.filename ? rename(cssCfg.filename) : noop())
       .pipe(gulp.dest(cssCfg.build))
       .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
 
@@ -291,21 +293,28 @@
 
   // JavaScript settings
   const jsCfg = {
-    src         : dir.src + 'js/main/**/*',
-    build       : dir.build + 'js/',
-    filename    : 'main.js'
-  };
+      src         : dir.src + 'js/main/**/*',
+      build       : dir.build + 'js/',
+      filename    : `main-${sitemeta.versionFile}.js`
+    },
+    terserOpts = {
+      output: {
+        quote_style :  1
+      }
+    };
 
   // JavaScript processing
   function js() {
 
     return gulp.src(jsCfg.src)
       .pipe(preprocess({ context: sitemeta }))
+      .pipe(sourcemaps ? sourcemaps.init() : noop())
       .pipe(deporder())
       .pipe(concat(jsCfg.filename))
       .pipe(devBuild ? noop() : stripdebug())
-      .pipe(devBuild ? noop() : uglify())
+      .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
+      .pipe(sourcemaps ? sourcemaps.write() : noop())
       .pipe(gulp.dest(jsCfg.build))
       .pipe(browsersync ? browsersync.reload({ stream: true }) : noop());
 
@@ -315,8 +324,9 @@
 
   // single JavaScript files (not concatenated)
   const jssingleCfg = {
-    src         : dir.src + 'js/single/*.js',
-    build       : dir.build + 'js/'
+    src         : dir.src + 'js/single/offlinepage.js',
+    build       : dir.build + 'js/',
+    filename    : `offlinepage-${sitemeta.versionFile}.js`
   };
 
   // JavaScript single file processing
@@ -324,9 +334,9 @@
 
     return gulp.src(jssingleCfg.src)
       .pipe(preprocess({ context: sitemeta }))
+      .pipe(concat(jssingleCfg.filename))
       .pipe(devBuild ? noop() : stripdebug())
-      .pipe(devBuild ? noop() : lightmin())
-      .pipe(devBuild ? noop() : trimlines())
+      .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
       .pipe(gulp.dest(jssingleCfg.build));
 
@@ -338,7 +348,7 @@
   const jspwaCfg = {
     src         : dir.src + 'js/pwa/**/*',
     build       : dir.build,
-    filename    : 'sw.js'
+    filename    : `sw-${sitemeta.versionFile}.js`
   };
 
   // root JavaScript processing
@@ -349,8 +359,7 @@
       .pipe(deporder())
       .pipe(concat(jspwaCfg.filename))
       .pipe(devBuild ? noop() : stripdebug())
-      .pipe(devBuild ? noop() : lightmin())
-      .pipe(devBuild ? noop() : trimlines())
+      .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
       .pipe(gulp.dest(jspwaCfg.build));
 
