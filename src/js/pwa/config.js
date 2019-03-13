@@ -14,9 +14,9 @@ const
   installFilesEssential = [
     '/* @echo rootpath */',
     '/* @echo rootpath */manifest.json',
-    '/* @echo rootpath */css/main.css',
-    '/* @echo rootpath */js/main.js',
-    '/* @echo rootpath */js/offlinepage.js'
+    '/* @echo rootpath */css/main-/* @echo versionFile */.css',
+    '/* @echo rootpath */js/main-/* @echo versionFile */.js',
+    '/* @echo rootpath */js/offlinepage-/* @echo versionFile */.js'
   ].concat(offlineURL),
   installFilesDesirable = [
     '/* @echo imagecdn */f_auto/v1513974725/works/offline',

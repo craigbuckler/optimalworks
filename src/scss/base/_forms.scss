@@ -85,6 +85,7 @@ input[type="date"], input[type="number"] {
 input[type="checkbox"], input[type="radio"] {
 
   grid-column: 1 / 3;
+  align-self: start;
   justify-self: end;
   width: auto;
   float: left;
@@ -92,13 +93,45 @@ input[type="checkbox"], input[type="radio"] {
   margin: 0.4em 0.5em 0 30%;
 
   & + label {
+    position: relative;
     grid-column: 3 / 4;
     text-align: left;
     padding: 0;
+
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      left: -1.5em;
+    }
+
+    &::before {
+      width: 1em;
+      height: 1em;
+      top: 0.2em;
+      background-color: $color-back;
+      border: 0.15em solid $color-menu;
+    }
+
+    &::after {
+      width: 1.1em;
+      height: 0.5em;
+      top: 0.3em;
+      border: 0.25em solid $color-logo;
+      border-style: none none solid solid;
+      box-shadow: -2px 2px 0 $color-back;
+      transform: rotate(-45deg) scale(0);
+      transition: transform 0.1s cubic-bezier(0.2, 0.1, 1, 2);
+    }
+
   }
 
   &:checked + label {
     font-weight: 600;
+
+    &::after {
+      transform: rotate(-45deg) scale(1);
+    }
   }
 
 }
@@ -112,7 +145,7 @@ input[type="checkbox"], input[type="radio"] {
   }
 
   input[type="checkbox"], input[type="radio"] {
-    margin: 0;
+    margin: 0.4em 0 0 0;
   }
 
 }
