@@ -10,7 +10,7 @@ tag: service
 priority: 0.89
 ---
 
-> it's the best system specification we have ever seen
+>it's the best system specification we have ever seen
 <cite>US consultancy</cite>
 
 We work with start-ups and established organisations to provide pragmatic, cost-effective IT and web based solutions to streamline operations, maximize productivity, and encourage rapid growth in competitive markets.
@@ -24,8 +24,11 @@ Our consultancy services include, but are not limited to:
 * security audits and penetration testing
 * business planning
 * [agile product development]([root]service/development/)
-* corporate adaption and change
+* corporate adaptation and change
 
 
 ## Clients
-Previous clients include the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, Yahoo, Sky, Credit Suisse, Symantec and many SMEs.
+
+Previous clients include the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Vodafone, Sky, Santander, NatWest, Credit Suisse, Thompson Reuters, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, Symantec, O'Reilly and SitePoint.
+
+[*Please contact us to discuss your requirements&hellip;*]([root]contact/)

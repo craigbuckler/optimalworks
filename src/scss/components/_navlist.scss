@@ -38,7 +38,7 @@
     overflow: hidden;
   }
 
-  img {
+  img, svg {
     display: block;
     width: 100%;
     max-width: none;
@@ -64,6 +64,57 @@
 
   p.date {
     font-size: 0.75em;
+  }
+
+}
+
+.service {
+
+  ul {
+    justify-content: center;
+  }
+
+  li {
+    flex-basis: 8em;
+    max-width: 8em;
+    margin: 1vmin 3vmin;
+    border: 0 none;
+  }
+
+  h2, p {
+    text-align: center;
+    margin: 0.3rem 0;
+  }
+
+  p {
+    margin: 0 0 0.5em 0;
+  }
+
+  svg {
+
+    transform: rotate(0);
+    transition: transform 1s ease-in-out;
+
+    path {
+      fill: $color-logo;
+    }
+
+  }
+
+  a:hover, a:focus {
+
+    #consultancy {
+      transform: rotate(180deg);
+    }
+
+    #development {
+      transform: rotateX(5deg) rotateY(40deg);
+    }
+
+    #training {
+      transform: rotateY(180deg);
+    }
+
   }
 
 }

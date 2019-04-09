@@ -1,0 +1,23 @@
+// revealer CSS
+.revealer {
+  filter: opacity(0);
+
+  &.up {
+    animation: revealup 0.6s ease forwards;
+  }
+
+  &.right {
+    animation: revealright 0.6s ease forwards;
+  }
+}
+
+// animations
+@keyframes revealup {
+	0% { transform: translateY(80px); filter: opacity(0.2); }
+	100% { transform: translateY(0); filter: opacity(1); }
+}
+
+@keyframes revealright {
+	0% { transform: translateX(100px); filter: opacity(0.2); }
+	100% { transform: translateX(0); filter: opacity(1); }
+}

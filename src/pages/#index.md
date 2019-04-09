@@ -1,5 +1,5 @@
 ---
-title: OptimalWorks Ltd
+title: Professional IT services
 menu: home
 description: OptimalWorks Ltd, Devon UK. Bespoke web application analysis, design and development.
 hero: v1513782351/works/develop
@@ -9,9 +9,35 @@ ctalink: contact/
 priority: 1.0
 ---
 
-OptimalWorks Ltd is run by [Craig Buckler]([root]about/) and provides [IT consultancy]([root]service/consultancy/), [web technology development]([root]service/development/) and [technical training]([root]service/knowledge/) services.
+<nav class="service list">
+  <ul>
+    <li data-revealer="up" data-delay="0">
+      <a href="[root]service/consultancy/">
+        <div><img id="consultancy" src="[root]images/svg/consultancy.svg" data-inline="1" /></div>
+        <h2>IT consultancy</h2>
+        <p>Get your project moving in the right direction</p>
+      </a>
+    </li>
+    <li data-revealer="up" data-delay="300">
+      <a href="[root]service/development/">
+        <div><img id="development" src="[root]images/svg/development.svg" data-inline="1" /></div>
+        <h2>Development</h2>
+        <p>Bespoke web site and app design and development</p>
+      </a>
+    </li>
+    <li data-revealer="up" data-delay="600">
+      <a href="[root]service/knowledge/">
+        <div><img id="training" src="[root]images/svg/training.svg" data-inline="1" /></div>
+        <h2>Technical training</h2>
+        <p>Empower your developers with the latest technologies</p>
+      </a>
+    </li>
+  </ul>
+</nav>
 
-We are based Devon in the South West of the UK but operate nationally and throughout the rest of the world.
+OptimalWorks Ltd is run by [Craig Buckler]([root]about/) from Devon in the South West of England. We operate throughout the UK and the rest of the world.
+
+**Current availability:** now booking projects for late Q2 2019.
 
 
 ## Typical projects
@@ -33,4 +59,4 @@ Our services include:
 
 ## Clients
 
-Our clients range from sole traders to start-ups to SMEs and large organisations including the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Vodafone, Sky, Santander, NatWest, Credit Suisse, Thompson Reuters, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, Symantec, O'Reilly and SitePoint.
+We have worked with sole traders, start-ups, SMEs, large organisations and Government departments - [*please contact us to discuss your requirements&hellip;*]([root]contact/)
