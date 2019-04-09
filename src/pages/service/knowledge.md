@@ -46,7 +46,7 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 
 ## Conference speaking
 
-<figure data-href="[imagecdn]f_auto/v1536852175/works/content/craig-presentation" class="progressive replace inline">
+<figure data-revealer="right" data-href="[imagecdn]f_auto/v1536852175/works/content/craig-presentation" class="progressive replace inline">
   <img src="[imagecdn]f_auto,c_scale,w_50/v1536852175/works/content/craig-presentation" alt="Craig Buckler, TechExeter presentation" class="preview" />
 </figure>
 
@@ -65,3 +65,5 @@ Craig regularly attends and speaks at technical conferences. Previous presentati
 <cite>PA</cite>
 
 Craig has trained personnel in modern web development techniques in companies including The Wall Street Journal and The Institute of Chartered Accountants in England and Wales.
+
+[*Please contact us to discuss your requirements&hellip;*]([root]contact/)

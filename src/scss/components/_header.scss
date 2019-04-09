@@ -19,14 +19,6 @@ header {
       background-color: rgba($color-fore, 0);
     }
 
-    &.progressive:not(.replace) {
-
-      &:after {
-        animation: 1s linear 1.2s forwards overlayhero;
-      }
-
-    }
-
     & + .quote {
       transform: translateY(-99em);
     }
@@ -38,7 +30,7 @@ header {
       }
 
       & + .quote {
-        animation: 1s ease-out 1.5s forwards quotehero;
+        animation: 1.5s ease-out 1.5s forwards quotehero;
       }
 
     }

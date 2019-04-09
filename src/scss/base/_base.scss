@@ -81,7 +81,7 @@ figure {
 }
 
 figure.inline {
-  box-shadow: 0 2px 5px $color-fore;
+  box-shadow: 0 1px 2px $color-fore;
 }
 
 blockquote {
@@ -108,7 +108,7 @@ blockquote {
       content: '\201c';
       font-style: normal;
       font-size: 3em;
-      margin: -0.3em 0 0 -0.65em;
+      margin: -0.4em 0 0 -0.7em;
       color: darken($color-menu, 50%);
     }
   }

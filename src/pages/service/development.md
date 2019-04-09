@@ -30,6 +30,11 @@ Ultimately, we aim to understand your requirements to provide the most cost-effe
 
 
 ## Technology expertise
+
+<figure data-revealer="right" data-href="[imagecdn]f_auto/v1554826608/works/content/empello-fraudscan" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1554826608/works/content/empello-fraudscan" alt="example project screenshot" class="preview" />
+</figure>
+
 Our skills include:
 
 * HTML5, CSS3, JavaScript, browser APIs, frameworks
@@ -53,10 +58,12 @@ Our skills include:
 
 
 ## Recent projects
-All client projects details are covered by non-disclosure agreements but recent technology developments include:
 
-> your contribution added a level of quality we would otherwise have struggled to achieve
-<cite>PS, Hemsley Fraser</cite>
+<figure data-revealer="right" data-href="[imagecdn]f_auto/v1554826609/works/content/plymouth-university" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1554826609/works/content/plymouth-university" alt="example project screenshot" class="preview" />
+</figure>
+
+All client and projects details are covered by non-disclosure agreements but recent technology developments include:
 
 * automated, artificially-intelligent web bots to detect worldwide fraud in the web and mobile advertising markets
 * big data storage, retrieval, analysis, and altering systems for a client with a global user base
@@ -67,4 +74,10 @@ All client projects details are covered by non-disclosure agreements but recent 
 
 
 ## Clients
+
+> your contribution added a level of quality we would otherwise have struggled to achieve
+<cite>PS, Hemsley Fraser</cite>
+
 Previous clients include HMRC, Microsoft, MSN, Yahoo, Sky, Vodafone, Hewlett Packard, Thomson Reuters, Santander, NatWest, Credit Suisse, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, several London councils, Plymouth University, Exeter University, Symantec, Empello, Rokk Media, Landmark, TwoFour, Hemsley Fraser Group and many SMEs.
+
+[*Please contact us to discuss your requirements&hellip;*]([root]contact/)

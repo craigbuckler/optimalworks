@@ -169,6 +169,7 @@
       .use(wordcount({ raw: true }))
       .use(layouts(htmlCfg.layouts))
       .use(msutil.shortcodes)
+      .use(msutil.revealer)
       .use(inline(htmlCfg.inline))
       .use(devBuild ? beautify() : minify())
       .use(debug ? msutil.debug : msutil.noop)
@@ -276,6 +277,8 @@
   // Sass/CSS processing
   function css() {
 
+    del.sync(`${cssCfg.build}*`);
+
     return gulp.src(cssCfg.src)
       .pipe(sourcemaps ? sourcemaps.init() : noop())
       .pipe(sass(cssCfg.sassOpts).on('error', sass.logError))
@@ -306,6 +309,8 @@
   // JavaScript processing
   function js() {
 
+    del.sync(`${jsCfg.build}main-*.js`);
+
     return gulp.src(jsCfg.src)
       .pipe(preprocess({ context: sitemeta }))
       .pipe(sourcemaps ? sourcemaps.init() : noop())
@@ -332,6 +337,8 @@
   // JavaScript single file processing
   function jssingle() {
 
+    del.sync(`${jsCfg.build}offlinepage-*.js`);
+
     return gulp.src(jssingleCfg.src)
       .pipe(preprocess({ context: sitemeta }))
       .pipe(concat(jssingleCfg.filename))
@@ -348,7 +355,7 @@
   const jspwaCfg = {
     src         : dir.src + 'js/pwa/**/*',
     build       : dir.build,
-    filename    : `sw-${sitemeta.versionFile}.js`
+    filename    : 'sw.js'
   };
 
   // root JavaScript processing

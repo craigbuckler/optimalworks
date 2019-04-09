@@ -15,7 +15,7 @@
   if ('serviceWorker' in navigator) {
 
     // register service worker
-    navigator.serviceWorker.register('/* @echo rootpath */sw-/* @echo versionFile */.js');
+    navigator.serviceWorker.register('/* @echo rootpath */sw.js');
 
     // load script to populate offline page list
     if (document.getElementById('/* @echo offlineList */') && 'caches' in window) {
