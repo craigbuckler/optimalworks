@@ -31,4 +31,6 @@ Our consultancy services include, but are not limited to:
 
 Previous clients include the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Vodafone, Sky, Santander, NatWest, Credit Suisse, Thompson Reuters, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, Symantec, O'Reilly and SitePoint.
 
+Examples of previous work is protected by non-disclosure agreements, but non-identifiable information is available on request.
+
 [*Please contact us to discuss your requirements&hellip;*]([root]contact/)

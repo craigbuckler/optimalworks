@@ -7,5 +7,5 @@ ctalink: contact/
 priority: 0.9
 ---
 
-We provide a number of services including:
+We provide a number of technology services including:
 

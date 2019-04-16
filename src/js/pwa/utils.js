@@ -6,7 +6,7 @@
 /* global CACHE installFilesDesirable installFilesEssential offlineURL */
 
 // install static assets
-function installStaticFiles() {
+function cacheInstall() {
 
   return caches.open(CACHE)
     .then(cache => {
@@ -23,7 +23,7 @@ function installStaticFiles() {
 
 
 // clear old caches
-function clearOldCaches() {
+function cacheClearOld() {
 
   return caches.keys()
     .then(keylist => {

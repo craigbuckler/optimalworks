@@ -3,7 +3,7 @@
 
   // require utils.js
 */
-/* global installStaticFiles */
+/* global cacheInstall */
 
 self.addEventListener('install', event => {
 
@@ -11,7 +11,7 @@ self.addEventListener('install', event => {
 
   // cache core files
   event.waitUntil(
-    installStaticFiles()
+    cacheInstall()
       .then(() => self.skipWaiting())
   );
 

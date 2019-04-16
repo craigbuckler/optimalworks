@@ -4,7 +4,7 @@
   // require install.js
 */
 
-/* global clearOldCaches */
+/* global cacheClearOld */
 
 // application activated event
 self.addEventListener('activate', event => {
@@ -13,7 +13,7 @@ self.addEventListener('activate', event => {
 
   // delete old caches
   event.waitUntil(
-    clearOldCaches()
+    cacheClearOld()
       .then(() => self.clients.claim())
   );
 

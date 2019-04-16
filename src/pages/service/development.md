@@ -63,7 +63,7 @@ Our skills include:
   <img src="[imagecdn]f_auto,c_scale,w_50/v1554826609/works/content/plymouth-university" alt="example project screenshot" class="preview" />
 </figure>
 
-All client and projects details are covered by non-disclosure agreements but recent technology developments include:
+Examples of previous work is protected by non-disclosure agreements, but non-identifiable information is available on request. Recent technology developments include:
 
 * automated, artificially-intelligent web bots to detect worldwide fraud in the web and mobile advertising markets
 * big data storage, retrieval, analysis, and altering systems for a client with a global user base
