@@ -13,21 +13,21 @@ OptimalWorks Ltd is run by [Craig Buckler]([root]about/) from Devon in the South
 
 <nav class="service list">
   <ul>
-    <li data-revealer="up">
+    <li data-revealer="zoomup">
       <a href="[root]service/consultancy/">
         <div><img id="consultancy" src="[root]images/svg/consultancy.svg" data-inline="1" /></div>
         <h2>IT consultancy</h2>
         <p>Get your project moving in the right direction</p>
       </a>
     </li>
-    <li data-revealer="up">
+    <li data-revealer="zoomup">
       <a href="[root]service/development/">
         <div><img id="development" src="[root]images/svg/development.svg" data-inline="1" /></div>
         <h2>Development</h2>
         <p>Bespoke web site and app design and development</p>
       </a>
     </li>
-    <li data-revealer="up">
+    <li data-revealer="zoomup">
       <a href="[root]service/knowledge/">
         <div><img id="training" src="[root]images/svg/training.svg" data-inline="1" /></div>
         <h2>Technical training</h2>

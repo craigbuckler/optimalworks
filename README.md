@@ -1,6 +1,6 @@
-# OptimalWorks website
+# OptimalWorks.net website
 
-The [OptimalWorks](https://www.optimalworks.net/) website - the business site for Craig Buckler.
+The [OptimalWorks Ltd](https://www.optimalworks.net/) website - the business site for Craig Buckler.
 
 This is static site constructed using Gulp, Metalsmith and custom plugins.
 
