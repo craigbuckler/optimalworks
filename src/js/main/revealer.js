@@ -3,58 +3,74 @@
 
 	// requires: lib.js
 */
-if ('IntersectionObserver' in window) window.addEventListener('load', function() {
+if ('IntersectionObserver' in window) window.addEventListener('DOMContentLoaded', function() {
 
   'use strict';
 
   var
-    name = 'revealer',  // data name
-    minDelay = 300,     // minimum delay between each animation
+    cfg = {
+      name: 'revealer',     // revealer class data name, e.g. data-revealer="animationClass"
+      delay: 'delay',       // revealer delay data name, e.g. data-delay="100"
+      root: null,           // root element (null for viewport)
+      rootMargin: '0px',    // margin around root element
+      threshold: 0.6,       // proportion of element visible before triggering animation
+      minDelay: 300         // minimum delay between each animation unless set with data-delay
+    },
 
-    nextTime = 0,
-    rNode = document.querySelectorAll('[data-' + name + ']'),
-    observer = new IntersectionObserver(
-      function(entries) {
+    rNode = document.querySelectorAll('[data-' + cfg.name + ']');
 
-        entries.forEach(function(entry) {
+  var rN = rNode.length;
+  if (!rN) return;
 
-          let t = entry.target, r = (t.dataset[name] || '').trim();
+  // hide components
+  for (var i = 0; i < rN; i++) rNode[i].classList.add(cfg.name);
 
-          if (entry.isIntersecting && r) {
+  // observe all components
+  console.log(document.readyState);
+  if (document.readyState === 'complete') observe();
+  else window.addEventListener('load', observe, false);
 
-            var now = +new Date();
+  function observe() {
+
+    var
+      nextTime = 0,
+      observer = new IntersectionObserver(
+
+        function(entries) {
+
+          entries.forEach(function(entry) {
+
+            var t = entry.target, rCls = (t.dataset[cfg.name] || '').trim();
+
+            if (!rCls || entry.intersectionRatio < cfg.threshold) return;
+
+            // component in view
+            var d = t.dataset[cfg.delay], now = +new Date();
             if (nextTime < now) nextTime = now;
 
+            // unobserve
             observer.unobserve(t);
+
+            // reveal after delay
             setTimeout(function() {
               requestAnimationFrame(function() {
-                t.className += ' ' + r;
+                t.className += ' ' + rCls;
               });
-            }, t.dataset.delay || nextTime - now);
+            }, d !== undefined ? d : nextTime - now);
 
-            nextTime += minDelay;
+            nextTime += cfg.minDelay;
 
-          }
+          });
 
-        });
+        },
+        {
+          root: cfg.root,
+          rootMargin: cfg.rootMargin,
+          threshold: cfg.threshold
+        }
+      );
 
-      },
-      { threshold: 0.3 }
-    );
-
-  // initialise off-screen components
-  var wH = window.innerHeight, cRect, cT, cH, i, t;
-  for (i = 0; i < rNode.length; i++) {
-
-    t = rNode[i];
-    cRect = t.getBoundingClientRect();
-    cT = cRect.top;
-    cH = cRect.height;
-
-    if (!(0 < cT + cH && wH > cT)) {
-      t.classList.add(name);
-      observer.observe(t);
-    }
+    for (var i = 0; i < rN; i++) observer.observe(rNode[i]);
 
   }
 
