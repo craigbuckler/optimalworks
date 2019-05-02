@@ -10,18 +10,19 @@ layout: article.ejs
 
 All our websites and apps have been implemented as Progressive Web Apps (PWA) since 2016. The concept is new so clients rarely ask for a PWA, but it seems irresponsible *not* to add the technologies. The benefits are considerable:
 
-* users can easily add your site/app to their mobile or desktop home screen
+* users can easily find and add your site/app to their mobile or desktop home screen
 * performance is improved because files can be cached on-demand or in advance
-* sites/apps can be made to work offline
-* PWA technology can normally be applied to existing web sites and applications
+* sites/apps can work offline, synchronise data, and send notifications
+* PWA technology can be applied to existing web sites and applications
 * they can be updated like normal web applications without App Store complexities
 * PWAs can be hundreds of times smaller and more efficient than native mobile apps
-* functionality still works everywhere - *even when a device doesn't support PWA technologies*.
+* functionality works everywhere - *even when a device doesn't support PWA technologies*.
 
-PWAs use standard web development APIs and are already supported in Chrome, Firefox, Opera, Vivaldi, and Brave. Edge and Safari are coming soon.
+PWAs use standard web development APIs and are supported (to differing levels) in Chrome, Firefox, Opera, Vivaldi, Edge and Safari.
 
 
 ## Web agency support
+
 Unfortunately, few web development agencies have adopted PWA techniques. Clients don't know it's an option and developers often lack appropriate knowledge. However, the core concepts are simple:
 
 1. Enable secure HTTPS (preferably HTTP/2) on your system.

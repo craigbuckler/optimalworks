@@ -24,18 +24,20 @@ Unfortunately, there are several downsides:
 1. PDF accessibility and copy/paste can fail.
 
 
-> why are we converting one perfectly good document format to another?
+> why do we convert one perfectly good document format to another?
 
-Ultimately, why we are converting one perfectly good document format to another? These reports are already generated in HTML&hellip;
+Ultimately, why we are converting a perfectly good document format to another? Web reports are already generated in HTML, so&hellip;
 
-*Could we export a single HTML document? Could it have all the benefits of PDF with none of the problems?*
+*Could we export a single HTML document?*
 
-That was the subject of my presentation at the [TechExeter conference in September 2018](https://techexeter.uk/).
+*Would it have all the benefits of PDF with none of the problems?*
+
+That was the subject of my presentation at the [Future Sync conference in April 2019](https://futuresync.co.uk/) and the [TechExeter conference in September 2018](https://techexeter.uk/).
 
 
 ## HTML proof of concept
 
-My objective was to create a report preview page which could download a static representation of itself as a single HTML file. It would look like a PDF document, have numbered pages/slides, would print well, be viewable offline, and could be distributed to anyone via email or other communication methods.
+My objective was to create a web-based report preview page which could download a static representation of itself as a single HTML file. It would look like a PDF document, have numbered pages/slides, would print well, be viewable offline, and could be distributed to anyone via email or other communication methods.
 
 The resulting code can be found at [github.com/craigbuckler/html5-export](https://github.com/craigbuckler/html5-export) or you can **[view the demonstration](https://cdn.rawgit.com/craigbuckler/html5-export/ed653078/preview3.html)**.
 
@@ -49,9 +51,9 @@ When the download icon link is clicked, a JavaScript event handler:
 
 > the downloaded HTML document works in any browser
 
-The link sets the `download` attribute to force a file download. While this process does not currently work in Edge or IE, the downloaded HTML document can be opened in any browser and distributed as easily as a PDF.
+The link sets the `download` attribute to force a file download. The downloaded HTML document can be opened in any browser - *even when offline* - and distributed as easily as a PDF.
 
 
 ## HTML export for your application
 
-The code is a demonstration but you are free to use and adapt it for your own web-based systems. Alternatively, we can help you with the implementation process - [*please contact us to discuss your requirements&hellip;*]([root]contact/)
+The code is a demonstration but you are free to use and adapt it for your own web-based reports. Alternatively, we can help you with implementation - [*please contact us to discuss your requirements&hellip;*]([root]contact/)
