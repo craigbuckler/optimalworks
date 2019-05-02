@@ -5,7 +5,7 @@
 
   <h1><%- title %></h1>
 
-  <p class="articleinfo"><strong itemprop="datePublished" content="<%= date %>"><%= dateFormatted %></strong>: <%- Math.ceil(wordCount / 10) * 10 %> words, <%- readingTime %>-minute read</p>
+  <p class="articleinfo"><time itemprop="datePublished" datetime="<%= dateSimple %>"><%= dateFormatted %></time>: <%- Math.ceil(wordCount / 10) * 10 %> words, <%- readingTime %>-minute read</p>
 
   <%- contents %>
 
