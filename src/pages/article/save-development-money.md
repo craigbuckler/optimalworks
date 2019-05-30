@@ -2,7 +2,7 @@
 title: How to save money on your next project
 description: How to save considerable time and expense when planning a new development task.
 hero: v1515501268/works/money-bank
-heroquote: save time, money, and sanity
+herotype: <span>saving you time</span> <span>saving you money</span> <span>saving your sanity!</span>
 publish: 2018-01-09
 tag: web, cost
 layout: article.ejs

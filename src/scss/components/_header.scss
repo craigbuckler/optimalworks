@@ -37,7 +37,7 @@ header {
 
   }
 
-  .quote, .cta {
+  .type, .quote, .cta {
     position: absolute;
     font-size: 6vmin;
     top: 50%;
@@ -71,7 +71,7 @@ header {
 
   @include respond('small') {
 
-    .quote {
+    .type, .quote {
       top: 35%;
     }
 

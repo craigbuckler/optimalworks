@@ -8,8 +8,7 @@
 const
   domain = '/* @echo rootURL */',
   domaincdn = '/* @echo imagecdn */',
-  version = '/* @echo version */',
-  CACHE = version + '/* @echo PWAcache */',
+  CACHE = '/* @echo version *//* @echo PWAcache */',
   offlineURL = '/* @echo rootpath *//* @echo offlineURL */',
   installFilesEssential = [
     '/* @echo rootpath */',

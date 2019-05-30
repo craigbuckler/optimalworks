@@ -49,7 +49,6 @@
     preprocess    = require('gulp-preprocess'),
     deporder      = require('gulp-deporder'),
     concat        = require('gulp-concat'),
-    stripdebug    = require('gulp-strip-debug'),
     terser        = require('gulp-terser'),
 
     // Metalsmith and plugins
@@ -301,10 +300,15 @@
       filename    : `main-${sitemeta.versionFile}.js`
     },
     terserOpts = {
+      mangle: {
+        toplevel: true
+      },
       output: {
         quote_style :  1
       }
     };
+
+  if (!devBuild) terserOpts.compress = { drop_console: true };
 
   // JavaScript processing
   function js() {
@@ -316,7 +320,6 @@
       .pipe(sourcemaps ? sourcemaps.init() : noop())
       .pipe(deporder())
       .pipe(concat(jsCfg.filename))
-      .pipe(devBuild ? noop() : stripdebug())
       .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
       .pipe(sourcemaps ? sourcemaps.write() : noop())
@@ -342,7 +345,6 @@
     return gulp.src(jssingleCfg.src)
       .pipe(preprocess({ context: sitemeta }))
       .pipe(concat(jssingleCfg.filename))
-      .pipe(devBuild ? noop() : stripdebug())
       .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
       .pipe(gulp.dest(jssingleCfg.build));
@@ -365,7 +367,6 @@
       .pipe(preprocess({ context: sitemeta }))
       .pipe(deporder())
       .pipe(concat(jspwaCfg.filename))
-      .pipe(devBuild ? noop() : stripdebug())
       .pipe(terser(terserOpts))
       .on('error', (err) => { console.log(err.toString()); })
       .pipe(gulp.dest(jspwaCfg.build));
