@@ -3,7 +3,7 @@ title: Contact
 menu: contact
 description: How to contact us to discuss your next web site or web app project.
 hero: v1513974724/works/contact
-heroquote: we'd love to hear from you
+herotype: <span>contact us today</span> <span>we're ready to help you</span>
 priority: 0.5
 ---
 

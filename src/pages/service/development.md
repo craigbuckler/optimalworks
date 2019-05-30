@@ -3,7 +3,7 @@ title: Design and development
 menu: development
 description: Bespoke web application analysis, design and development for desktop and mobile devices.
 hero: v1513974725/works/idea
-heroquote: translating ideas into reality
+herotype: <span>translating ideas</span> <span>transforming reality</span>
 ctatext: contact
 ctalink: contact/
 tag: service
@@ -71,6 +71,15 @@ Examples of previous work is protected by non-disclosure agreements, but non-ide
 * virtual reality data visualisations
 * Progressive Web App implementations
 * an award-winning website
+
+
+## Open-source contributions
+
+Examples of software we have developed for the community:
+
+* [progressive-image.js](https://github.com/craigbuckler/progressive-image.js) - lazy-loading image effects which improve website performance
+* [revealer.js](https://github.com/craigbuckler/revealer.js) - reveal elements using animation when scrolled into view
+* [typist.js](https://github.com/craigbuckler/typist.js) - an animated text typing effect
 
 
 ## Clients

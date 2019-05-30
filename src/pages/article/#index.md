@@ -2,7 +2,7 @@
 title: Articles
 description: A list of web industry articles published by Craig Buckler on the OptimalWorks website.
 hero: v1513974725/works/article
-heroquote: technology news, opinions and techniques
+herotype: <span>technology news</span> <span>technical opinions</span>
 ctatext: contact
 ctalink: contact/
 priority: 0.6

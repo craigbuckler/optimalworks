@@ -3,7 +3,7 @@ title: Professional IT services
 menu: home
 description: OptimalWorks Ltd, Devon UK. Bespoke web application analysis, design and development.
 hero: v1513782351/works/develop
-heroquote: helping you build the future
+herotype: <span>building the web</span> <span>building your business</span> <span>building the future</span>
 ctatext: contact
 ctalink: contact/
 priority: 1.0
@@ -37,7 +37,7 @@ OptimalWorks Ltd is run by [Craig Buckler]([root]about/) from Devon in the South
   </ul>
 </nav>
 
-**Current availability:** now booking projects for late Q2 2019.
+**Current availability:** <span data-typist="1" data-delay-start="-1">now booking projects for Q3 2019.</span>
 
 
 ## Typical projects
