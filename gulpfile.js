@@ -19,7 +19,8 @@
       base        : __dirname + '/',
       lib         : __dirname + '/lib/',
       src         : 'src/',
-      build       : 'build/'
+      build       : 'build/',
+      module      : 'node_modules/'
     },
 
     // site meta data
@@ -261,13 +262,12 @@
       errLogToConsole : true
     },
     processors: [
+      require('postcss-import'),
       require('postcss-assets')({
         loadPaths: ['images/'],
         basePath: dir.build
       }),
-      require('autoprefixer')({
-        browsers: ['> 2%']
-      }),
+      require('autoprefixer'),
       require('css-mqpacker'),
       require('cssnano')
     ]
@@ -296,12 +296,19 @@
   // JavaScript settings
   const jsCfg = {
       src         : dir.src + 'js/main/**/*',
+      srcModule   : [
+        dir.module + 'revealer.js/dist/revealer.js',
+        dir.module + 'htmltypist.js/dist/typist.js'
+      ],
       build       : dir.build + 'js/',
       filename    : `main-${sitemeta.versionFile}.js`
     },
     terserOpts = {
       mangle: {
         toplevel: true
+      },
+      compress: {
+        drop_console: !devBuild
       },
       output: {
         quote_style :  1
@@ -315,7 +322,7 @@
 
     del.sync(`${jsCfg.build}main-*.js`);
 
-    return gulp.src(jsCfg.src)
+    return gulp.src([jsCfg.src].concat(jsCfg.srcModule))
       .pipe(preprocess({ context: sitemeta }))
       .pipe(sourcemaps ? sourcemaps.init() : noop())
       .pipe(deporder())

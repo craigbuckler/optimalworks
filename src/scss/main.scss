@@ -19,8 +19,10 @@
 @import 'components/_navlist';
 @import 'components/_navrel';
 @import 'components/_progressive-images';
-@import 'components/_revealer';
-@import 'components/_typist';
+
+// modules
+@import 'htmltypist.js/dist/typist.css';
+@import 'revealer.js/dist/revealer.css';
 
 // print
 @import 'base/_print.scss';
