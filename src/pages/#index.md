@@ -37,7 +37,7 @@ OptimalWorks Ltd is run by [Craig Buckler]([root]about/) from Devon in the South
   </ul>
 </nav>
 
-**Current availability:** <span data-typist="1" data-delay-start="-1">now booking projects for Q3 2019.</span>
+**Current availability:** <span data-typist="1" data-delay-start="-1" data-cursor="2">now booking projects for Q3 2019.</span>
 
 
 ## Typical projects

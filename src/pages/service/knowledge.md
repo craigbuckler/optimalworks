@@ -52,7 +52,7 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 
 Craig regularly attends and speaks at technical conferences. Previous presentations include:
 
-* Is PDF your Best Option? -- [Future Sync 2019](https://futuresync.co.uk/) and [TechExeter 2018](http://conference.techexeter.uk)
+* [Is PDF your Best Option?](https://www.youtube.com/watch?v=nF8j5Oxy_ho) -- [Future Sync 2019](https://futuresync.co.uk/) and [TechExeter 2018](http://conference.techexeter.uk)
 * Raise Your VR A-Game with A-Frame -- [TechExeter 2017](http://conference.techexeter.uk)
 * The Future of Mobile: Native vs Progressive Web Apps -- [TechExeter 2016](http://conference.techexeter.uk)
 * Passwordless Authentication -- [TechExeter 2015](https://techexeter.uk/)
