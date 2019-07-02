@@ -80,6 +80,7 @@ Examples of software we have developed for the community:
 * [progressive-image.js](https://github.com/craigbuckler/progressive-image.js) - lazy-loading image effects which improve website performance
 * [revealer.js](https://github.com/craigbuckler/revealer.js) - reveal elements using animation when scrolled into view
 * [typist.js](https://github.com/craigbuckler/typist.js) - an animated text typing effect
+* [theme.js](https://github.com/craigbuckler/theme.js) - simple light and dark website theme colours
 
 
 ## Clients

@@ -1,0 +1,91 @@
+// light/dark theme
+
+.themejs-back, .themejs-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  pointer-events: none;
+}
+
+.themejs-back {
+  z-index: -1;
+}
+
+.themejs-overlay {
+  mix-blend-mode: difference;
+  transform-origin: 50% 40%;
+  transform: scale(0) rotate(270deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.themejs .themejs-overlay {
+  transform: scaleY(1) rotate(0deg);
+}
+
+[data-toggled="themejs"] {
+  cursor: pointer;
+  display: none;
+
+  &:before {
+    display: inline-block;
+    content: ' ';
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    margin-right: 0.4em;
+    background-color: $color-fore;
+    border: 0.15em solid $color-back;
+    border-radius: 20%;
+  }
+}
+
+.themejs-active [data-toggled="themejs"] {
+  display: block;
+}
+
+// dark theme component-specific colours
+.themejs {
+
+  .optimalworks {
+    color: $color-back !important;
+  }
+
+  .optimalworks::before, #menuopen {
+    filter: invert(100%) brightness(200%);
+  }
+
+  nav.main, #menu {
+    background-color: rgba($color-logo, 0.97);
+
+    strong, a:link, a:visited {
+      color: $color-back;
+    }
+
+    a:hover, a:active, a:focus {
+      color: darken($color-back, 20%);
+    }
+  }
+
+  @include respond('medium') {
+
+    #menu {
+      li:hover ul, li:focus ul {
+        background-color: rgba($color-logo, 0.97);
+      }
+    }
+
+  }
+
+  li.revealer, li.revealer img, label {
+    filter: invert(100%);
+  }
+
+  [data-toggled="themejs"]:before {
+    background-color: $color-back;
+    border-color: $color-fore;
+  }
+
+}

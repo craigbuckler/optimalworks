@@ -298,7 +298,8 @@
       src         : dir.src + 'js/main/**/*',
       srcModule   : [
         dir.module + 'revealer.js/dist/revealer.js',
-        dir.module + 'htmltypist.js/dist/typist.js'
+        dir.module + 'htmltypist.js/dist/typist.js',
+        dir.module + 'theme.js/dist/theme.js'
       ],
       build       : dir.build + 'js/',
       filename    : `main-${sitemeta.versionFile}.js`

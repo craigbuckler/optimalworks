@@ -12,7 +12,7 @@ const
   offlineURL = '/* @echo rootpath *//* @echo offlineURL */',
   installFilesEssential = [
     '/* @echo rootpath */',
-    '/* @echo rootpath */manifest.json',
+    '/* @echo rootpath */manifest.webmanifest',
     '/* @echo rootpath */css/main-/* @echo versionFile */.css',
     '/* @echo rootpath */js/main-/* @echo versionFile */.js',
     '/* @echo rootpath */js/offlinepage-/* @echo versionFile */.js'

@@ -41,8 +41,9 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 * [Improving your Workflow with Gulp.JS](http://shop.oreilly.com/product/0636920038948.do)
 * [CSS3 Transformations And Animations](http://shop.oreilly.com/product/110000261.do)
 * [Learning jQuery Programming](http://shop.oreilly.com/product/110000326.do)
-* and several short [JavaScript how-to videos](https://ssearch.oreilly.com/?i=1;q=Craig+Buckler;q1=Articles~2FBlogs;x1=t1&act=fc_contenttype_Articles/Blogs).
+* and several short [JavaScript how-to videos](https://ssearch.oreilly.com/?i=1;q=Craig+Buckler;q1=Articles~2FBlogs;x1=t1&act=fc_contenttype_Articles/Blogs)...
 
+<div data-revealer="up" class="video"><video controls="" src="https://cdnapisec.kaltura.com/p/1681692/sp/168169200/playManifest/entryId/0_bscabmm8/flavorId/0_pi92vqth/format/url/protocol/https/a.mp4"></video></div>
 
 ## Conference speaking
 

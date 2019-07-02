@@ -55,21 +55,24 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
 
 
   // replace with full image
-  function loadFullImage(item) {
+  function loadFullImage(item, retry) {
 
     var href = item && (item.getAttribute('data-href') || item.href);
     if (!href) return;
 
     // load image
-    var img = new Image();
-    if (item.dataset) {
-      img.srcset = item.dataset.srcset || '';
-      img.sizes = item.dataset.sizes || '';
+    var img = new Image(), ds = item.dataset;
+    if (ds) {
+      if (ds.srcset) img.srcset = ds.srcset;
+      if (ds.sizes) img.sizes = ds.sizes;
     }
-    img.src = href;
+    img.onload = addImg;
+    retry = 1 + (retry || 0);
+    if (retry < 3) img.onerror = function() {
+      setTimeout(function() { loadFullImage(item, retry); }, retry * 3000);
+    };
     img.className = 'reveal';
-    if (img.complete) addImg();
-    else img.onload = addImg;
+    img.src = href;
 
     // replace image
     function addImg() {
