@@ -297,9 +297,9 @@
   const jsCfg = {
       src         : dir.src + 'js/main/**/*',
       srcModule   : [
+        dir.module + 'toggled.js/dist/toggled.js',
         dir.module + 'revealer.js/dist/revealer.js',
-        dir.module + 'htmltypist.js/dist/typist.js',
-        dir.module + 'theme.js/dist/theme.js'
+        dir.module + 'htmltypist.js/dist/typist.js'
       ],
       build       : dir.build + 'js/',
       filename    : `main-${sitemeta.versionFile}.js`
@@ -309,6 +309,7 @@
         toplevel: true
       },
       compress: {
+        passes: 5,
         drop_console: !devBuild
       },
       output: {

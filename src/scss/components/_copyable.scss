@@ -1,0 +1,8 @@
+// copyable text and labels
+[data-copyable] {
+  display: none;
+}
+
+.linkable[data-copyable] {
+  display: block;
+}

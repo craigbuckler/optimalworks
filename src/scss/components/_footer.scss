@@ -21,7 +21,7 @@ footer {
 
   a:link, a:visited {
     text-align: center;
-    color: $color-back;
+    color: $color-back !important;
 
     &:before {
       width: 1.5em;

@@ -13,6 +13,10 @@
 
 <aside>
 
+  <% if (menu !== 'contact') { %>
+    <%- include('partials/share.html'); %>
+  <% } %>
+
   <%- include('partials/tags.html'); %>
 
   <%- include('partials/nav-relative.html'); %>

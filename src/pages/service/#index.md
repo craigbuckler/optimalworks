@@ -1,6 +1,6 @@
 ---
 title: Services
-description: OptimalWorks Ltd provides a number of web development services including consultancy, development and technical training.
+description: OptimalWorks Ltd provide technology development services including IT consultancy, design, development, and training.
 hero: v1513975289/works/open
 ctatext: contact
 ctalink: contact/

@@ -13,7 +13,7 @@ priority: 0.89
 >it's the best system specification we have ever seen
 <cite>US consultancy</cite>
 
-We work with start-ups and established organisations to provide pragmatic, cost-effective IT and web based solutions to streamline operations, maximize productivity, and encourage rapid growth in competitive markets.
+We work with start-ups and established organisations to provide pragmatic, cost-effective IT and web-based solutions which streamline operations, maximize productivity, and encourage rapid growth in competitive markets.
 
 Our consultancy services include, but are not limited to:
 
@@ -29,7 +29,7 @@ Our consultancy services include, but are not limited to:
 
 ## Clients
 
-Previous clients include the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Vodafone, Sky, Santander, NatWest, Credit Suisse, Thompson Reuters, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, Symantec, O'Reilly and SitePoint.
+Our clients include the UK Government, The EU Parliament, HMRC, The Department of Energy and Climate Change, The Department of Education, Plymouth University, Plymouth College of Medicine and Dentistry, Microsoft, MSN, Yahoo, Vodafone, Sky, Santander, NatWest, Credit Suisse, Thompson Reuters, The Times, The Guardian, FT.com, ITN, CfBT Education Trust, SSAT, Devon County Council, Symantec, O'Reilly, and SitePoint.
 
 Examples of previous work is protected by non-disclosure agreements, but non-identifiable information is available on request.
 
