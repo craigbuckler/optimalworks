@@ -1,5 +1,5 @@
 // relative navigation
-nav.tag, nav.relative {
+.tag, .relative, .intent {
 
   clear: both;
 
@@ -9,13 +9,13 @@ nav.tag, nav.relative {
     justify-content: space-between;
     list-style-type: none;
     padding: 0;
-    margin: 2em 0 0 0;
+    margin: 1.5em 0 0 0;
   }
 
   li {
     text-align: left;
     padding: 0;
-    margin: 2vmin;
+    margin: 1.5vmin;
   }
 
   li.link-next {
@@ -39,8 +39,28 @@ p.tag {
   text-align: right;
 }
 
-nav.tag ul {
+.tag ul {
   justify-content: flex-end;
+}
+
+.intent {
+
+  margin-top: 2em;
+  border: 1px solid $color-logo;
+
+  ul {
+    justify-content: center;
+    margin: 0;
+  }
+
+  li {
+    margin: 1.5vmin 0;
+  }
+
+  a {
+    padding: 0 0.7vmin;
+  }
+
 }
 
 // contact

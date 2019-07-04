@@ -1,5 +1,5 @@
 ---
-title: Training and knowledge-sharing
+title: Knowledge-sharing
 menu: knowledge
 description: Training, article writing, video tutorials, conference speaking, and knowledge-sharing throughout the IT industry.
 hero: v1513974726/works/train
@@ -10,7 +10,7 @@ tag: service
 priority: 0.87
 ---
 
-Craig Buckler, OptimalWorks Ltd director, is an active participant in the web development community and an active web evangelist.
+Craig Buckler, OptimalWorks Ltd director, is a web evangelist and an active participant in the web development community.
 
 
 ## Articles and tutorials
@@ -23,7 +23,11 @@ Craig has written more than 1,100 articles and technical tutorials for [SitePoin
 * [The Modern JavaScript Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07DHYM4ZW/craigbucklerc-21)
 * [JavaScript Novice to Ninja](https://www.amazon.co.uk/exec/obidos/ASIN/B00TJ6UYSE/craigbucklerc-21)
 * [Modern JavaScript](https://www.amazon.co.uk/exec/obidos/ASIN/B074WF1FTR/craigbucklerc-21)
+* [Node.js: Related Tools &amp; Skills](https://www.amazon.co.uk/exec/obidos/ASIN/B07L1DCDGH/craigbucklerc-21)
 * [The Advanced CSS Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07K1LJRZZ/craigbucklerc-21)
+* [Modern CSS](https://www.amazon.co.uk/exec/obidos/ASIN/B07JXXSVKL/craigbucklerc-21)
+* [CSS Grid Layout: 5 Practical Projects](https://www.amazon.co.uk/exec/obidos/ASIN/B07JNHZCTV/craigbucklerc-21)
+* [CSS: Tools &amp; Skills](https://www.amazon.co.uk/exec/obidos/ASIN/B07JPG46PN/craigbucklerc-21)
 * [Jump Start Responsive Web Design](https://www.amazon.co.uk/exec/obidos/ASIN/B072HM7KJ7/craigbucklerc-21)
 * [The Web Performance Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07H52FX5D/craigbucklerc-21)
 * [Jump Start Git](https://www.amazon.co.uk/exec/obidos/ASIN/B014RYW2QO/craigbucklerc-21)
@@ -65,6 +69,6 @@ Craig regularly attends and speaks at technical conferences. Previous presentati
 > these are by far the best JavaScript video tutorials I have found
 <cite>PA</cite>
 
-Craig has trained personnel in modern web development techniques in companies including The Wall Street Journal and The Institute of Chartered Accountants in England and Wales.
+Craig has trained personnel in modern web development techniques in companies including The Wall Street Journal, The Institute of Chartered Accountants in England and Wales, Plymouth University, and Empello.
 
 [*Please contact us to discuss your requirements&hellip;*]([root]contact/)

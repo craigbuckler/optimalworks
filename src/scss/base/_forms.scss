@@ -162,8 +162,8 @@ button {
   cursor: pointer;
 
   &:hover, &:focus {
-    color: #fff;
-    background-color: $field-hint;
+    color: #fff !important;
+    background-color: $field-hint !important;
   }
 
   &::-moz-focus-inner {

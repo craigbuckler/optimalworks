@@ -57,14 +57,14 @@ ow.lib = (function() {
     doc = doc || document;
     return doc.getElementsByTagName(tagName);
   }
-
+*/
 
   // getElementsByClassName
   function className(cn, doc) {
     doc = doc || document;
     return doc.getElementsByClassName(cn);
   }
-*/
+
 
   // querySelector
   function query(sel, doc) {
@@ -378,6 +378,36 @@ ow.lib = (function() {
   }
 
 
+  // get page information
+  function pageInfo() {
+
+    var
+      url = query('link[rel=canonical]'),
+      desc = document.getElementsByName('description');
+
+    return {
+      url:    url ? url.href : location.href,
+      title:  document.title || '',
+      text:   desc.length ? desc[0].content : ''
+    };
+
+  }
+
+
+  // replace {tokens} in a string
+  function tokenReplace(str, token, urlencode) {
+
+    for (let t in token) {
+      var r = token[t];
+      if (urlencode) r = encodeURIComponent(r);
+      str = str.replace(new RegExp('\\$' + t + '\\$', 'g'), r);
+    }
+
+    return str;
+
+  }
+
+
   // public methods
   return {
     each: each,
@@ -386,7 +416,7 @@ ow.lib = (function() {
     //int: int,
     id: id,
     //tag: tag,
-    //className: className,
+    className: className,
     query: query,
     queryAll: queryAll,
     closest: closest,
@@ -400,7 +430,9 @@ ow.lib = (function() {
     //queryStringParse: queryStringParse,
     //eventDebounce: eventDebounce,
     //eventThrottle: eventThrottle,
-    ajax: ajax
+    ajax: ajax,
+    pageInfo: pageInfo,
+    tokenReplace: tokenReplace
   };
 
 })();

@@ -1,33 +1,6 @@
-// light/dark theme
-
-.themejs-back, .themejs-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  pointer-events: none;
-}
-
-.themejs-back {
-  z-index: -1;
-}
-
-.themejs-overlay {
-  mix-blend-mode: difference;
-  transform-origin: 50% 40%;
-  transform: scale(0) rotate(270deg);
-  transition: transform 0.5s ease-in-out;
-}
-
-.themejs .themejs-overlay {
-  transform: scaleY(1) rotate(0deg);
-}
-
-[data-toggled="themejs"] {
+// dark theme
+[data-toggled="dark"] {
   cursor: pointer;
-  display: none;
 
   &:before {
     display: inline-block;
@@ -42,12 +15,66 @@
   }
 }
 
-.themejs-active [data-toggled="themejs"] {
-  display: block;
-}
-
 // dark theme component-specific colours
-.themejs {
+body.dark {
+
+  [data-toggled="dark"]:before {
+    background-color: $color-back;
+    border-color: $color-fore;
+  }
+
+  &, main, aside, .list a:link, .list a:visited {
+    color: $color-back;
+    background-color: $color-fore;
+  }
+
+  a:link, a:visited, .linkable, input:focus + label, textarea:focus + label {
+    color: lighten($color-logo, 20%);
+  }
+
+  input[type="checkbox"], input[type="radio"] {
+
+    & + label::before {
+      background-color: $color-fore;
+    }
+
+    & + label::after {
+      border-color: lighten($color-logo, 10%);
+      box-shadow: -2px 2px 0 $color-fore;
+    }
+
+  }
+
+  a, .linkable {
+    &:hover, &:active, &:focus {
+      color: lighten($color-logo, 40%);
+    }
+  }
+
+  code  {
+    background-color: lighten($color-fore, 10%);
+  }
+
+  button {
+    color: $color-fore;
+    background-color: $color-menu;
+  }
+
+  blockquote {
+    background-color: darken($color-logo, 6%);
+
+    &:after {
+      border-color: darken($color-logo, 6%) transparent transparent darken($color-logo, 6%);
+    }
+  }
+
+  .list li, .list .img, .video {
+    border-color: $color-back;
+  }
+
+  .icon:before, .icon.right::after, .list svg {
+    filter: brightness(1.2);
+  }
 
   .optimalworks {
     color: $color-back !important;
@@ -79,13 +106,6 @@
 
   }
 
-  li.revealer, li.revealer img, label {
-    filter: invert(100%);
-  }
 
-  [data-toggled="themejs"]:before {
-    background-color: $color-back;
-    border-color: $color-fore;
-  }
 
 }

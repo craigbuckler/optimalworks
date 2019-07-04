@@ -9,7 +9,7 @@ ctalink: contact/
 priority: 0.69
 ---
 
-An "accessible" web site or application is available to everyone, everywhere, regardless of browser, device or connection. Visitors can use and interact with your system even if they are not using the latest hardware or software.
+An "accessible" web site or application is available to everyone, everywhere, regardless of browser, device, or connection. Visitors can use and interact with your system even if they are not using the latest hardware or software.
 
 Accessibility offers many business benefits:
 
@@ -20,4 +20,6 @@ Accessibility offers many business benefits:
 * hosting and deployment costs are reduced
 * your system is future-proofed and should work on new browsers with minimal effort.
 
-Few corporations adhere with web standards and accessibility guidelines even though they have the most to gain. We help you stand out from the competition.
+Few corporations adhere with web standards and accessibility guidelines even though they have the most to gain.
+
+We will help you stand out from the competition.

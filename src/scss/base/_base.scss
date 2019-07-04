@@ -149,17 +149,21 @@ hr {
 	margin: 0.5rem 0;
 }
 
-a:link, a:visited {
+a:link, a:visited, .linkable {
   text-decoration: none;
   color: $color-logo;
+  cursor: pointer;
+  user-select: none;
 
   main & {
     text-decoration: underline solid currentColor;
   }
 }
 
-a:hover, a:active, a:focus {
-  color: lighten($color-logo, 20%);
+a, .linkable {
+  &:hover, &:active, &:focus {
+    color: lighten($color-logo, 20%);
+  }
 }
 
 img {

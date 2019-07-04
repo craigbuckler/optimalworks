@@ -1,18 +1,24 @@
 // print styling
 @media print {
 
-  * {
+  *, footer a:link, footer a:visited {
     color: #000 !important;
-		background-color: transparent !important;
+    background-color: transparent !important;
   }
 
 	html, body {
 		width: 100%;
-		font-size: 100%;
+    font-size: 100%;
+    display: block;
   }
 
-  header, nav.main, nav.tag, nav.relative, footer a.twitter, blockquote:after {
+  header, form, nav.main, nav.tag, nav.relative, .list div.img, .intent, .video, figure.revealer, footer a.twitter, blockquote:after, #install, [data-toggled] {
     display: none !important;
+  }
+
+  .revealer {
+    opacity: 1;
+    animation-name: none !important;
   }
 
   footer {
