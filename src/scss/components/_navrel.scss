@@ -43,8 +43,10 @@ p.tag {
   justify-content: flex-end;
 }
 
+// share block
 .intent {
 
+  display: none;
   margin-top: 2em;
   border: 1px solid $color-logo;
 
@@ -61,6 +63,11 @@ p.tag {
     padding: 0 0.7vmin;
   }
 
+}
+
+// activate sharing links
+.js .intent {
+  display: block;
 }
 
 // contact

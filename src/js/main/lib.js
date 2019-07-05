@@ -10,6 +10,10 @@ ow.lib = (function() {
   'use strict';
 
 
+  // JavaScript active
+  if (document.body.classList) document.body.classList.add('js');
+
+
   // each
   function each(obj, fn) {
     if (obj.length || obj.length === 0) for (var i = 0, ol = obj.length, v = obj[0]; i < ol && fn(v, i) !== false; v = obj[++i]);
