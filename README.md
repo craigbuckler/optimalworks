@@ -49,6 +49,12 @@ Test in Windows Chrome:
 ```
 
 
-## Ping-o-matic
+## Ping
 
-[Submit updates](https://pingomatic.com/ping/?title=OptimalWorks+Ltd&blogurl=https%3A%2F%2Fwww.optimalworks.net%2F&rssurl=https%3A%2F%2Fwww.optimalworks.net%2Ffeed.xml&chk_weblogscom=on&chk_blogs=on&chk_feedburner=on&chk_newsgator=on&chk_myyahoo=on&chk_pubsubcom=on&chk_blogdigger=on&chk_weblogalot=on&chk_newsisfree=on&chk_topicexchange=on&chk_google=on&chk_tailrank=on&chk_skygrid=on&chk_collecta=on&chk_superfeedr=on)
+Submit updates:
+
+* [pingomatic.com](https://pingomatic.com/ping/?title=OptimalWorks+Ltd&blogurl=https%3A%2F%2Fwww.optimalworks.net%2F&rssurl=https%3A%2F%2Fwww.optimalworks.net%2Ffeed.xml&chk_weblogscom=on&chk_blogs=on&chk_feedburner=on&chk_newsgator=on&chk_myyahoo=on&chk_pubsubcom=on&chk_blogdigger=on&chk_weblogalot=on&chk_newsisfree=on&chk_topicexchange=on&chk_google=on&chk_tailrank=on&chk_skygrid=on&chk_collecta=on&chk_superfeedr=on)
+
+* [ping.blo.gs](http://ping.blo.gs/?url=https%3A%2F%2Fwww.optimalworks.net%2F&name=OptimalWorks%20Ltd&rssUrl=https%3A%2F%2Fwww.optimalworks.net%2Ffeed.xml)
+
+* [pingmyblog.com](http://www.pingmyblog.com/) (manual)

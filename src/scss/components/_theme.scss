@@ -1,5 +1,6 @@
 // dark theme
 [data-toggled="dark"] {
+  display: none;
   cursor: pointer;
 
   &:before {
@@ -13,6 +14,10 @@
     border: 0.15em solid $color-back;
     border-radius: 20%;
   }
+}
+
+.js [data-toggled="dark"] {
+  display: block;
 }
 
 // dark theme component-specific colours
@@ -80,7 +85,7 @@ body.dark {
     color: $color-back !important;
   }
 
-  .optimalworks::before, #menuopen {
+  .optimalworks::before, #menuopen, .opener {
     filter: invert(100%) brightness(200%);
   }
 
