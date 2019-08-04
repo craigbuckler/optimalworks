@@ -57,7 +57,6 @@
     publish       = require('metalsmith-publish'),
     layouts		    = require('metalsmith-layouts'),
     markdown      = require('metalsmith-markdown'),
-    inline        = require('metalsmith-inline-source'),
     wordcount		  = require('metalsmith-word-count'),
     beautify      = require('metalsmith-beautify'),
     minify        = require('metalsmith-html-minifier'),
@@ -66,6 +65,7 @@
     // custom Metalsmith plugins
     msutil        = require(dir.lib + 'metalsmith-util'),
     addmeta       = require(dir.lib + 'metalsmith-addmeta'),
+    inline        = require(dir.lib + 'metalsmith-inline'),
     tags          = require(dir.lib + 'metalsmith-tags'),
     rssfeed       = require(dir.lib + 'metalsmith-rssfeed'),
 
@@ -133,7 +133,7 @@
     },
 
     inline: {
-      attribute: 'data-inline="1"',
+      attribute: 'data-inline',
       rootpath: dir.build
     },
 
@@ -152,6 +152,7 @@
       include: 'article'
     }
   };
+
 
   // build HTML pages
   function html(done) {
