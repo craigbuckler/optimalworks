@@ -1,7 +1,7 @@
 ---
-title: Design and development
+title: Web design and development
 menu: development
-description: Bespoke web site and application development across all desktop and mobile platforms.
+description: Web site and web app planning, design, and development across all desktop and mobile platforms.
 hero: v1513974725/works/idea
 herotype: <span>translating ideas</span> <span>transforming reality</span>
 ctatext: contact
@@ -10,19 +10,19 @@ tag: service
 priority: 0.88
 ---
 
-We specialise in building bespoke, best-practise, standards-based, websites and applications using the latest web technologies and techniques.
+We specialise in building bespoke, best-practise, standards-based, web sites and web applications using the latest technologies and techniques. Our approach delivers robust, long-lasting solutions which offer the best value.
 
 > we provide the most cost-effective solution in the quickest possible time
 
-* rapid, agile development
+* proven delivery on-time and on-budget
+* rapid agile development
 * effective content strategies
-* practical organisation and navigation
 * attractive and usable interface design
 * modern but backward-compatible applications using progressive enhancement
 * responsive web design and progressive web apps
+* top-level security
 * best-practise accessibility
-* search engine optimisation, social media campaigns and online advertising
-* top-level robust security
+* search engine optimisation, social media campaigns, and online advertising
 * cost-effective hosting and deployment
 * legal compliance
 
