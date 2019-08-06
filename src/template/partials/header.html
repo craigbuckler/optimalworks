@@ -2,7 +2,7 @@
 
   <% if (hero) { %>
     <figure data-href="<%- imagecdn %>f_auto/<%- hero %>" data-srcset="<%- imagecdn %>f_auto,c_scale,w_800/<%- hero %> 800w, <%- imagecdn %>f_auto/<%- hero %> 1200w" class="hero progressive replace">
-      <img src="<%- imagecdn %>f_auto,c_scale,w_24/<%- hero %>" alt="<%= hero.replace(/.+\/([^/]+)\..+$/, '$1').trim(); %>" class="preview" />
+      <img src="<%- imagecdn %>f_auto,c_scale,w_24/<%- hero %>" alt="<%= hero.replace(/.+\/([^/].+)$/, '$1').trim(); %>" class="preview" />
     </figure>
   <% } %>
 
