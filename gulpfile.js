@@ -318,7 +318,6 @@
       }
     };
 
-  if (!devBuild) terserOpts.compress = { drop_console: true };
 
   // JavaScript processing
   function js() {

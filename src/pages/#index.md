@@ -37,7 +37,7 @@ OptimalWorks Ltd is a web technology company run by [Craig Buckler]([root]about/
   </ul>
 </nav>
 
-**Current availability:** <span class="typist" data-typist-repeat="1" data-typist-cursor-show="2">now booking projects for Q4 2019</span>
+**Current availability:** <span class="typist" data-typist-repeat="1" data-typist-cursor-show="2">now booking projects for Q1 2020</span>
 
 
 ## Typical projects
@@ -52,6 +52,7 @@ Our services include:
 * AI and automated bots
 * big data storage, retrieval and analysis
 * security audits, hack prevention, penetration testing
+* performance improvement
 * cross-platform Virtual and Augmented reality
 * online marketing
 * technical tutorials and video training

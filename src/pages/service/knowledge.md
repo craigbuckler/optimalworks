@@ -52,7 +52,7 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 ## Conference speaking
 
 <figure data-revealer="right" data-href="[imagecdn]f_auto/v1536852175/works/content/craig-presentation" class="progressive replace inline">
-  <img src="[imagecdn]f_auto,c_scale,w_50/v1536852175/works/content/craig-presentation" alt="Craig Buckler, TechExeter presentation" class="preview" />
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1536852175/works/content/craig-presentation" width="500" height="500" alt="Craig Buckler, TechExeter presentation" class="preview" />
 </figure>
 
 Craig regularly attends and speaks at technical conferences. Previous presentations include:
