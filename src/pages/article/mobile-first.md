@@ -2,6 +2,7 @@
 title: Mobile-first as a search ranking factor?
 description: The term "mobile first" can be confusing but it's now considered in Google search.
 hero: v1522154696/works/devices
+thumbheight: 6
 herotype: <span>our sites are cross-platform</span> <span>our sites are search-friendly</span> <span>our sites are responsive</span>
 publish: 2018-03-27
 tag: web, seo, pwa

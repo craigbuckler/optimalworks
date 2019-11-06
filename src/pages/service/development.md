@@ -32,7 +32,7 @@ We endeavour to understand your requirements and provide the most cost-effective
 ## Technology expertise
 
 <figure data-revealer="right" data-href="[imagecdn]f_auto/v1554826608/works/content/empello-fraudscan" class="progressive replace inline">
-  <img src="[imagecdn]f_auto,c_scale,w_50/v1554826608/works/content/empello-fraudscan" alt="example project screenshot" class="preview" />
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1554826608/works/content/empello-fraudscan" width="1172" height="1008" alt="example project screenshot" class="preview" />
 </figure>
 
 Our skills include:
@@ -60,7 +60,7 @@ Our skills include:
 ## Recent projects
 
 <figure data-revealer="right" data-href="[imagecdn]f_auto/v1554826609/works/content/plymouth-university" class="progressive replace inline">
-  <img src="[imagecdn]f_auto,c_scale,w_50/v1554826609/works/content/plymouth-university" alt="example project screenshot" class="preview" />
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1554826609/works/content/plymouth-university" width="1172" height="869" alt="example project screenshot" class="preview" />
 </figure>
 
 Examples of previous work is protected by non-disclosure agreements, but non-identifiable [information is available on request](([root]contact/)). Recent technology developments include:
@@ -70,7 +70,8 @@ Examples of previous work is protected by non-disclosure agreements, but non-ide
 * HTML reporting systems which permits offline use and responsive viewing on any device
 * virtual reality data visualisations
 * Progressive Web App implementations
-* an award-winning website
+* performance audits and improvements
+* award-winning websites
 
 
 ## Open-source contributions
