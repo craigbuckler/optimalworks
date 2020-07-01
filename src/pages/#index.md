@@ -37,7 +37,7 @@ OptimalWorks Ltd is a web technology company run by [Craig Buckler]([root]about/
   </ul>
 </nav>
 
-**Current availability:** <span class="typist" data-typist-repeat="1" data-typist-cursor-show="2">now booking projects for Q1 2020</span>
+**Current availability:** <span class="typist" data-typist-repeat="1" data-typist-cursor-show="2">now booking new projects...</span>
 
 
 ## Typical projects
