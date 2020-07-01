@@ -13,16 +13,28 @@ priority: 0.87
 Craig Buckler, OptimalWorks Ltd director, is a web evangelist and an active participant in the web development community.
 
 
-## Articles and tutorials
+## Books, articles, and tutorials
 
 > Amazing tutorials! I highly recommend these for any JavaScript developer
 <cite>PS</cite>
 
-Craig has written more than 1,100 articles and technical tutorials for [SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler) since 2009. He has also collaborated on several SitePoint books including:
+Craig has written more than 1,200 articles and technical tutorials for [SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler) since 2009. He has [written several books](https://www.amazon.co.uk/shop/craigbuckler):
+
+* [Docker for Web Developers](https://dockerwebdev.com/)
+* [Jump Start Web Performance](https://www.amazon.co.uk/exec/obidos/ASIN/B084SPDY3C/craigbucklerc-21)
+* [Browser DevTool Secrets](https://www.sitepoint.com/premium/books/browser-devtool-secrets)
+* [Build a Real-time Code Collaboration App](https://www.sitepoint.com/premium/books/build-a-real-time-code-collaboration-app/)
+
+<div data-revealer="up" data-youtube="Z3l8Iec4dBk"></div>
+
+
+Collaborations with other authors:
 
 * [The Modern JavaScript Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07DHYM4ZW/craigbucklerc-21)
 * [JavaScript Novice to Ninja](https://www.amazon.co.uk/exec/obidos/ASIN/B00TJ6UYSE/craigbucklerc-21)
 * [Modern JavaScript](https://www.amazon.co.uk/exec/obidos/ASIN/B074WF1FTR/craigbucklerc-21)
+* [Your First Week With Node.js](https://www.amazon.co.uk/exec/obidos/ASIN/B087QRS8QK/craigbucklerc-21)
+* [Node.js: The Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07L1CG999/craigbucklerc-21)
 * [Node.js: Related Tools &amp; Skills](https://www.amazon.co.uk/exec/obidos/ASIN/B07L1DCDGH/craigbucklerc-21)
 * [The Advanced CSS Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07K1LJRZZ/craigbucklerc-21)
 * [Modern CSS](https://www.amazon.co.uk/exec/obidos/ASIN/B07JXXSVKL/craigbucklerc-21)
@@ -30,15 +42,13 @@ Craig has written more than 1,100 articles and technical tutorials for [SitePoin
 * [CSS: Tools &amp; Skills](https://www.amazon.co.uk/exec/obidos/ASIN/B07JPG46PN/craigbucklerc-21)
 * [Jump Start Responsive Web Design](https://www.amazon.co.uk/exec/obidos/ASIN/B072HM7KJ7/craigbucklerc-21)
 * [The Web Performance Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07H52FX5D/craigbucklerc-21)
-* [Jump Start Git](https://www.amazon.co.uk/exec/obidos/ASIN/B014RYW2QO/craigbucklerc-21)
+* [Jump Start Git](https://www.amazon.co.uk/exec/obidos/ASIN/1925836347/craigbucklerc-21)
 
-
-## Video tutorials
 
 > I wanted to let you know how good your videos are compared to others. I wonder if other tutors fully understood the language?
 <cite>RJ</cite>
 
-Craig has produced a number of technical tutorial videos for [O'Reilly](http://www.oreilly.com/pub/au/6665) including:
+He has also produced a number of technical tutorial videos for [O'Reilly](http://www.oreilly.com/pub/au/6665) including:
 
 * [Learning JavaScript Programming](http://shop.oreilly.com/product/110000242.do)
 * [JavaScript HTML5 API Programming](http://shop.oreilly.com/product/0636920038559.do)
@@ -47,7 +57,6 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 * [Learning jQuery Programming](http://shop.oreilly.com/product/110000326.do)
 * and several short [JavaScript how-to videos](https://ssearch.oreilly.com/?i=1;q=Craig+Buckler;q1=Articles~2FBlogs;x1=t1&act=fc_contenttype_Articles/Blogs)...
 
-<div data-revealer="up" class="video"><video controls="" src="https://cdnapisec.kaltura.com/p/1681692/sp/168169200/playManifest/entryId/0_bscabmm8/flavorId/0_pi92vqth/format/url/protocol/https/a.mp4"></video></div>
 
 ## Conference speaking
 
@@ -57,11 +66,12 @@ Craig has produced a number of technical tutorial videos for [O'Reilly](http://w
 
 Craig regularly attends and speaks at technical conferences. Previous presentations include:
 
-* [Is PDF your Best Option?](https://www.youtube.com/watch?v=nF8j5Oxy_ho) -- [Future Sync 2019](https://futuresync.co.uk/) and [TechExeter 2018](http://conference.techexeter.uk)
-* Raise Your VR A-Game with A-Frame -- [TechExeter 2017](http://conference.techexeter.uk)
-* The Future of Mobile: Native vs Progressive Web Apps -- [TechExeter 2016](http://conference.techexeter.uk)
-* Passwordless Authentication -- [TechExeter 2015](https://techexeter.uk/)
-* Do You Really Need jQuery? -- Digpen 2014
+* **A first look at Deno** -- [TechExeter 2020](https://conference.techexeter.uk/)
+* [**Is PDF your Best Option?**](https://www.youtube.com/watch?v=nF8j5Oxy_ho) -- [Future Sync 2019](https://futuresync.co.uk/) and [TechExeter 2018](http://conference.techexeter.uk)
+* **Raise Your VR A-Game with A-Frame** -- [TechExeter 2017](http://conference.techexeter.uk)
+* **The Future of Mobile: Native vs Progressive Web Apps** -- [TechExeter 2016](http://conference.techexeter.uk)
+* **Passwordless Authentication** -- [TechExeter 2015](https://techexeter.uk/)
+* **Do You Really Need jQuery?** -- Digpen 2014
 
 
 ## One-to-one training

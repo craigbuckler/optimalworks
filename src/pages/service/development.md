@@ -31,11 +31,11 @@ We endeavour to understand your requirements and provide the most cost-effective
 
 ## Technology expertise
 
-<figure data-revealer="right" data-href="[imagecdn]f_auto/v1554826608/works/content/empello-fraudscan" class="progressive replace inline">
-  <img src="[imagecdn]f_auto,c_scale,w_50/v1554826608/works/content/empello-fraudscan" width="1172" height="1008" alt="example project screenshot" class="preview" />
-</figure>
+<a href="https://dockerwebdev.com/" data-revealer="right" data-href="[imagecdn]f_auto/v1593613098/works/content/docker-for-web-developers" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_60/v1593613098/works/content/docker-for-web-developers.jpg" width="600" height="450" alt="Docker for Web Developers book &amp; video course" class="preview" />
+</a>
 
-Our skills include:
+Our technical skills include:
 
 * HTML5, CSS3, JavaScript, browser APIs, frameworks
 * Node.js, PHP, .NET, Ruby and more
@@ -46,7 +46,12 @@ Our skills include:
 * virtual reality and augmented reality
 * Apache, NGINX, IIS, DNS, HTTPS, AWS, hosting and security
 * modern build tools, Gulp.js, Grunt.js, Webpack
-* Docker, virtualisation, and container systems
+* [Docker](https://dockerwebdev.com/), virtualisation, and container systems
+
+<figure data-revealer="right" data-href="[imagecdn]f_auto/v1554826608/works/content/empello-fraudscan" class="progressive replace inline">
+  <img src="[imagecdn]f_auto,c_scale,w_50/v1554826608/works/content/empello-fraudscan" width="1172" height="1008" alt="example project screenshot" class="preview" />
+</figure>
+
 * graphic design, image optimisation
 * CMSes, static sites, WordPress, theme and plug-in development
 * Search Engine Optimisation (SEO), Search Engine Marketing (SEM)
@@ -81,7 +86,6 @@ Examples of software we have developed for the community:
 * [progressive-image.js](https://github.com/craigbuckler/progressive-image.js) - lazy-loading image effects which improve website performance
 * [revealer.js](https://github.com/craigbuckler/revealer.js) - reveal elements using animation when scrolled into view
 * [typist.js](https://github.com/craigbuckler/typist.js) - an animated text typing effect
-* [theme.js](https://github.com/craigbuckler/theme.js) - simple light and dark website theme colours
 
 
 ## Clients
