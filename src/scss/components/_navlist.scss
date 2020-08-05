@@ -13,11 +13,11 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    gap: 2vmin;
   }
 
   li {
     flex: 1 1 10em;
-    margin: 1.5vmin;
     border: 1px solid $color-fore;
   }
 
