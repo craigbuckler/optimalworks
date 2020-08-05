@@ -6,6 +6,7 @@
 html {
   touch-action: manipulation;
   background-color: $color-logo;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -25,10 +26,6 @@ table, input, output, textarea, select, option, pre, button {
   font-weight: 300;
 }
 
-pre {
-	font-family: $font-mono;
-}
-
 h1, h2 {
   clear: both;
   font-size: 1.8rem;
@@ -37,6 +34,7 @@ h1, h2 {
   letter-spacing: -0.03em;
   padding: 0;
   margin: 1em 0 0 0;
+  scroll-margin-top: 4rem;
 }
 
 h2 {
@@ -175,12 +173,17 @@ img {
   user-select: none;
 }
 
-code {
-  font-family: monospace;
-  font-size: 0.9em;
-  padding: 0.05em 0.3em;
+pre, code {
+  font-family: $font-mono;
+  font-size: 0.9rem;
   background-color: lighten($color-menu, 6%);
+  padding: 0.05em 0.3em;
   border-radius: 0.2em;
+}
+
+pre {
+  padding: 0.2em 0.3em;
+  box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
 }
 
 .articleinfo {

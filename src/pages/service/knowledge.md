@@ -20,10 +20,9 @@ Craig Buckler, OptimalWorks Ltd director, is a web evangelist and an active part
 
 Craig has written more than 1,200 articles and technical tutorials for [SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler) since 2009. He has [written several books](https://www.amazon.co.uk/shop/craigbuckler):
 
-* [Docker for Web Developers](https://dockerwebdev.com/)
-* [Jump Start Web Performance](https://www.amazon.co.uk/exec/obidos/ASIN/B084SPDY3C/craigbucklerc-21)
+* [Docker for Web Developers book and video course](https://dockerwebdev.com/)
+* [Jump Start Web Performance](https://www.sitepoint.com/premium/books/jump-start-web-performance/)
 * [Browser DevTool Secrets](https://www.sitepoint.com/premium/books/browser-devtool-secrets)
-* [Build a Real-time Code Collaboration App](https://www.sitepoint.com/premium/books/build-a-real-time-code-collaboration-app/)
 
 <div data-revealer="up" data-youtube="Z3l8Iec4dBk"></div>
 
@@ -50,12 +49,12 @@ Collaborations with other authors:
 
 He has also produced a number of technical tutorial videos for [O'Reilly](http://www.oreilly.com/pub/au/6665) including:
 
-* [Learning JavaScript Programming](http://shop.oreilly.com/product/110000242.do)
-* [JavaScript HTML5 API Programming](http://shop.oreilly.com/product/0636920038559.do)
-* [Improving your Workflow with Gulp.JS](http://shop.oreilly.com/product/0636920038948.do)
-* [CSS3 Transformations And Animations](http://shop.oreilly.com/product/110000261.do)
-* [Learning jQuery Programming](http://shop.oreilly.com/product/110000326.do)
-* and several short [JavaScript how-to videos](https://ssearch.oreilly.com/?i=1;q=Craig+Buckler;q1=Articles~2FBlogs;x1=t1&act=fc_contenttype_Articles/Blogs)...
+* [Learning JavaScript Programming](https://www.oreilly.com/library/view/javascript-programming/9781771370516/)
+* [JavaScript HTML5 API Programming](https://www.oreilly.com/library/view/javascript-html5-api/9781771370523/)
+* [Improving your Workflow with Gulp.js](https://www.oreilly.com/library/view/improving-your-workflow/9781771373333/)
+* [CSS3 Transformations And Animations](https://www.oreilly.com/library/view/css3-transformations-and/9781771371360/)
+* [Learning jQuery Programming](https://www.oreilly.com/library/view/programming-jquery/9781926873725/)
+* and several short [JavaScript how-to videos](https://www.oreilly.com/people/craig-buckler/)...
 
 
 ## Conference speaking
