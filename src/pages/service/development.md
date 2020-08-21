@@ -20,6 +20,7 @@ We specialise in building bespoke, best-practise, standards-based, web sites and
 * attractive and usable interface design
 * modern but backward-compatible applications using progressive enhancement
 * responsive web design and progressive web apps
+* high-performance
 * top-level security
 * best-practise accessibility
 * search engine optimisation, social media campaigns, and online advertising
