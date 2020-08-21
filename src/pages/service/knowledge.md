@@ -21,27 +21,27 @@ Craig Buckler, OptimalWorks Ltd director, is a web evangelist and an active part
 Craig has written more than 1,200 articles and technical tutorials for [SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler) since 2009. He has [written several books](https://www.amazon.co.uk/shop/craigbuckler):
 
 * [Docker for Web Developers book and video course](https://dockerwebdev.com/)
-* [Jump Start Web Performance](https://www.sitepoint.com/premium/books/jump-start-web-performance/)
+* [Jump Start Web Performance](https://amzn.to/3l1BCNc)
 * [Browser DevTool Secrets](https://www.sitepoint.com/premium/books/browser-devtool-secrets)
 
 <div data-revealer="up" data-youtube="Z3l8Iec4dBk"></div>
 
 
-Collaborations with other authors:
+[Collaborations with other authors](https://www.amazon.co.uk/shop/craigbuckler):
 
-* [The Modern JavaScript Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07DHYM4ZW/craigbucklerc-21)
-* [JavaScript Novice to Ninja](https://www.amazon.co.uk/exec/obidos/ASIN/B00TJ6UYSE/craigbucklerc-21)
-* [Modern JavaScript](https://www.amazon.co.uk/exec/obidos/ASIN/B074WF1FTR/craigbucklerc-21)
-* [Your First Week With Node.js](https://www.amazon.co.uk/exec/obidos/ASIN/B087QRS8QK/craigbucklerc-21)
-* [Node.js: The Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07L1CG999/craigbucklerc-21)
-* [Node.js: Related Tools &amp; Skills](https://www.amazon.co.uk/exec/obidos/ASIN/B07L1DCDGH/craigbucklerc-21)
-* [The Advanced CSS Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07K1LJRZZ/craigbucklerc-21)
-* [Modern CSS](https://www.amazon.co.uk/exec/obidos/ASIN/B07JXXSVKL/craigbucklerc-21)
-* [CSS Grid Layout: 5 Practical Projects](https://www.amazon.co.uk/exec/obidos/ASIN/B07JNHZCTV/craigbucklerc-21)
-* [CSS: Tools &amp; Skills](https://www.amazon.co.uk/exec/obidos/ASIN/B07JPG46PN/craigbucklerc-21)
-* [Jump Start Responsive Web Design](https://www.amazon.co.uk/exec/obidos/ASIN/B072HM7KJ7/craigbucklerc-21)
-* [The Web Performance Collection](https://www.amazon.co.uk/exec/obidos/ASIN/B07H52FX5D/craigbucklerc-21)
-* [Jump Start Git](https://www.amazon.co.uk/exec/obidos/ASIN/1925836347/craigbucklerc-21)
+* [The Modern JavaScript Collection](https://amzn.to/2Q9M5YI)
+* [JavaScript Novice to Ninja](https://amzn.to/34gZ9nv)
+* [Modern JavaScript](https://amzn.to/32bOjwm)
+* [Your First Week With Node.js](https://amzn.to/2Ek940G)
+* [Node.js: The Collection](https://amzn.to/34m5JZQ)
+* [Node.js: Related Tools &amp; Skills](https://amzn.to/32fjPJF)
+* [The Advanced CSS Collection](https://amzn.to/3j5zeDr)
+* [Modern CSS](https://amzn.to/3hmuWac)
+* [CSS Grid Layout: 5 Practical Projects](https://amzn.to/34fMm4G)
+* [CSS: Tools &amp; Skills](https://amzn.to/3iW63SY)
+* [Jump Start Responsive Web Design](https://amzn.to/2EciFXy)
+* [The Web Performance Collection](https://amzn.to/2FJR8x8)
+* [Jump Start Git](https://amzn.to/3j2lNE9)
 
 
 > I wanted to let you know how good your videos are compared to others. I wonder if other tutors fully understood the language?
