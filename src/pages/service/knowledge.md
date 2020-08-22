@@ -1,5 +1,5 @@
 ---
-title: Knowledge-sharing
+title: Web knowledge sharing
 menu: knowledge
 description: Training, article writing, video tutorials, conference speaking, and knowledge-sharing throughout the IT industry.
 hero: v1513974726/works/train

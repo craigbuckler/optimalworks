@@ -1,6 +1,6 @@
 {
   "name": "optimalworks",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "OptimalWorks Ltd, Devon UK. IT consultancy, bespoke web site and web app analysis, design, development, training, marketing and consultancy.",
   "author": "Craig Buckler",
   "main": "gulp build",
@@ -24,7 +24,7 @@
     "PWAcache": "::Works",
     "offlineURL": "offline/",
     "offlineList": "cachedpagelist",
-    "imagecdn": "https://res.cloudinary.com/oworks/image/upload/",
+    "imagecdn": "https://www.optimalworks.net/imagecdn/",
     "analytics": "UA-114126-2",
     "cors": {
       "default-src": "",

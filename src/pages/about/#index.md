@@ -1,5 +1,5 @@
 ---
-title: About us
+title: About OptimalWorks Ltd
 menu: about
 description: Craig Buckler and Claire Buckler run OptimalWorks Ltd from the UK.
 hero: v1513974726/works/consult
@@ -9,7 +9,7 @@ ctalink: contact/
 priority: 0.7
 ---
 
-OptimalWorks Ltd is a UK company founded by Craig Buckler and Claire Buckler in 2006. We provide expertise and technologies to help organisations build their business.
+OptimalWorks Ltd is a UK company founded in Exmouth, Devon, by Craig Buckler and Claire Buckler in 2006. We provide web expertise and technologies to help organisations build their online and offline businesses.
 
 
 ## Craig Buckler: director and developer
@@ -19,12 +19,12 @@ I have devoted most of my career to the open web. The technology changes rapidly
 > this is for everyone
 <cite>Tim Berners-Lee, web developer</cite>
 
-I have worked with many organisations throughout the industry but also take on smaller projects. Even the newest start-up company can provide stunning online services which change the way people use the web.
+I have worked with many organisations and take on projects of any size. Even the newest start-up company can provide a stunning online service which changes the way people use the web.
 
 
 ## Claire Buckler: secretary and business developer
 
-It's my job to ensure you understand the benefits we can bring to your next web site or application. [Contact me]([root]contact/) today to discuss your requirements.
+It's my job to ensure you understand the benefits we can bring to your business. [Contact me]([root]contact/) today to discuss your requirements.
 
 
 ## Other personnel
