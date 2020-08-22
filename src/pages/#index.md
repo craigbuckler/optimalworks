@@ -1,7 +1,7 @@
 ---
-title: Web design and development
+title: UK web design and development services
 menu: home
-description: OptimalWorks Ltd, Devon UK. Bespoke web application analysis, design and development.
+description: OptimalWorks Ltd, Devon UK. Bespoke web site and application analysis, design and development.
 hero: v1513782351/works/develop
 herotype: <span>building the web</span> <span>building your business</span> <span>building the future</span>
 ctatext: contact
@@ -9,7 +9,7 @@ ctalink: contact/
 priority: 1.0
 ---
 
-OptimalWorks Ltd is a web technology company run by [Craig Buckler]([root]about/) from Devon in the South West of England. We work for clients throughout the world.
+OptimalWorks Ltd is a web development technology company run by [Craig Buckler]([root]about/) from Devon in the South West of England. We work for clients throughout the world.
 
 <nav class="service list">
   <ul>
@@ -51,9 +51,7 @@ Our services include:
 * mobile progressive web apps
 * AI and automated bots
 * big data storage, retrieval and analysis
-* security audits, hack prevention, penetration testing
 * performance improvement
-* cross-platform Virtual and Augmented reality
 * online marketing
 * technical tutorials and video training
 * conference speaking
