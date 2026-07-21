@@ -1,6 +1,6 @@
 // Gulp.js configuration
 
-(() => {
+(function () {
   'use strict';
 
   const
@@ -43,8 +43,7 @@
     gulp          = require('gulp'),
     noop          = require('gulp-noop'),
     newer         = require('gulp-newer'),
-    imagemin      = require('gulp-imagemin'),
-    sass          = require('gulp-sass'),
+    sass          = require('gulp-sass')(require('sass')),
     sourcemaps    = devBuild ? require('gulp-sourcemaps') : null,
     postcss       = require('gulp-postcss'),
     preprocess    = require('gulp-preprocess'),
@@ -70,8 +69,9 @@
     rssfeed       = require(dir.lib + 'metalsmith-rssfeed'),
 
     // other modules
-    del           = require('del'),
-    util          = require(dir.lib + 'util');
+    { deleteAsync, deleteSync } = require('del'),
+    util          = require(dir.lib + 'util'),
+    browserSync   = require('browser-sync');
 
   // copy package properties
   for (let p in site) {
@@ -98,7 +98,7 @@
   // clean build folder
   function clean() {
 
-    return del([
+    return deleteAsync([
       dir.build
     ],
     {
@@ -155,34 +155,38 @@
 
 
   // build HTML pages
-  function html(done) {
+  function html() {
 
-    metalsmith(dir.base)
-      .source(htmlCfg.src)
-      .destination(htmlCfg.build)
-      .metadata(sitemeta)
-      .clean(false)
-      .use(publish())
-      .use(msutil.rename)
-      .use(markdown(htmlCfg.markdown))
-      .use(addmeta(htmlCfg.metadata))
-      .use(tags())
-      .use(wordcount({ raw: true }))
-      .use(layouts(htmlCfg.layouts))
-      .use(msutil.shortcodes)
-      .use(inline(htmlCfg.inline))
-      .use(msutil.searchReplace)
-      .use(devBuild ? beautify() : minify())
-      .use(debug ? msutil.debug : msutil.noop)
-      .use(devBuild ? ()=>{} : sitemap(htmlCfg.sitemap))
-      .use(rssfeed(htmlCfg.rssfeed))
-      .build((err) => {
-        if (err) throw err;
-      });
+    return new Promise((resolve, reject) => {
+      metalsmith(dir.base)
+        .source(htmlCfg.src)
+        .destination(htmlCfg.build)
+        .metadata(sitemeta)
+        .clean(false)
+        .use(publish())
+        .use(msutil.rename)
+        .use(markdown(htmlCfg.markdown))
+        .use(addmeta(htmlCfg.metadata))
+        .use(tags())
+        .use(wordcount({ raw: true }))
+        .use(layouts(htmlCfg.layouts))
+        .use(msutil.shortcodes)
+        .use(inline(htmlCfg.inline))
+        .use(msutil.searchReplace)
+        .use(devBuild ? beautify() : minify())
+        .use(debug ? msutil.debug : msutil.noop)
+        .use(devBuild ? ()=>{} : sitemap(htmlCfg.sitemap))
+        .use(rssfeed(htmlCfg.rssfeed))
+        .build((err) => {
+          if (err) {
+            reject(err);
+            return;
+          }
 
-    if (browsersync) browsersync.reload();
-
-    done();
+          if (browsersync) browsersync.reload();
+          resolve();
+        });
+    });
 
   }
   exports.html = gulp.series(images, html);
@@ -240,12 +244,15 @@
 
   // image processing
   function images() {
-
-    return gulp.src(imagesCfg.src)
-      .pipe(newer(imagesCfg.build))
-      .pipe(imagemin(imagesCfg.minOpts))
-      .pipe(gulp.dest(imagesCfg.build));
-
+    return import('gulp-imagemin').then(({ default: imagemin }) => {
+      return new Promise((resolve, reject) => {
+        gulp.src(imagesCfg.src)
+          .pipe(imagemin(imagesCfg.minOpts))
+          .pipe(gulp.dest(imagesCfg.build))
+          .on('error', reject)
+          .on('finish', resolve);
+      });
+    });
   }
   exports.images = images;
 
@@ -277,7 +284,7 @@
   // Sass/CSS processing
   function css() {
 
-    del.sync(`${cssCfg.build}*`);
+    deleteSync(`${cssCfg.build}*`);
 
     return gulp.src(cssCfg.src)
       .pipe(sourcemaps ? sourcemaps.init() : noop())
@@ -322,7 +329,7 @@
   // JavaScript processing
   function js() {
 
-    del.sync(`${jsCfg.build}main-*.js`);
+    deleteSync(`${jsCfg.build}main-*.js`);
 
     return gulp.src([jsCfg.src].concat(jsCfg.srcModule))
       .pipe(preprocess({ context: sitemeta }))
@@ -349,7 +356,7 @@
   // JavaScript single file processing
   function jssingle() {
 
-    del.sync(`${jsCfg.build}offlinepage-*.js`);
+    deleteSync(`${jsCfg.build}offlinepage-*.js`);
 
     return gulp.src(jssingleCfg.src)
       .pipe(preprocess({ context: sitemeta }))
@@ -404,7 +411,7 @@
   function server(done) {
 
     if (browsersync === false) {
-      browsersync	= devBuild ? require('browser-sync').create() : null;
+      browsersync = devBuild ? browserSync.create() : null;
     }
     if (browsersync) browsersync.init(syncOpts);
 
@@ -447,7 +454,12 @@
 
 
   // run all tasks immediately
-  exports.build = gulp.series(images, gulp.parallel(rootprocess, rootimages, html, css, js, jssingle, jspwa));
+  exports.build = gulp.series(
+    images,
+    gulp.parallel(rootprocess, rootimages),
+    html,
+    gulp.parallel(css, js, jssingle, jspwa)
+  );
 
 
   // default task
