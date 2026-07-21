@@ -39,14 +39,14 @@ We endeavour to understand your requirements and provide the most cost-effective
 Our technical skills include:
 
 * HTML5, CSS3, JavaScript, browser APIs, frameworks
-* Node.js, PHP, .NET, Ruby and more
+* Node.js, PHP, and more
 * MySQL, SQL Server, PostgreSQL, SQLite, MongoDB
 * business analysis, system and database design
 * web standards, progressive enhancement, accessibility, Responsive Web Design
 * cross-device mobile, desktop, and offline Progressive Web Apps
 * virtual reality and augmented reality
 * Apache, NGINX, IIS, DNS, HTTPS, AWS, hosting and security
-* modern build tools, Gulp.js, Grunt.js, Webpack
+* modern build tools
 * [Docker](https://dockerwebdev.com/), virtualisation, and container systems
 
 <figure data-revealer="right" data-href="[imagecdn]f_auto/v1554826608/works/content/empello-fraudscan" class="progressive replace inline">
@@ -56,7 +56,7 @@ Our technical skills include:
 * graphic design, image optimisation
 * CMSes, static sites, WordPress, theme and plug-in development
 * Search Engine Optimisation (SEO), Search Engine Marketing (SEM)
-* big data, storage, analysis and visualisation
+* AI, big data, storage, analysis and visualisation
 * security, CSP, CORS, penetration testing, and associated technologies
 * browser automation, PhantomJS, Chrome headless
 * Agile methodologies, TDD, BDD, continuous integration

@@ -10,9 +10,8 @@ priority: 0.5
 Please contact us to discuss your next project:
 
 <ul class="contact">
-<li data-revealer="left"><a href="tel:+44-1395-276498" class="icon phone">+44 1395 276 498</a></li>
 <li data-revealer="right"><a href="#" class="icon email">contact {at} optimalworks dot net</a></li>
-<li data-revealer="left"><a href="https://twitter.com/[twitter]" class="icon twitter">[twitter]</a></li>
+<li data-revealer="left"><a href="https://x.com/[twitter]" class="icon twitter">[twitter]</a></li>
 </ul>
 
 

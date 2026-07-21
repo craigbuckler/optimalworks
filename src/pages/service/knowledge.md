@@ -20,6 +20,7 @@ Craig Buckler, OptimalWorks Ltd director, is a web evangelist and an active part
 
 Craig has written more than 1,200 articles and technical tutorials for [SitePoint.com](https://www.sitepoint.com/author/craig-buckler/?aref=cbuckler) since 2009. He has [written several books](https://www.amazon.co.uk/shop/craigbuckler):
 
+* [Node.js: Novice to Ninja](https://amzn.to/3zJh5Fh)
 * [Docker for Web Developers book and video course](https://dockerwebdev.com/)
 * [Jump Start Web Performance](https://amzn.to/3l1BCNc)
 * [Browser DevTool Secrets](https://www.sitepoint.com/premium/books/browser-devtool-secrets)
@@ -65,9 +66,11 @@ He has also produced a number of technical tutorial videos for [O'Reilly](http:/
 
 Craig regularly attends and speaks at technical conferences. Previous presentations include:
 
-* **A first look at Deno** -- [TechExeter 2020](https://conference.techexeter.uk/)
+* **Future Web** -- [TechExeter 2024](https://craigbuckler.com/techexeter24/)
+* **Improve access by 700% with the JavaScript Intl API** -- [TechExeter 2021](https://youtu.be/1r7Uh2mYh_Q)
+* **A first look at Deno** -- [TechExeter 2020](https://youtu.be/0zxArgktzo4)
 * [**Is PDF your Best Option?**](https://www.youtube.com/watch?v=nF8j5Oxy_ho) -- [Future Sync 2019](https://futuresync.co.uk/) and [TechExeter 2018](http://conference.techexeter.uk)
-* **Raise Your VR A-Game with A-Frame** -- [TechExeter 2017](http://conference.techexeter.uk)
+* **Raise Your VR A-Game with A-Frame** -- [TechExeter 2017](https://craigbuckler.com/vr/)
 * **The Future of Mobile: Native vs Progressive Web Apps** -- [TechExeter 2016](http://conference.techexeter.uk)
 * **Passwordless Authentication** -- [TechExeter 2015](https://techexeter.uk/)
 * **Do You Really Need jQuery?** -- Digpen 2014
